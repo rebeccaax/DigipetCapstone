@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GameStart : UIViewController {
+class MinigameStart : UIViewController {
     
     var level : String = "0"
     var minigame : Minigame?

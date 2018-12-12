@@ -10,7 +10,7 @@
 		0079CC3220A9B50D002296D8 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0079CC3120A9B50D002296D8 /* Play.swift */; };
 		0079CC3420A9B8F6002296D8 /* LevelVCPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0079CC3320A9B8F6002296D8 /* LevelVCPlay.swift */; };
 		0079CC3620A9B9A3002296D8 /* Minigame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0079CC3520A9B9A3002296D8 /* Minigame.swift */; };
-		0079CC3820A9BBA1002296D8 /* GameStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0079CC3720A9BBA1002296D8 /* GameStart.swift */; };
+		0079CC3820A9BBA1002296D8 /* MinigameStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0079CC3720A9BBA1002296D8 /* MinigameStart.swift */; };
 		0079CC3A20A9BC40002296D8 /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0079CC3920A9BC40002296D8 /* GameTableViewCell.swift */; };
 		0079CC3C20A9BC74002296D8 /* GameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0079CC3B20A9BC74002296D8 /* GameTableViewController.swift */; };
 		0200321920AA5DE0003FB481 /* Play2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0200321820AA5DE0003FB481 /* Play2.swift */; };
@@ -69,6 +69,9 @@
 		026F42FE20A5C2490098EC23 /* L1LessonOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F42F720A5C2490098EC23 /* L1LessonOne.swift */; };
 		026F42FF20A5C2490098EC23 /* L1LessonOneTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F42F820A5C2490098EC23 /* L1LessonOneTalkView.swift */; };
 		026F430120A5C53A0098EC23 /* L1LessonTwoTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F430020A5C53A0098EC23 /* L1LessonTwoTalkView.swift */; };
+		2E66968C21BACB23004B80C7 /* L1GameOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E66968B21BACB23004B80C7 /* L1GameOne.swift */; };
+		2EFAD3A421BCD370004B4FCB /* L1GameOneTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAD3A321BCD370004B4FCB /* L1GameOneTalkView.swift */; };
+		2EFAD3A621BCD38A004B4FCB /* L1GameOneTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAD3A521BCD38A004B4FCB /* L1GameOneTypeView.swift */; };
 		6ABACA1120ADBDFB001794E4 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABACA1020ADBDFB001794E4 /* SettingsPage.swift */; };
 /* End PBXBuildFile section */
 
@@ -93,7 +96,7 @@
 		0079CC3120A9B50D002296D8 /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
 		0079CC3320A9B8F6002296D8 /* LevelVCPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelVCPlay.swift; sourceTree = "<group>"; };
 		0079CC3520A9B9A3002296D8 /* Minigame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minigame.swift; sourceTree = "<group>"; };
-		0079CC3720A9BBA1002296D8 /* GameStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStart.swift; sourceTree = "<group>"; };
+		0079CC3720A9BBA1002296D8 /* MinigameStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigameStart.swift; sourceTree = "<group>"; };
 		0079CC3920A9BC40002296D8 /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
 		0079CC3B20A9BC74002296D8 /* GameTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewController.swift; sourceTree = "<group>"; };
 		0200321820AA5DE0003FB481 /* Play2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play2.swift; sourceTree = "<group>"; };
@@ -184,6 +187,9 @@
 		026F42F720A5C2490098EC23 /* L1LessonOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonOne.swift; sourceTree = "<group>"; };
 		026F42F820A5C2490098EC23 /* L1LessonOneTalkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonOneTalkView.swift; sourceTree = "<group>"; };
 		026F430020A5C53A0098EC23 /* L1LessonTwoTalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonTwoTalkView.swift; sourceTree = "<group>"; };
+		2E66968B21BACB23004B80C7 /* L1GameOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1GameOne.swift; sourceTree = "<group>"; };
+		2EFAD3A321BCD370004B4FCB /* L1GameOneTalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1GameOneTalkView.swift; sourceTree = "<group>"; };
+		2EFAD3A521BCD38A004B4FCB /* L1GameOneTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1GameOneTypeView.swift; sourceTree = "<group>"; };
 		6ABACA1020ADBDFB001794E4 /* SettingsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -255,7 +261,10 @@
 				025B46AA20A0819A006849EE /* LevelVC.swift */,
 				025B46B320A081B1006849EE /* MatchGame.swift */,
 				025B46B220A081B1006849EE /* LessonStart.swift */,
-				0079CC3720A9BBA1002296D8 /* GameStart.swift */,
+				2E66968B21BACB23004B80C7 /* L1GameOne.swift */,
+				2EFAD3A321BCD370004B4FCB /* L1GameOneTalkView.swift */,
+				2EFAD3A521BCD38A004B4FCB /* L1GameOneTypeView.swift */,
+				0079CC3720A9BBA1002296D8 /* MinigameStart.swift */,
 				025B46B420A081B1006849EE /* Learn.swift */,
 				025B46B520A081B2006849EE /* Lesson.swift */,
 				025B46AB20A0819A006849EE /* MainScreen.swift */,
@@ -545,6 +554,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EFAD3A621BCD38A004B4FCB /* L1GameOneTypeView.swift in Sources */,
 				025B465220A080E4006849EE /* RZCirclePushAnimationController.m in Sources */,
 				025B46C320A081C0006849EE /* SwiftySKScrollView.swift in Sources */,
 				025B46AE20A0819A006849EE /* LevelVC.swift in Sources */,
@@ -566,6 +576,7 @@
 				025B465720A080E4006849EE /* RZPinchInteractionController.m in Sources */,
 				026F42FD20A5C2490098EC23 /* L1LessonOneTypeView.swift in Sources */,
 				026F42FC20A5C2490098EC23 /* L1LessonTwo.swift in Sources */,
+				2E66968C21BACB23004B80C7 /* L1GameOne.swift in Sources */,
 				025B464E20A080E4006849EE /* RZCardSlideAnimationController.m in Sources */,
 				025B464F20A080E4006849EE /* RZZoomBlurAnimationController.m in Sources */,
 				026F430120A5C53A0098EC23 /* L1LessonTwoTalkView.swift in Sources */,
@@ -583,7 +594,7 @@
 				0228973320B500570098E0E3 /* LevelVCPlay2.swift in Sources */,
 				025B46C120A081C0006849EE /* LessonStartBox.swift in Sources */,
 				025B46C020A081C0006849EE /* LessonRow.swift in Sources */,
-				0079CC3820A9BBA1002296D8 /* GameStart.swift in Sources */,
+				0079CC3820A9BBA1002296D8 /* MinigameStart.swift in Sources */,
 				0079CC3420A9B8F6002296D8 /* LevelVCPlay.swift in Sources */,
 				025B464A20A080E4006849EE /* RZTransitionsNavigationController.m in Sources */,
 				0228973520B639CD0098E0E3 /* GameTableViewController2.swift in Sources */,
@@ -591,6 +602,7 @@
 				025B46A420A08139006849EE /* GameScene.swift in Sources */,
 				025B46BF20A081C0006849EE /* LessonInfoBox.swift in Sources */,
 				025B45DE20A08008006849EE /* AppDelegate.swift in Sources */,
+				2EFAD3A421BCD370004B4FCB /* L1GameOneTalkView.swift in Sources */,
 				025B465820A080E4006849EE /* RZUniqueTransition.m in Sources */,
 				025B46B120A0819A006849EE /* SilhouetteGame.swift in Sources */,
 				025B464620A080E4006849EE /* RZTransitionsManager.m in Sources */,
@@ -752,13 +764,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5S7T9DZY68;
+				DEVELOPMENT_TEAM = A9JWVD6Z87;
 				INFOPLIST_FILE = DigipetCapstone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaitlynkatz.DigipetCapstoned;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cassandramoe.DigipetCapstoned;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DigipetCapstone/Digipet-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
@@ -771,13 +783,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5S7T9DZY68;
+				DEVELOPMENT_TEAM = A9JWVD6Z87;
 				INFOPLIST_FILE = DigipetCapstone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaitlynkatz.DigipetCapstoned;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cassandramoe.DigipetCapstoned;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DigipetCapstone/Digipet-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;

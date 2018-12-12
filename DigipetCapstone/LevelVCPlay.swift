@@ -135,9 +135,9 @@ class LevelVCPlay : UIViewController {
         
         RZTransitionsManager.shared().defaultPushPopAnimationController = RZCirclePushAnimationController()
         self.transitioningDelegate = RZTransitionsManager.shared()
-        let nextViewController = storyboard?.instantiateViewController(withIdentifier: "minigameStart")
-        (nextViewController as! GameStart).level = text
-        (nextViewController as! GameStart).minigame = minigameFocus
+        let nextViewController = storyboard?.instantiateViewController(withIdentifier: "l1GameOne")
+       /* (nextViewController as! MinigameStart).level = text
+        (nextViewController as! MinigameStart).minigame = minigameFocus*/
         nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
         RZTransitionsManager.shared().defaultPresentDismissAnimationController = RZCardSlideAnimationController()

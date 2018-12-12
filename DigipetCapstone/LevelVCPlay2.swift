@@ -138,9 +138,11 @@ class LevelVCPlay2 : UIViewController {
         
         RZTransitionsManager.shared().defaultPushPopAnimationController = RZCirclePushAnimationController()
         self.transitioningDelegate = RZTransitionsManager.shared()
+        
+        // should have cases for each number touched, certain minigame
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "minigameStart")
-        (nextViewController as! GameStart).level = text
-        (nextViewController as! GameStart).minigame = minigameFocus
+        (nextViewController as! MinigameStart).level = text
+        (nextViewController as! MinigameStart).minigame = minigameFocus
         nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
         RZTransitionsManager.shared().defaultPresentDismissAnimationController = RZCardSlideAnimationController()
