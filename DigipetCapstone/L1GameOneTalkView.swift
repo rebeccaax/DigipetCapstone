@@ -11,17 +11,12 @@ import UIKit
 import SpriteKit
 import GameplayKit
 
-
-
-
-class L1GameOneTalkView : UIViewController {
-//, SFSpeechRecognizerDelegate
-
+class L1GameOneTalkView : UIViewController, SFSpeechRecognizerDelegate {
     
-    
-    /*@IBOutlet weak var textField: UITextField!
+
     @IBOutlet weak var talkButton: UIButton!
     @IBOutlet weak var myView: SKView!
+    @IBOutlet weak var textField: UITextField!
     
     let audioEngine = AVAudioEngine()
     var speechRecognizer = SFSpeechRecognizer()
@@ -29,14 +24,15 @@ class L1GameOneTalkView : UIViewController {
     var recognitionTask: SFSpeechRecognitionTask?
     var isRecording = false
     
+    
     @IBAction func backButtonTouched(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
-    
     //var detectedText : String = ""
     
     func recordAndRecognizeSpeech() {
         guard let node = audioEngine.inputNode as Optional else { return }
+        
         let recordingFormat = node.outputFormat(forBus: 0)
         node.installTap(onBus: 0, bufferSize: 2048, format: recordingFormat) {buffer, _ in
             self.request.append(buffer)
@@ -61,8 +57,7 @@ class L1GameOneTalkView : UIViewController {
             if result != nil {
                 if let result = result {
                     let best = result.bestTranscription.formattedString.lowercased()
-                    print(best)
-                    print("hewwo!")
+                    print(best, "\n")
                     //self.detectedText = best
                     self.textField.text = best
                 }
@@ -110,8 +105,8 @@ class L1GameOneTalkView : UIViewController {
         //self.searchBar.endEditing(true)
     }
     
-    
     @IBAction func buttonPressed(_ sender: UIButton) {
+        
         if isRecording == true {
             request.endAudio()
             request = SFSpeechAudioBufferRecognitionRequest()
@@ -120,16 +115,30 @@ class L1GameOneTalkView : UIViewController {
             recognitionTask?.cancel()
             isRecording = false
             talkButton.setImage(UIImage(named: "talk"), for: UIControlState.normal)
-            let correct: Bool = (myView.scene as! L1LessonOne).checkAnswer(answer: textField.text!)
-            let done: Bool! = (myView.scene as! L1LessonOne).isDone()
+            
+            let correct: Bool = (myView.scene as! L1GameOne).checkAnswer(answer: textField.text!)
+            let done: Bool! = (myView.scene as! L1GameOne).isDone()
+            
+            if (!correct) {
+                textField.text = "👎"
+                Timer.scheduledTimer(withTimeInterval: 1, repeats: false) {
+                    timer in
+                self.textField.text = ""
+                }
+            }
             
             if (correct) {
-                textField.text = ""
+                textField.text = "👍"
+                Timer.scheduledTimer(withTimeInterval: 1, repeats: false) {
+                    timer in
+                self.textField.text = ""
+                }
             }
             
             if (correct && done) {
+                // TRANSITION TO CONGRAS SCREEN OR SOMETHING
                 self.transitioningDelegate = RZTransitionsManager.shared()
-                let nextViewController = storyboard?.instantiateViewController(withIdentifier: "silhouetteGame")
+                let nextViewController = storyboard?.instantiateViewController(withIdentifier: "minigameCongrats")
                 nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
                 self.present(nextViewController!, animated: true) {}
             }
@@ -138,7 +147,10 @@ class L1GameOneTalkView : UIViewController {
             isRecording = true
             talkButton.setImage(UIImage(named: "talkPressed"), for: UIControlState.normal)
         }
+ 
     }
+    
+   
     
     func revealButton() {
         talkButton.isHidden = false
@@ -167,6 +179,6 @@ class L1GameOneTalkView : UIViewController {
     
     override var prefersStatusBarHidden: Bool {
         return true
-    }*/
+    }
 }
 

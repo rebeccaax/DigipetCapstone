@@ -651,7 +651,7 @@
         <scene sceneID="fWY-io-2DH">
             <objects>
                 <viewController storyboardIdentifier="levelVC" id="mFk-7B-P2V" customClass="LevelVC" customModule="DigipetCapstone" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="9Id-5w-ynd">
+                    <view key="view" contentMode="scaleToFill" id="9Id-5w-ynd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -686,7 +686,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="LESSONS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gb1-O5-8nH">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LESSONS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gb1-O5-8nH">
                                 <rect key="frame" x="77" y="119" width="221" height="46"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="46" id="Fq9-93-DUR"/>
@@ -696,15 +696,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <containerView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2XF-fJ-NCc">
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2XF-fJ-NCc">
                                 <rect key="frame" x="0.0" y="175" width="375" height="492"/>
                                 <connections>
                                     <segue destination="vj3-Fy-UNY" kind="embed" id="EKy-s4-gTD"/>
                                 </connections>
                             </containerView>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6H8-CL-vqo">
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6H8-CL-vqo">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="zTn-DM-83n">
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="zTn-DM-83n">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
@@ -1613,19 +1613,19 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LEVEL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6vi-zr-8Ae">
-                                <rect key="frame" x="93" y="65" width="144" height="46"/>
+                                <rect key="frame" x="93" y="65" width="143.5" height="46"/>
                                 <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mtr-j8-NfD">
-                                <rect key="frame" x="245" y="65" width="36" height="46"/>
+                                <rect key="frame" x="244.5" y="65" width="35.5" height="46"/>
                                 <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="50"/>
                                 <color key="textColor" red="0.4998677373" green="0.2762259245" blue="0.86774939299999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MINIGAMES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHA-Cr-499">
-                                <rect key="frame" x="38.5" y="108" width="298" height="46"/>
+                                <rect key="frame" x="39" y="108" width="297.5" height="46"/>
                                 <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1643,7 +1643,7 @@
                                             <rect key="frame" x="37" y="196" width="300" height="275"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MINIGAME #" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WS4-uI-tpI">
-                                                    <rect key="frame" x="20" y="20" width="195" height="27"/>
+                                                    <rect key="frame" x="20" y="20" width="194.5" height="27"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="27" id="RVv-aS-Tb8"/>
                                                     </constraints>
@@ -1656,19 +1656,19 @@
                                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWq-5o-FCH">
-                                                    <rect key="frame" x="20" y="62" width="56" height="19"/>
+                                                    <rect key="frame" x="20" y="62" width="56" height="18.5"/>
                                                     <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vocab Highlights" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAJ-cC-7lT">
-                                                    <rect key="frame" x="20" y="94" width="158" height="17"/>
+                                                    <rect key="frame" x="20" y="93.5" width="157.5" height="17"/>
                                                     <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vocab" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lD4-2b-3iK">
-                                                    <rect key="frame" x="20" y="112" width="266" height="40"/>
+                                                    <rect key="frame" x="20" y="111.5" width="266" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="266" id="46X-Fb-13c"/>
                                                         <constraint firstAttribute="height" constant="40" id="fdR-xv-BkG"/>
@@ -1678,13 +1678,13 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MKD-yw-8W3">
-                                                    <rect key="frame" x="20" y="163" width="93" height="17"/>
+                                                    <rect key="frame" x="20" y="162.5" width="92.5" height="17"/>
                                                     <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Desc" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ng5-7b-oa4">
-                                                    <rect key="frame" x="20" y="181" width="266" height="40"/>
+                                                    <rect key="frame" x="20" y="180.5" width="266" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="40" id="CxN-En-jYg"/>
                                                         <constraint firstAttribute="width" constant="266" id="Uj3-ed-9C3"/>
@@ -1694,7 +1694,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phH-Eu-4DF" customClass="GameButton" customModule="DigipetCapstone" customModuleProvider="target">
-                                                    <rect key="frame" x="40" y="232" width="100" height="28"/>
+                                                    <rect key="frame" x="40" y="231.5" width="100" height="28"/>
                                                     <gestureRecognizers/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="100" id="Tvv-Pt-TY9"/>
@@ -1705,12 +1705,11 @@
                                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                     <connections>
-                                                        <action selector="startButtonTapped:" destination="V67-wz-fx3" eventType="touchUpInside" id="MVP-QX-hzk"/>
                                                         <action selector="startButtonTouched:" destination="tEc-3d-Jx3" eventType="touchUpInside" id="of3-dU-dki"/>
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7B-gv-MZf" customClass="GameButton" customModule="DigipetCapstone" customModuleProvider="target">
-                                                    <rect key="frame" x="160" y="232" width="100" height="28"/>
+                                                    <rect key="frame" x="160" y="231.5" width="100" height="28"/>
                                                     <gestureRecognizers/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="100" id="4yE-iI-NGn"/>
@@ -1726,7 +1725,7 @@
                                                     </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAd-9k-gua">
-                                                    <rect key="frame" x="214" y="21" width="22" height="27"/>
+                                                    <rect key="frame" x="214.5" y="21" width="21.5" height="27"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="27" id="jAo-4K-NHq"/>
                                                     </constraints>
@@ -1879,7 +1878,7 @@
                                             <rect key="frame" x="37" y="196" width="300" height="275"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MINIGAME #" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MiO-dQ-d2P">
-                                                    <rect key="frame" x="20" y="20" width="195" height="27"/>
+                                                    <rect key="frame" x="20" y="20" width="194.5" height="27"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="27" id="7fz-O1-8CP"/>
                                                     </constraints>
@@ -1892,19 +1891,19 @@
                                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meP-My-ZSR">
-                                                    <rect key="frame" x="20" y="62" width="56" height="19"/>
+                                                    <rect key="frame" x="20" y="62" width="56" height="18.5"/>
                                                     <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vocab Highlights" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1w-Uu-r8F">
-                                                    <rect key="frame" x="20" y="94" width="158" height="17"/>
+                                                    <rect key="frame" x="20" y="93.5" width="157.5" height="17"/>
                                                     <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vocab" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dbr-R4-iQo">
-                                                    <rect key="frame" x="20" y="112" width="266" height="40"/>
+                                                    <rect key="frame" x="20" y="111.5" width="266" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="266" id="FTl-2P-4kc"/>
                                                         <constraint firstAttribute="height" constant="40" id="Nck-ei-sqZ"/>
@@ -1914,13 +1913,13 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olU-HP-mVI">
-                                                    <rect key="frame" x="20" y="163" width="93" height="17"/>
+                                                    <rect key="frame" x="20" y="162.5" width="92.5" height="17"/>
                                                     <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Desc" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mZF-YK-1re">
-                                                    <rect key="frame" x="20" y="181" width="266" height="40"/>
+                                                    <rect key="frame" x="20" y="180.5" width="266" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="266" id="BcK-Ua-9aS"/>
                                                         <constraint firstAttribute="height" constant="40" id="N1U-Ze-94y"/>
@@ -1929,8 +1928,8 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ur-RJ-Ysb" customClass="GameButton" customModule="DigipetCapstone" customModuleProvider="target">
-                                                    <rect key="frame" x="40" y="232" width="100" height="28"/>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ur-RJ-Ysb" userLabel="Info Start Button" customClass="GameButton" customModule="DigipetCapstone" customModuleProvider="target">
+                                                    <rect key="frame" x="40" y="231.5" width="100" height="28"/>
                                                     <gestureRecognizers/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="100" id="3b4-yi-7vc"/>
@@ -1941,11 +1940,11 @@
                                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                     <connections>
-                                                        <action selector="startButtonTapped:" destination="V67-wz-fx3" eventType="touchUpInside" id="AqE-2Q-emS"/>
+                                                        <action selector="startButtonTapped:" destination="V67-wz-fx3" eventType="touchUpInside" id="CdC-6l-TmI"/>
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fpT-Xg-HaZ" customClass="GameButton" customModule="DigipetCapstone" customModuleProvider="target">
-                                                    <rect key="frame" x="160" y="232" width="100" height="28"/>
+                                                    <rect key="frame" x="160" y="231.5" width="100" height="28"/>
                                                     <gestureRecognizers/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="100" id="TJO-a5-INz"/>
@@ -1960,7 +1959,7 @@
                                                     </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LdR-rP-R56">
-                                                    <rect key="frame" x="214" y="21" width="22" height="27"/>
+                                                    <rect key="frame" x="214.5" y="21" width="21.5" height="27"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="27" id="tk0-MG-wPB"/>
                                                     </constraints>
@@ -2202,81 +2201,94 @@
             </objects>
             <point key="canvasLocation" x="1329" y="2160"/>
         </scene>
-        <!--Game One-->
+        <!--Game One Talk View-->
         <scene sceneID="R8O-G2-f0J">
             <objects>
-                <viewController storyboardIdentifier="l1GameOne" id="jeE-5m-ngB" customClass="L1GameOne" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="L1GameOneTalkView" id="jeE-5m-ngB" customClass="L1GameOneTalkView" customModule="DigipetCapstone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v3g-ki-1tg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeBackground" translatesAutoresizingMaskIntoConstraints="NO" id="P9v-yy-aVd">
+                            <skView contentMode="scaleToFill" fixedFrame="YES" sceneName="L1GameOne.sks" translatesAutoresizingMaskIntoConstraints="NO" id="KDa-wf-GhT">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="qJJ-Jw-bDa">
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </skView>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="qJJ-Jw-bDa" userLabel="mazeWall2">
                                 <rect key="frame" x="-124" y="416" width="409" height="177"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="GP5-RY-U1L">
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="GP5-RY-U1L" userLabel="mazeWall3.1">
                                 <rect key="frame" x="155" y="220" width="130" height="198"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="mIV-0B-0tE">
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="mIV-0B-0tE" userLabel="mazeWall3.2">
                                 <rect key="frame" x="130" y="220" width="373" height="198"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="dmN-ks-D6O">
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="dmN-ks-D6O" userLabel="mazeWall5">
                                 <rect key="frame" x="244" y="39" width="195" height="198"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="gTc-Lv-hzU">
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="gTc-Lv-hzU" userLabel="mazeWall2.1">
                                 <rect key="frame" x="90" y="417" width="195" height="176"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="AUs-3X-03p">
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="AUs-3X-03p" userLabel="mazeWall4.1">
                                 <rect key="frame" x="-57" y="271" width="179" height="198"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="BoK-yJ-Ctu">
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="BoK-yJ-Ctu" userLabel="mazeWall4.3">
                                 <rect key="frame" x="64" y="39" width="195" height="198"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="FsI-Tw-Fai">
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="FsI-Tw-Fai" userLabel="mazeWall4.2">
                                 <rect key="frame" x="0.0" y="39" width="195" height="198"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="I0O-sL-sjx">
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="I0O-sL-sjx" userLabel="mazeWall4.4">
                                 <rect key="frame" x="-73" y="39" width="195" height="198"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="Lo1-z1-jef">
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="Lo1-z1-jef" userLabel="mazeWall4.5">
                                 <rect key="frame" x="-84" y="39" width="217" height="458"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="kDA-sf-CI3">
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="mazeWall" translatesAutoresizingMaskIntoConstraints="NO" id="kDA-sf-CI3" userLabel="mazeWall1">
                                 <rect key="frame" x="260" y="449" width="195" height="198"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="china" translatesAutoresizingMaskIntoConstraints="NO" id="f1L-wd-AwB">
-                                <rect key="frame" x="25" y="548" width="84" height="109"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" image="arrowicon" translatesAutoresizingMaskIntoConstraints="NO" id="lFg-kB-lQN">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewO-pq-PoJ">
                                 <rect key="frame" x="15" y="40" width="35" height="25"/>
-                            </imageView>
-                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="talk" translatesAutoresizingMaskIntoConstraints="NO" id="F9M-MY-4XM">
-                                <rect key="frame" x="289" y="587" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="arrowicon"/>
+                                <connections>
+                                    <action selector="backButtonTouched:" destination="jeE-5m-ngB" eventType="touchUpInside" id="isM-di-vuX"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SUj-31-CsJ">
+                                <rect key="frame" x="75" y="35" width="220" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ih-gw-fpZ">
+                                <rect key="frame" x="298" y="585" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="talk"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="jeE-5m-ngB" eventType="touchDown" id="Bwy-NZ-adC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="lFg-kB-lQN" firstAttribute="centerY" secondItem="v3g-ki-1tg" secondAttribute="centerY" id="CVY-Rd-gn8"/>
-                            <constraint firstItem="lFg-kB-lQN" firstAttribute="centerX" secondItem="v3g-ki-1tg" secondAttribute="centerX" id="ZE6-Gc-yp6"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="u28-6z-WVH"/>
                     </view>
+                    <connections>
+                        <outlet property="myView" destination="KDa-wf-GhT" id="yvm-sI-5uz"/>
+                        <outlet property="talkButton" destination="7Ih-gw-fpZ" id="NzY-eK-mWc"/>
+                        <outlet property="textField" destination="SUj-31-CsJ" id="NsG-YX-zmO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6jH-RS-WPc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2392,11 +2404,8 @@
                         <viewLayoutGuide key="safeArea" id="xaV-3i-vG2"/>
                     </view>
                     <connections>
-                        <outlet property="lessonDesc" destination="Nwm-eh-XyR" id="eE5-Md-jLw"/>
-                        <outlet property="lessonName" destination="qCI-Vf-D79" id="0rm-HW-Vo7"/>
                         <outlet property="minigameDesc" destination="Nwm-eh-XyR" id="g2O-jf-MQz"/>
                         <outlet property="minigameName" destination="qCI-Vf-D79" id="7Bw-WN-yEK"/>
-                        <outlet property="petImg" destination="zoY-Se-YTV" id="zWr-np-91w"/>
                         <outlet property="startBox" destination="w2a-I5-59n" id="Aoe-9G-EeT"/>
                         <outlet property="talkButton" destination="AdZ-h6-nYH" id="CSs-82-vgu"/>
                         <outlet property="typeButton" destination="7Q7-Q6-bF8" id="IzK-dg-Slo"/>
@@ -2405,6 +2414,128 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wKc-ex-srP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="526" y="1951"/>
+        </scene>
+        <!--Minigame Congrats-->
+        <scene sceneID="bNa-kM-1Ry">
+            <objects>
+                <viewController storyboardIdentifier="minigameCongrats" id="K2C-W6-9Y1" customClass="MinigameCongrats" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Vf-dO-zaf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bbc-xH-mjV">
+                                <rect key="frame" x="15" y="40" width="35" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="Q9N-a7-68w"/>
+                                    <constraint firstAttribute="height" constant="25" id="r9z-ZR-FqY"/>
+                                </constraints>
+                                <state key="normal" image="arrowicon"/>
+                                <connections>
+                                    <action selector="backButtonTouched:" destination="K2C-W6-9Y1" eventType="touchUpInside" id="oVB-Zt-Zq8"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hae-gw-LQL">
+                                <rect key="frame" x="37" y="284" width="301" height="275"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rnJ-sH-UMK">
+                                        <rect key="frame" x="21" y="102" width="259" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="259" id="78Y-fq-OYv"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="desc" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Plc-DS-EkB">
+                                        <rect key="frame" x="21" y="138" width="259" height="59"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="59" id="j7i-By-Cha"/>
+                                            <constraint firstAttribute="width" constant="259" id="wnN-nI-fEN"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you want to talk or type?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cuD-uV-opY">
+                                        <rect key="frame" x="12.5" y="210" width="276" height="17"/>
+                                        <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLl-qh-9Yj" customClass="LessonButton" customModule="DigipetCapstone" customModuleProvider="target">
+                                        <rect key="frame" x="161" y="232" width="100" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="J3Z-dl-kFh"/>
+                                            <constraint firstAttribute="width" constant="100" id="RtQ-zr-WCq"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="18"/>
+                                        <state key="normal" title="type">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="typeButtonTouched:" destination="K2C-W6-9Y1" eventType="touchUpInside" id="Y4M-ig-17r"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xwi-T9-Bqp" customClass="LessonButton" customModule="DigipetCapstone" customModuleProvider="target">
+                                        <rect key="frame" x="40" y="232" width="100" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="afX-GL-REf"/>
+                                            <constraint firstAttribute="width" constant="100" id="jcm-3c-OgB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="18"/>
+                                        <state key="normal" title="talk">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="talkButtonTouched:" destination="K2C-W6-9Y1" eventType="touchUpInside" id="xdZ-B5-EiG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="rnJ-sH-UMK" firstAttribute="centerX" secondItem="Hae-gw-LQL" secondAttribute="centerX" id="0FK-7E-mLC"/>
+                                    <constraint firstAttribute="trailing" secondItem="YLl-qh-9Yj" secondAttribute="trailing" constant="40" id="CRN-2c-WaW"/>
+                                    <constraint firstItem="Xwi-T9-Bqp" firstAttribute="top" secondItem="cuD-uV-opY" secondAttribute="bottom" constant="5" id="CyO-fy-GhC"/>
+                                    <constraint firstItem="Plc-DS-EkB" firstAttribute="top" secondItem="rnJ-sH-UMK" secondAttribute="bottom" constant="8" symbolic="YES" id="NKQ-3t-WUd"/>
+                                    <constraint firstItem="cuD-uV-opY" firstAttribute="centerX" secondItem="Plc-DS-EkB" secondAttribute="centerX" id="eVW-za-4va"/>
+                                    <constraint firstAttribute="bottom" secondItem="YLl-qh-9Yj" secondAttribute="bottom" constant="15" id="gym-oF-ivY"/>
+                                    <constraint firstAttribute="bottom" secondItem="Xwi-T9-Bqp" secondAttribute="bottom" constant="15" id="kiQ-OU-WyG"/>
+                                    <constraint firstItem="Xwi-T9-Bqp" firstAttribute="leading" secondItem="Hae-gw-LQL" secondAttribute="leading" constant="40" id="nsg-CP-QlM"/>
+                                    <constraint firstItem="Plc-DS-EkB" firstAttribute="leading" secondItem="rnJ-sH-UMK" secondAttribute="leading" id="wGy-fc-8Ec"/>
+                                    <constraint firstItem="rnJ-sH-UMK" firstAttribute="top" secondItem="Hae-gw-LQL" secondAttribute="top" constant="102" id="xnW-qm-sM3"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Htf-Mc-USI">
+                                <rect key="frame" x="103" y="161" width="169" height="213"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4998677373" green="0.2762259245" blue="0.86774939299999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Htf-Mc-USI" firstAttribute="leading" secondItem="qcQ-1Z-Slh" secondAttribute="leading" constant="103" id="2uu-jt-CdY"/>
+                            <constraint firstItem="Bbc-xH-mjV" firstAttribute="leading" secondItem="qcQ-1Z-Slh" secondAttribute="leading" constant="15" id="5ex-2v-nqv"/>
+                            <constraint firstItem="Hae-gw-LQL" firstAttribute="top" secondItem="3Vf-dO-zaf" secondAttribute="top" constant="284" id="8C1-Kk-g4u"/>
+                            <constraint firstItem="qcQ-1Z-Slh" firstAttribute="bottom" secondItem="Hae-gw-LQL" secondAttribute="bottom" constant="108" id="Awh-Af-R31"/>
+                            <constraint firstItem="Hae-gw-LQL" firstAttribute="centerX" secondItem="3Vf-dO-zaf" secondAttribute="centerX" id="HvU-fi-f4L"/>
+                            <constraint firstItem="qcQ-1Z-Slh" firstAttribute="bottom" secondItem="Htf-Mc-USI" secondAttribute="bottom" constant="293" id="OXr-HH-tJe"/>
+                            <constraint firstItem="Hae-gw-LQL" firstAttribute="leading" secondItem="qcQ-1Z-Slh" secondAttribute="leading" constant="37" id="U1e-XU-2q8"/>
+                            <constraint firstItem="Htf-Mc-USI" firstAttribute="centerX" secondItem="Hae-gw-LQL" secondAttribute="centerX" id="qh2-EI-CPS"/>
+                            <constraint firstItem="Bbc-xH-mjV" firstAttribute="top" secondItem="qcQ-1Z-Slh" secondAttribute="top" constant="20" id="tHy-eO-Mi0"/>
+                            <constraint firstItem="Htf-Mc-USI" firstAttribute="top" secondItem="qcQ-1Z-Slh" secondAttribute="top" constant="141" id="u7F-7N-MwD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qcQ-1Z-Slh"/>
+                    </view>
+                    <connections>
+                        <outlet property="lessonDesc" destination="Plc-DS-EkB" id="9Wz-gD-LDd"/>
+                        <outlet property="lessonName" destination="rnJ-sH-UMK" id="kDL-BN-A7C"/>
+                        <outlet property="petImg" destination="Htf-Mc-USI" id="cV6-6q-6eh"/>
+                        <outlet property="startBox" destination="Hae-gw-LQL" id="2Rr-aC-eTL"/>
+                        <outlet property="talkButton" destination="Xwi-T9-Bqp" id="O48-J0-cs3"/>
+                        <outlet property="typeButton" destination="YLl-qh-9Yj" id="kOs-YU-3GS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="js5-wL-rN2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3009" y="2159"/>
         </scene>
     </scenes>
     <resources>
@@ -2415,7 +2546,6 @@
         <image name="clouds" width="1138" height="801"/>
         <image name="learnbutton" width="214" height="220"/>
         <image name="logo" width="586" height="456"/>
-        <image name="mazeBackground" width="252" height="360"/>
         <image name="mazeWall" width="122.40000152587891" height="123.83999633789062"/>
         <image name="menuicon" width="67" height="49"/>
         <image name="playbutton" width="215" height="220"/>
