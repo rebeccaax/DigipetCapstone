@@ -88,16 +88,16 @@ class MatchGame: UIViewController, SFSpeechRecognizerDelegate {
             ["苹果"],["la pomme", "les pommes"],["la manzana", "las manzanas"]
         ],
         [
-            ["男人"],["l'homme", "les hommes"],["el hombre", "los hombres"]
+            ["面包"],["le pain", "les paines"],["el pan", "los panes"]
         ],
         [
-            ["女人"],["la femme", "les femmes"],["la mujer", "las mujeres"]
+            ["肉"],["la viande", "les viandes"],["la carne", "las carnes"]
         ],
         [
-            ["狗"],["le chien", "les chiens"],["el perro", "los perros"]
+            ["鸡蛋"],["l'œuf", "les œufs"],["el juevo", "los perros"]
         ],
         [
-            ["猫"],["le chat", "les chats"],["el gato", "los gatos"]
+            ["白饭"],["le riz", "les riz"],["el arroz", "los arroces"]
         ]
     ]
     
@@ -239,13 +239,13 @@ class MatchGame: UIViewController, SFSpeechRecognizerDelegate {
         if card == 0 {
             return #imageLiteral(resourceName: "apple")
         } else if card == 1 {
-            return #imageLiteral(resourceName: "man")
+            return #imageLiteral(resourceName: "bread")
         } else if card == 2 {
-            return #imageLiteral(resourceName: "woman")
+            return #imageLiteral(resourceName: "meat")
         } else if card == 3 {
-            return #imageLiteral(resourceName: "dog")
+            return #imageLiteral(resourceName: "egg")
         } else {
-            return #imageLiteral(resourceName: "cat")
+            return #imageLiteral(resourceName: "rice")
         }
             
     }
