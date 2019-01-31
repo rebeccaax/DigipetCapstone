@@ -47,7 +47,7 @@ class MatchGame: UIViewController, SFSpeechRecognizerDelegate {
                 if let result = result {
                     let best = result.bestTranscription.formattedString.lowercased()
                     print(best)
-                    print("hewwo!")
+                    //print("hewwo!")
                     self.detectedText = best
                 }
             } else if let error = error {
@@ -287,6 +287,7 @@ class MatchGame: UIViewController, SFSpeechRecognizerDelegate {
             audioEngine.inputNode.removeTap(onBus: 0)
             recognitionTask?.cancel()
             isRecording = false
+           
             
             var check = transKey[random[matchNum]][langArray]
             var looper = false
