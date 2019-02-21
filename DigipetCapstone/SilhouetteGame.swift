@@ -39,9 +39,9 @@ class SilhouetteGame : UIViewController, SFSpeechRecognizerDelegate {
     var recognitionTask: SFSpeechRecognitionTask?
     var isRecording = false
     
-    let images = [Guesser(name: "milk", ch: ["牛奶"], fr: ["lait"], sp: ["leche"], imName: "milk"), Guesser(name: "bread", ch: ["面包"], fr: ["pain"], sp: ["pan"], imName: "bread"), Guesser(name: "egg", ch: ["鸡蛋", "蛋"], fr: ["oeuf"], sp: ["huevo"], imName: "egg"), Guesser(name: "rice", ch: ["米饭"], fr: ["riz"], sp: ["arroz"], imName: "rice"), Guesser(name: "cheese", ch: ["奶酪"], fr: ["fromage"], sp: ["queso"], imName: "cheese"), Guesser(name: "meat", ch: ["肉"], fr: ["viande"], sp: ["carne"], imName: "meat"), Guesser(name: "dessert", ch: ["甜点", "甜食", "甜品", "蛋糕", "糕点"], fr: ["dessert", "gâteau"], sp: ["postre", "pastel"], imName: "dessert"), Guesser(name: "soup", ch: ["汤"], fr: ["soupe"], sp: ["sopa"], imName: "soup"), Guesser(name: "fruit", ch: ["水果", "苹果"], fr: ["fruit", "pomme"], sp: ["fruta", "manzana"], imName: "apple"), Guesser(name: "vegetable", ch: ["蔬菜", "胡萝卜"], fr: ["légume", "carotte"], sp: ["verdura", "zanahoria"], imName: "carrot"), Guesser(name: "water", ch: ["水"], fr: ["eau"], sp: ["agua"], imName: "water"), Guesser(name: "juice", ch: ["果汁"], fr: ["jus"], sp: ["jugo"], imName: "juice")]
+    let images = [Guesser(name: "run", ch: ["跑步"], fr: ["lait"], sp: ["leche"], imName: "run"), Guesser(name: "swim", ch: ["游泳"], fr: ["pain"], sp: ["pan"], imName: "swim"), Guesser(name: "baseball", ch: ["棒球"], fr: ["oeuf"], sp: ["huevo"], imName: "baseball"), Guesser(name: "pingpong", ch: ["乒乓球"], fr: ["riz"], sp: ["arroz"], imName: "pingpong"), Guesser(name: "tennis", ch: ["网球"], fr: ["fromage"], sp: ["queso"], imName: "tennis"), Guesser(name: "basketball", ch: ["篮球"], fr: ["viande"], sp: ["carne"], imName: "basketball"), Guesser(name: "kick", ch: ["踢"], fr: ["dessert", "gâteau"], sp: ["postre", "pastel"], imName: "kick"), Guesser(name: "face", ch: ["脸"], fr: ["soupe"], sp: ["sopa"], imName: "face"), Guesser(name: "soccer", ch: ["足球"], fr: ["soupe"], sp: ["sopa"], imName: "soccer")]
     
-    var resultCount = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    var resultCount = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     
     @IBOutlet weak var textView: UIView!
     
@@ -257,7 +257,7 @@ class SilhouetteGame : UIViewController, SFSpeechRecognizerDelegate {
         textView.layer.borderWidth = 2
         textView.layer.cornerRadius = 10
         
-        randArray = [0, 1, 2, 3, 4, 5, 6, 7, 8 , 9, 10, 11]
+        randArray = [0, 1, 2, 3, 4, 5, 6, 7, 8 , 9]
         randArray.shuffle()
         
         setGuess()

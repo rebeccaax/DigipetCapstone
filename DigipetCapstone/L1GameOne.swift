@@ -107,8 +107,7 @@ class L1GameOne : SKScene {
         // define rotateAction
         rotateAction = SKAction.sequence([SKAction.rotate(byAngle: 0.2, duration: 1), SKAction.rotate(byAngle: -0.2, duration: 1)])
         
-        correctAnswers = [["往右边走两步。", "往右面走两步。"], ["往前边走两步。", "往前面走两步。"], ["往左边走两步。", "往左面走两步。"], ["往前边走三步。", "往前面走三步。"], ["往右边走两步。", "往右面走两步。"], ["往前边走一步。", "往前面走一步。"]]
-        
+        correctAnswers = [["往右边走两步。", "往右面走两步。"], ["往前边走两步。", "往前面走两步。"], ["往左边走两步。", "往左面走两步。"], ["往前边走三步。", "往前面走三步。"], ["往右边走两步。", "往右面走两步。"], ["往前边走一步。", "往前面走一步。"], ["Ve dos pasos a la derecha.", "Ve dos pasos a la derecha."], ["Ve dos pasos adelante", "Ve dos pasos adelante."], ["Ve dos pasos a la izquierda", "Ve dos pasos a la izquierda."], ["Ir tres pasos adelante", "Ir tres pasos adelante."], ["Ve dos pasos a la derecha", "Ve dos pasos a la derecha."], ["Da un paso adelante", "Da un paso adelante."], ["Faire deux pas à droite", "Faire deux pas à droite."], ["Faire deux pas en avant", "Faire deux pas en avant."], ["Faire deux pas à gauche", "Faire deux pas à gauche."], ["Faire trois pas en avant", "Faire trois pas en avant."], ["Faire deux pas à droite", "Faire deux pas à droite."], ["Faire un pas en avant", "Faire un pas en avant."]]
         
         // define entrance with actions
         
