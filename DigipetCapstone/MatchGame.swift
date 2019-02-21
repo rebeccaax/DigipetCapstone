@@ -47,7 +47,7 @@ class MatchGame: UIViewController, SFSpeechRecognizerDelegate {
                 if let result = result {
                     let best = result.bestTranscription.formattedString.lowercased()
                     print(best)
-                    print("hewwo!")
+                    //print("hewwo!")
                     self.detectedText = best
                 }
             } else if let error = error {
@@ -88,16 +88,19 @@ class MatchGame: UIViewController, SFSpeechRecognizerDelegate {
             ["苹果"],["la pomme", "les pommes"],["la manzana", "las manzanas"]
         ],
         [
-            ["男人"],["l'homme", "les hommes"],["el hombre", "los hombres"]
+            ["面包"],["le pain", "les paines"],["el pan", "los panes"]
         ],
         [
-            ["女人"],["la femme", "les femmes"],["la mujer", "las mujeres"]
+            ["肉"],["la viande", "les viandes"],["la carne", "las carnes"]
         ],
         [
-            ["狗"],["le chien", "les chiens"],["el perro", "los perros"]
+            ["鸡蛋"],["l'œuf", "les œufs"],["el juevo", "los perros"]
         ],
         [
-            ["猫"],["le chat", "les chats"],["el gato", "los gatos"]
+            ["白饭"],["le riz", "les riz"],["el arroz", "los arroces"]
+        ],
+        [
+            ["奶酪"],["le fromage", "les fromages"],["el queso", "los quesos"]
         ]
     ]
     
@@ -105,7 +108,7 @@ class MatchGame: UIViewController, SFSpeechRecognizerDelegate {
     var matchCard = -1
     
     
-    var randomHalf = (1...8).map{_ in Int(arc4random_uniform(5))}
+    var randomHalf = (1...8).map{_ in Int(arc4random_uniform(6))}
     var random: [Int] = []
     var flipped: Int = 0
     var flippedNum: Int = -1
@@ -239,14 +242,17 @@ class MatchGame: UIViewController, SFSpeechRecognizerDelegate {
         if card == 0 {
             return #imageLiteral(resourceName: "apple")
         } else if card == 1 {
-            return #imageLiteral(resourceName: "man")
+            return #imageLiteral(resourceName: "bread")
         } else if card == 2 {
-            return #imageLiteral(resourceName: "woman")
+            return #imageLiteral(resourceName: "meat")
         } else if card == 3 {
-            return #imageLiteral(resourceName: "dog")
+            return #imageLiteral(resourceName: "egg")
+        } else if card == 4 {
+            return #imageLiteral(resourceName: "rice")
         } else {
-            return #imageLiteral(resourceName: "cat")
+            return #imageLiteral(resourceName: "cheese")
         }
+        
             
     }
     func cardTouch(num: Int) {
@@ -287,11 +293,12 @@ class MatchGame: UIViewController, SFSpeechRecognizerDelegate {
             audioEngine.inputNode.removeTap(onBus: 0)
             recognitionTask?.cancel()
             isRecording = false
+           
             
             var check = transKey[random[matchNum]][langArray]
             var looper = false
             for phrase in check {
-                if phrase.contains(detectedText){
+                if detectedText.contains(phrase){
                     looper = true
                 }
             }

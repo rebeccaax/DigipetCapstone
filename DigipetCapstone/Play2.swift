@@ -40,8 +40,7 @@ class Play2 : UIViewController {
     
     @IBAction func levelThreeTouched(_ sender: Any) {
         self.transitioningDelegate = RZTransitionsManager.shared()
-        let nextViewController = storyboard?.instantiateViewController(withIdentifier: "levelVCPlay")
-        (nextViewController as! LevelVCPlay).text = "1"
+        let nextViewController = storyboard?.instantiateViewController(withIdentifier: "matchGame")
         nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
