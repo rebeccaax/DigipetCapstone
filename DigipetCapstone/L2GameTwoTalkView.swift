@@ -1,19 +1,17 @@
 //
-//  L1GameOneTalkView.swift
+//  L2GameTwoTalkView.swift
 //  DigipetCapstone
 //
-//  Created by Loaner on 12/8/18.
-//  Copyright © 2018 Katie Katz. All rights reserved.
+//  Created by Cassandra on 2/15/19.
+//  Copyright © 2019 Katie Katz. All rights reserved.
 //
-
 import Speech
 import UIKit
 import SpriteKit
 import GameplayKit
 
-class L1GameOneTalkView : UIViewController, SFSpeechRecognizerDelegate {
-    
-
+class L2GameTwoTalkView : UIViewController, SFSpeechRecognizerDelegate {
+   
     @IBOutlet weak var talkButton: UIButton!
     @IBOutlet weak var myView: SKView!
     @IBOutlet weak var textField: UITextField!
@@ -115,15 +113,15 @@ class L1GameOneTalkView : UIViewController, SFSpeechRecognizerDelegate {
             isRecording = false
             talkButton.setImage(UIImage(named: "talk"), for: UIControlState.normal)
             
-            let correct: Bool = (myView.scene as! L1GameOne).checkAnswer(answer: textField.text!)
-            let done: Bool! = (myView.scene as! L1GameOne).isDone()
-        
+            let correct: Bool = (myView.scene as! L2GameTwo).checkAnswer(answer: textField.text!)
+            let done: Bool! = (myView.scene as! L2GameTwo).isDone()
+            
             
             if (!correct) {
                 textField.text = "👎"
                 Timer.scheduledTimer(withTimeInterval: 1, repeats: false) {
                     timer in
-                self.textField.text = ""
+                    self.textField.text = ""
                 }
             }
             
@@ -131,16 +129,16 @@ class L1GameOneTalkView : UIViewController, SFSpeechRecognizerDelegate {
                 textField.text = "👍"
                 Timer.scheduledTimer(withTimeInterval: 1, repeats: false) {
                     timer in
-                self.textField.text = ""
+                    self.textField.text = ""
                 }
             }
             
             if (correct && done) {
-            //if (done) {
+                //if (done) {
                 self.transitioningDelegate = RZTransitionsManager.shared()
                 let nextViewController = storyboard?.instantiateViewController(withIdentifier: "minigameCongrats")
                 
-                    (nextViewController as! MinigameCongrats).minigameName = "L1GameOne"
+                (nextViewController as! MinigameCongrats).minigameName = "L2GameTwo"
                 nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
                 self.present(nextViewController!, animated: true) {}
             }
@@ -149,10 +147,10 @@ class L1GameOneTalkView : UIViewController, SFSpeechRecognizerDelegate {
             isRecording = true
             talkButton.setImage(UIImage(named: "talkPressed"), for: UIControlState.normal)
         }
- 
+        
     }
     
-   
+    
     
     func revealButton() {
         talkButton.isHidden = false
@@ -183,4 +181,5 @@ class L1GameOneTalkView : UIViewController, SFSpeechRecognizerDelegate {
         return true
     }
 }
+
 

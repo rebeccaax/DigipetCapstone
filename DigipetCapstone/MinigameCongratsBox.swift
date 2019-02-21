@@ -74,7 +74,7 @@ public class MinigameCongratsBox: SKShapeNode {
         line4.position = CGPoint(x: 300, y: 160)
         self.addChild(line4)
         
-        let qText = SKLabelNode(text: "Good job! Do you want to play again or choose another game?")
+        let qText = SKLabelNode(text: "Play again or try a different game?")
         qText.fontName = "Plumpfull"
         qText.fontColor = .black
         qText.fontSize = 36
