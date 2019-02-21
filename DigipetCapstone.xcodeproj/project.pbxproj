@@ -69,6 +69,9 @@
 		026F42FE20A5C2490098EC23 /* L1LessonOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F42F720A5C2490098EC23 /* L1LessonOne.swift */; };
 		026F42FF20A5C2490098EC23 /* L1LessonOneTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F42F820A5C2490098EC23 /* L1LessonOneTalkView.swift */; };
 		026F430120A5C53A0098EC23 /* L1LessonTwoTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F430020A5C53A0098EC23 /* L1LessonTwoTalkView.swift */; };
+		11294044221382CF00548879 /* L2GameTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11294043221382CF00548879 /* L2GameTwo.swift */; };
+		112940462213B44B00548879 /* L2GameTwo.sks in Resources */ = {isa = PBXBuildFile; fileRef = 112940452213B44B00548879 /* L2GameTwo.sks */; };
+		113332012217CA96004C507B /* L2GameTwoTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113332002217CA96004C507B /* L2GameTwoTalkView.swift */; };
 		11BBFE4821F01A1500708598 /* MinigameCongrats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BBFE4721F01A1500708598 /* MinigameCongrats.swift */; };
 		2E31E0BB21E3D54F00CE52B7 /* L1GameOneTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E31E0BA21E3D54F00CE52B7 /* L1GameOneTypeView.swift */; };
 		2EAE700121E70CC5009A9009 /* MinigameCongratsBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE700021E70CC5009A9009 /* MinigameCongratsBox.swift */; };
@@ -190,6 +193,9 @@
 		026F42F720A5C2490098EC23 /* L1LessonOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonOne.swift; sourceTree = "<group>"; };
 		026F42F820A5C2490098EC23 /* L1LessonOneTalkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonOneTalkView.swift; sourceTree = "<group>"; };
 		026F430020A5C53A0098EC23 /* L1LessonTwoTalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonTwoTalkView.swift; sourceTree = "<group>"; };
+		11294043221382CF00548879 /* L2GameTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L2GameTwo.swift; sourceTree = "<group>"; };
+		112940452213B44B00548879 /* L2GameTwo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = L2GameTwo.sks; sourceTree = "<group>"; };
+		113332002217CA96004C507B /* L2GameTwoTalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L2GameTwoTalkView.swift; sourceTree = "<group>"; };
 		11BBFE4721F01A1500708598 /* MinigameCongrats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigameCongrats.swift; sourceTree = "<group>"; };
 		2E31E0BA21E3D54F00CE52B7 /* L1GameOneTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1GameOneTypeView.swift; sourceTree = "<group>"; };
 		2EAE700021E70CC5009A9009 /* MinigameCongratsBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigameCongratsBox.swift; sourceTree = "<group>"; };
@@ -248,8 +254,21 @@
 		025B45DC20A08008006849EE /* DigipetCapstone */ = {
 			isa = PBXGroup;
 			children = (
-				2EAE700021E70CC5009A9009 /* MinigameCongratsBox.swift */,
-				11BBFE4721F01A1500708598 /* MinigameCongrats.swift */,
+				025B469F20A0811C006849EE /* Actions.sks */,
+				025B45DD20A08008006849EE /* AppDelegate.swift */,
+				025B46C620A081F9006849EE /* Assets.xcassets */,
+				0223288820A082C0002A2646 /* Digipet-Bridging-Header.h */,
+				0079CC3920A9BC40002296D8 /* GameTableViewCell.swift */,
+				0228973620B63ADE0098E0E3 /* GameTableViewCell2.swift */,
+				0079CC3B20A9BC74002296D8 /* GameTableViewController.swift */,
+				0228973420B639CD0098E0E3 /* GameTableViewController2.swift */,
+				025B46A820A08190006849EE /* GameViewController.swift */,
+				025B45EF20A08009006849EE /* Info.plist */,
+				2EC5437D21C29E770098F2E4 /* L1GameOne.sks */,
+				112940452213B44B00548879 /* L2GameTwo.sks */,
+				2EC0EBAA21D3FFB500F5DDCE /* L1GameOne.swift */,
+				2EFAD3A321BCD370004B4FCB /* L1GameOneTalkView.swift */,
+				113332002217CA96004C507B /* L2GameTwoTalkView.swift */,
 				026F42F220A5C2480098EC23 /* L1LessonOne.sks */,
 				026F42F720A5C2490098EC23 /* L1LessonOne.swift */,
 				026F42F820A5C2490098EC23 /* L1LessonOneTalkView.swift */,
@@ -258,44 +277,34 @@
 				026F42F520A5C2480098EC23 /* L1LessonTwo.swift */,
 				026F430020A5C53A0098EC23 /* L1LessonTwoTalkView.swift */,
 				026F42F420A5C2480098EC23 /* L1LessonTwoTypeView.swift */,
-				0223288820A082C0002A2646 /* Digipet-Bridging-Header.h */,
-				025B461320A080E4006849EE /* RZTransitions */,
-				025B45DD20A08008006849EE /* AppDelegate.swift */,
-				025B46A520A08152006849EE /* Scenes */,
-				025B461120A0809C006849EE /* VoiceRecognition.swift */,
-				025B46A820A08190006849EE /* GameViewController.swift */,
-				025B469F20A0811C006849EE /* Actions.sks */,
-				025B46AC20A0819A006849EE /* LessonTableViewCell.swift */,
-				0079CC3920A9BC40002296D8 /* GameTableViewCell.swift */,
-				025B46AA20A0819A006849EE /* LevelVC.swift */,
-				025B46B320A081B1006849EE /* MatchGame.swift */,
-				025B46B220A081B1006849EE /* LessonStart.swift */,
-				2EC5437D21C29E770098F2E4 /* L1GameOne.sks */,
-				2EFAD3A321BCD370004B4FCB /* L1GameOneTalkView.swift */,
-				0079CC3720A9BBA1002296D8 /* MinigameStart.swift */,
+				025B46C420A081D6006849EE /* LaunchScreen.storyboard */,
 				025B46B420A081B1006849EE /* Learn.swift */,
 				025B46B520A081B2006849EE /* Lesson.swift */,
-				025B46AB20A0819A006849EE /* MainScreen.swift */,
-				0200321820AA5DE0003FB481 /* Play2.swift */,
-				025B46C820A0820D006849EE /* Main.storyboard */,
-				2EC0EBAA21D3FFB500F5DDCE /* L1GameOne.swift */,
-				0079CC3320A9B8F6002296D8 /* LevelVCPlay.swift */,
-				025B46AD20A0819A006849EE /* SilhouetteGame.swift */,
 				025B46BA20A081BF006849EE /* LessonInfoBox.swift */,
-				6ABACA1020ADBDFB001794E4 /* SettingsPage.swift */,
-				025B46C620A081F9006849EE /* Assets.xcassets */,
 				025B46BB20A081BF006849EE /* LessonRow.swift */,
+				025B46B220A081B1006849EE /* LessonStart.swift */,
 				025B46BC20A081BF006849EE /* LessonStartBox.swift */,
+				025B46AC20A0819A006849EE /* LessonTableViewCell.swift */,
 				025B46BD20A081BF006849EE /* LessonTableViewController.swift */,
-				0079CC3B20A9BC74002296D8 /* GameTableViewController.swift */,
-				025B46BE20A081BF006849EE /* SwiftySKScrollView.swift */,
-				025B46C420A081D6006849EE /* LaunchScreen.storyboard */,
-				025B45EF20A08009006849EE /* Info.plist */,
-				0079CC3120A9B50D002296D8 /* Play.swift */,
-				0079CC3520A9B9A3002296D8 /* Minigame.swift */,
+				025B46AA20A0819A006849EE /* LevelVC.swift */,
+				0079CC3320A9B8F6002296D8 /* LevelVCPlay.swift */,
 				0228973220B500570098E0E3 /* LevelVCPlay2.swift */,
-				0228973420B639CD0098E0E3 /* GameTableViewController2.swift */,
-				0228973620B63ADE0098E0E3 /* GameTableViewCell2.swift */,
+				025B46C820A0820D006849EE /* Main.storyboard */,
+				11294043221382CF00548879 /* L2GameTwo.swift */,
+				025B46AB20A0819A006849EE /* MainScreen.swift */,
+				025B46B320A081B1006849EE /* MatchGame.swift */,
+				0079CC3520A9B9A3002296D8 /* Minigame.swift */,
+				11BBFE4721F01A1500708598 /* MinigameCongrats.swift */,
+				2EAE700021E70CC5009A9009 /* MinigameCongratsBox.swift */,
+				0079CC3720A9BBA1002296D8 /* MinigameStart.swift */,
+				0079CC3120A9B50D002296D8 /* Play.swift */,
+				0200321820AA5DE0003FB481 /* Play2.swift */,
+				025B461320A080E4006849EE /* RZTransitions */,
+				025B46A520A08152006849EE /* Scenes */,
+				6ABACA1020ADBDFB001794E4 /* SettingsPage.swift */,
+				025B46AD20A0819A006849EE /* SilhouetteGame.swift */,
+				025B46BE20A081BF006849EE /* SwiftySKScrollView.swift */,
+				025B461120A0809C006849EE /* VoiceRecognition.swift */,
 			);
 			path = DigipetCapstone;
 			sourceTree = "<group>";
@@ -531,6 +540,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112940462213B44B00548879 /* L2GameTwo.sks in Resources */,
 				025B46A320A08139006849EE /* GameScene.sks in Resources */,
 				026F42FA20A5C2490098EC23 /* L1LessonTwo.sks in Resources */,
 				025B46C520A081D7006849EE /* LaunchScreen.storyboard in Resources */,
@@ -575,6 +585,7 @@
 				025B464C20A080E4006849EE /* RZZoomAlphaAnimationController.m in Sources */,
 				2EAE700121E70CC5009A9009 /* MinigameCongratsBox.swift in Sources */,
 				025B46C220A081C0006849EE /* LessonTableViewController.swift in Sources */,
+				11294044221382CF00548879 /* L2GameTwo.swift in Sources */,
 				6ABACA1120ADBDFB001794E4 /* SettingsPage.swift in Sources */,
 				025B465520A080E4006849EE /* RZVerticalSwipeInteractionController.m in Sources */,
 				0079CC3C20A9BC74002296D8 /* GameTableViewController.swift in Sources */,
@@ -610,6 +621,7 @@
 				0079CC3420A9B8F6002296D8 /* LevelVCPlay.swift in Sources */,
 				025B464A20A080E4006849EE /* RZTransitionsNavigationController.m in Sources */,
 				0228973520B639CD0098E0E3 /* GameTableViewController2.swift in Sources */,
+				113332012217CA96004C507B /* L2GameTwoTalkView.swift in Sources */,
 				025B465020A080E4006849EE /* RZRectZoomAnimationController.m in Sources */,
 				025B46A420A08139006849EE /* GameScene.swift in Sources */,
 				025B46BF20A081C0006849EE /* LessonInfoBox.swift in Sources */,

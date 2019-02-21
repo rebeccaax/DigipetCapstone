@@ -50,6 +50,9 @@ class L1GameOne : SKScene {
         self.backgroundColor = UIColor.green
         
         
+    /*MinigameCongrats.completionHandler = { */
+        
+        
         if let language = UserDefaults.standard.string(forKey: "language") {
             switch language {
             case "zh_Hans":
@@ -97,29 +100,13 @@ class L1GameOne : SKScene {
         stones.size = CGSize(width: self.frame.size.width, height: self.frame.size.height)
         addChild(stones)
         
-        
-       /* func viewWithTag(imageTag: Int) -> UIView {
-            if
-        }*/
-        
-       // stone1.layer.zposition = -1
-        
         // define rotateAction
         rotateAction = SKAction.sequence([SKAction.rotate(byAngle: 0.2, duration: 1), SKAction.rotate(byAngle: -0.2, duration: 1)])
         
         correctAnswers = [["往右边走两步。", "往右面走两步。"], ["往前边走两步。", "往前面走两步。"], ["往左边走两步。", "往左面走两步。"], ["往前边走三步。", "往前面走三步。"], ["往右边走两步。", "往右面走两步。"], ["往前边走一步。", "往前面走一步。"]]
         
-        
-        // define entrance with actions
-        
-        // define finshing directions
-        
-        // define next scene
-        
-        // promt user
-        // if answer is correct, move to next point
-        // else say "I can't go there!"
 
+        // print("fileDest: " + self.fileDest)
         
     }
     
@@ -181,6 +168,7 @@ class L1GameOne : SKScene {
     }
     
     func isDone() -> Bool {
+        // return true
         return self.done
     }
     

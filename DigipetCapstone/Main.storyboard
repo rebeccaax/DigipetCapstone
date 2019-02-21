@@ -94,6 +94,14 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="XtO-qb-K8c">
                                 <rect key="frame" x="53" y="56" width="269" height="231"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DpQ-b3-B6S">
+                                <rect key="frame" x="-100" y="10" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="apple"/>
+                                <connections>
+                                    <action selector="testButtonTouched:" destination="sgx-Yj-ML6" eventType="touchUpInside" id="prH-6U-g8f"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -651,7 +659,7 @@
         <scene sceneID="fWY-io-2DH">
             <objects>
                 <viewController storyboardIdentifier="levelVC" id="mFk-7B-P2V" customClass="LevelVC" customModule="DigipetCapstone" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="9Id-5w-ynd">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="9Id-5w-ynd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -686,7 +694,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LESSONS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gb1-O5-8nH">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="LESSONS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gb1-O5-8nH">
                                 <rect key="frame" x="77" y="119" width="221" height="46"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="46" id="Fq9-93-DUR"/>
@@ -696,15 +704,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2XF-fJ-NCc">
+                            <containerView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2XF-fJ-NCc">
                                 <rect key="frame" x="0.0" y="175" width="375" height="492"/>
                                 <connections>
                                     <segue destination="vj3-Fy-UNY" kind="embed" id="EKy-s4-gTD"/>
                                 </connections>
                             </containerView>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6H8-CL-vqo">
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6H8-CL-vqo">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="zTn-DM-83n">
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="zTn-DM-83n">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
@@ -1369,13 +1377,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9x8-ek-LBd">
-                                <rect key="frame" x="91" y="82" width="169" height="60"/>
+                                <rect key="frame" x="91" y="82" width="168.5" height="60"/>
                                 <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="65"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4s-Tm-sAu">
-                                <rect key="frame" x="260" y="82" width="24" height="60"/>
+                                <rect key="frame" x="259.5" y="82" width="24" height="60"/>
                                 <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="65"/>
                                 <color key="textColor" red="0.4998677373" green="0.2762259245" blue="0.86774939299999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2294,6 +2302,56 @@
             </objects>
             <point key="canvasLocation" x="2156" y="2008.2458770614694"/>
         </scene>
+        <!--Game Two Talk View-->
+        <scene sceneID="ZvM-Xh-KOP">
+            <objects>
+                <viewController storyboardIdentifier="L2GameTwoTalkView" id="1sd-xH-fmD" customClass="L2GameTwoTalkView" customModule="DigipetCapstone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gM6-x2-DTc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <skView contentMode="scaleToFill" fixedFrame="YES" sceneName="L2GameTwo.sks" translatesAutoresizingMaskIntoConstraints="NO" id="Dff-nP-OzO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </skView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAa-fY-k44">
+                                <rect key="frame" x="15" y="40" width="35" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="arrowicon"/>
+                                <connections>
+                                    <action selector="backButtonTouched:" destination="jeE-5m-ngB" eventType="touchUpInside" id="bsw-7e-4Ot"/>
+                                    <action selector="backButtonTouched:" destination="1sd-xH-fmD" eventType="touchUpInside" id="flq-va-X4P"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jzd-f9-20p">
+                                <rect key="frame" x="75" y="35" width="220" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vy0-AF-Mok">
+                                <rect key="frame" x="130" y="525" width="119" height="122"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="talk"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="1sd-xH-fmD" eventType="touchUpInside" id="gYc-X9-dTk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="IOM-YR-ca3"/>
+                    </view>
+                    <connections>
+                        <outlet property="myView" destination="Dff-nP-OzO" id="DXH-Mw-5Fu"/>
+                        <outlet property="talkButton" destination="Vy0-AF-Mok" id="LnQ-G7-83k"/>
+                        <outlet property="textField" destination="jzd-f9-20p" id="Uhc-wh-9kr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xCU-QW-2wG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2156" y="3003.1484257871066"/>
+        </scene>
         <!--Minigame Start-->
         <scene sceneID="bYL-a6-dFB">
             <objects>
@@ -2418,7 +2476,7 @@
         <!--Minigame Congrats-->
         <scene sceneID="bNa-kM-1Ry">
             <objects>
-                <viewController storyboardIdentifier="minigameCongrats" id="K2C-W6-9Y1" customClass="MinigameCongrats" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="minigameCongrats" id="K2C-W6-9Y1" customClass="MinigameCongrats" customModule="DigipetCapstone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Vf-dO-zaf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2437,28 +2495,12 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hae-gw-LQL">
                                 <rect key="frame" x="37" y="284" width="301" height="275"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rnJ-sH-UMK">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You won!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rnJ-sH-UMK" userLabel="Minigame Congrats">
                                         <rect key="frame" x="21" y="102" width="259" height="28"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="259" id="78Y-fq-OYv"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="30"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="desc" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Plc-DS-EkB">
-                                        <rect key="frame" x="21" y="138" width="259" height="59"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="59" id="j7i-By-Cha"/>
-                                            <constraint firstAttribute="width" constant="259" id="wnN-nI-fEN"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="16"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you want to talk or type?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cuD-uV-opY">
-                                        <rect key="frame" x="12.5" y="210" width="276" height="17"/>
-                                        <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -2469,11 +2511,11 @@
                                             <constraint firstAttribute="width" constant="100" id="RtQ-zr-WCq"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="18"/>
-                                        <state key="normal" title="type">
+                                        <state key="normal" title="again">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="typeButtonTouched:" destination="K2C-W6-9Y1" eventType="touchUpInside" id="Y4M-ig-17r"/>
+                                            <action selector="againButtonTouched:" destination="K2C-W6-9Y1" eventType="touchUpInside" id="bM7-G3-30O"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xwi-T9-Bqp" customClass="LessonButton" customModule="DigipetCapstone" customModuleProvider="target">
@@ -2483,25 +2525,32 @@
                                             <constraint firstAttribute="width" constant="100" id="jcm-3c-OgB"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="18"/>
-                                        <state key="normal" title="talk">
+                                        <state key="normal" title="home">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="talkButtonTouched:" destination="K2C-W6-9Y1" eventType="touchUpInside" id="xdZ-B5-EiG"/>
+                                            <action selector="homeButtonTouched:" destination="K2C-W6-9Y1" eventType="touchUpInside" id="HcN-e3-FQd"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play again or try a different game?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cuD-uV-opY">
+                                        <rect key="frame" x="12.5" y="160" width="276" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="276" id="3OJ-5d-9fE"/>
+                                            <constraint firstAttribute="height" constant="48" id="ziq-Xd-Gai"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="rnJ-sH-UMK" firstAttribute="centerX" secondItem="Hae-gw-LQL" secondAttribute="centerX" id="0FK-7E-mLC"/>
                                     <constraint firstAttribute="trailing" secondItem="YLl-qh-9Yj" secondAttribute="trailing" constant="40" id="CRN-2c-WaW"/>
-                                    <constraint firstItem="Xwi-T9-Bqp" firstAttribute="top" secondItem="cuD-uV-opY" secondAttribute="bottom" constant="5" id="CyO-fy-GhC"/>
-                                    <constraint firstItem="Plc-DS-EkB" firstAttribute="top" secondItem="rnJ-sH-UMK" secondAttribute="bottom" constant="8" symbolic="YES" id="NKQ-3t-WUd"/>
-                                    <constraint firstItem="cuD-uV-opY" firstAttribute="centerX" secondItem="Plc-DS-EkB" secondAttribute="centerX" id="eVW-za-4va"/>
                                     <constraint firstAttribute="bottom" secondItem="YLl-qh-9Yj" secondAttribute="bottom" constant="15" id="gym-oF-ivY"/>
                                     <constraint firstAttribute="bottom" secondItem="Xwi-T9-Bqp" secondAttribute="bottom" constant="15" id="kiQ-OU-WyG"/>
+                                    <constraint firstItem="cuD-uV-opY" firstAttribute="centerX" secondItem="Hae-gw-LQL" secondAttribute="centerX" id="kzR-A3-qe0"/>
                                     <constraint firstItem="Xwi-T9-Bqp" firstAttribute="leading" secondItem="Hae-gw-LQL" secondAttribute="leading" constant="40" id="nsg-CP-QlM"/>
-                                    <constraint firstItem="Plc-DS-EkB" firstAttribute="leading" secondItem="rnJ-sH-UMK" secondAttribute="leading" id="wGy-fc-8Ec"/>
                                     <constraint firstItem="rnJ-sH-UMK" firstAttribute="top" secondItem="Hae-gw-LQL" secondAttribute="top" constant="102" id="xnW-qm-sM3"/>
                                 </constraints>
                             </view>
@@ -2521,24 +2570,25 @@
                             <constraint firstItem="Htf-Mc-USI" firstAttribute="centerX" secondItem="Hae-gw-LQL" secondAttribute="centerX" id="qh2-EI-CPS"/>
                             <constraint firstItem="Bbc-xH-mjV" firstAttribute="top" secondItem="qcQ-1Z-Slh" secondAttribute="top" constant="20" id="tHy-eO-Mi0"/>
                             <constraint firstItem="Htf-Mc-USI" firstAttribute="top" secondItem="qcQ-1Z-Slh" secondAttribute="top" constant="141" id="u7F-7N-MwD"/>
+                            <constraint firstItem="qcQ-1Z-Slh" firstAttribute="bottom" secondItem="cuD-uV-opY" secondAttribute="bottom" constant="175" id="xde-3c-eb5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qcQ-1Z-Slh"/>
                     </view>
                     <connections>
-                        <outlet property="lessonDesc" destination="Plc-DS-EkB" id="9Wz-gD-LDd"/>
-                        <outlet property="lessonName" destination="rnJ-sH-UMK" id="kDL-BN-A7C"/>
+                        <outlet property="againButton" destination="YLl-qh-9Yj" id="YYd-bP-LTR"/>
+                        <outlet property="congratsText" destination="rnJ-sH-UMK" id="KOC-l2-D5N"/>
+                        <outlet property="homeButton" destination="Xwi-T9-Bqp" id="uR4-41-3ts"/>
                         <outlet property="petImg" destination="Htf-Mc-USI" id="cV6-6q-6eh"/>
                         <outlet property="startBox" destination="Hae-gw-LQL" id="2Rr-aC-eTL"/>
-                        <outlet property="talkButton" destination="Xwi-T9-Bqp" id="O48-J0-cs3"/>
-                        <outlet property="typeButton" destination="YLl-qh-9Yj" id="kOs-YU-3GS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="js5-wL-rN2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3009" y="2159"/>
+            <point key="canvasLocation" x="3008.8000000000002" y="2158.4707646176912"/>
         </scene>
     </scenes>
     <resources>
+        <image name="apple" width="600" height="600"/>
         <image name="arrowicon" width="74" height="51"/>
         <image name="backofcard" width="111" height="160"/>
         <image name="basicskyline" width="789" height="150"/>
