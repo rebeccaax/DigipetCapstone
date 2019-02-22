@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sgx-Yj-ML6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.15" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sgx-Yj-ML6">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.9"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -2212,7 +2212,7 @@
         <!--Game One Talk View-->
         <scene sceneID="R8O-G2-f0J">
             <objects>
-                <viewController storyboardIdentifier="L1GameOneTalkView" id="jeE-5m-ngB" customClass="L1GameOneTalkView" customModule="DigipetCapstone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mazeGame" id="jeE-5m-ngB" customClass="L1GameOneTalkView" customModule="DigipetCapstone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v3g-ki-1tg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2305,7 +2305,7 @@
         <!--Game Two Talk View-->
         <scene sceneID="ZvM-Xh-KOP">
             <objects>
-                <viewController storyboardIdentifier="L2GameTwoTalkView" id="1sd-xH-fmD" customClass="L2GameTwoTalkView" customModule="DigipetCapstone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="bodypartsGame" id="1sd-xH-fmD" customClass="L2GameTwoTalkView" customModule="DigipetCapstone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gM6-x2-DTc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
