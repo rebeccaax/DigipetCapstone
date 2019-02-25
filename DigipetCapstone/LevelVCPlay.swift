@@ -18,7 +18,7 @@ class LevelVCPlay : UIViewController {
     var l5Games = [Minigame]()
     var l6Games = [Minigame]()
     
-    let minigame1 = Minigame(name: "Basics I", prevImg: "china", fileDest: "L1GameOne", infoVH: "walk in this direction for x number of steps", infoDir: "Guide the pet throught the maze!", startDesc: "think and thonk and thunk and think and thonk and thunk and think and thonk and thunk and uwu and hello and is this thing on")!
+    let minigame1 = Minigame(name: "Basics I", prevImg: "china", fileDest: "L1GameOne", infoVH: "walk in this direction for x number of steps", infoDir: "Guide the pet through the maze!", startDesc: "think and thonk and thunk and think and thonk and thunk and think and thonk and thunk and uwu and hello and is this thing on")!
     let minigame2 = Minigame(name: "Basics II", prevImg: "china", fileDest: "L1GameTwo", infoVH: "apple, man, woman, dog, cat, picture, people, draw, sing...", infoDir: "Match cards and say what's on them to collect them.", startDesc: "Learn basic nouns, verbs, and numbers.")!
     let minigame3 = Minigame(name: "testing", prevImg: "china", fileDest: "ha2", infoVH: "vocab vocab vocab najadea aeijfubaw dwfaef", infoDir: "game desc dnwse fjswie nvweih dhfwseh jd j jwieuuwa", startDesc: "think and thonk and thunk and think and thonk and thunk and think and thonk and thunk and uwu and hello and is this thing on")!
     let minigame4 = Minigame(name: "bwahaha", prevImg: "china", fileDest: "ha", infoVH: "vocab vocab vocab najadea aeijfubaw dwfaef", infoDir: "game desc dnwse fjswie nvweih dhfwseh jd j jwieuuwa", startDesc: "think and thonk and thunk and think and thonk and thunk and think and thonk and thunk and uwu and hello and is this thing on")!

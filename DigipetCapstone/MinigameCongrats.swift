@@ -8,27 +8,31 @@
 
 import UIKit
 
-extension UILabel {
-    /*var numberOfVisibleLines: Int {
+/*extension UILabel {
+    var numberOfVisibleLines: Int {
      let textSize = CGSize(width: CGFloat(self.frame.size.width), height: CGFloat(MAXFLOAT))
      let rHeight: Int = lroundf(Float(self.sizeThatFits(textSize).height))
      let charSize: Int = lroundf(Float(self.font.pointSize))
      return (rHeight / charSize) + 1
      }
-     } */
+     }
+}
+ */
     
     class MinigameCongrats : UIViewController {
         
-        var level : String = "0"
-        var minigame : Minigame?
-        var lang = 0
+        var level : String = "1"
+        var minigameName : String?
+        var completionHandler: (() -> String)?
+        var lang = "china"
+        //0
         
         @IBOutlet weak var startBox: UIView!
         @IBOutlet weak var petImg: UIImageView!
-        @IBOutlet weak var minigameName: UILabel!
-        @IBOutlet weak var minigameDesc: UILabel!
+        @IBOutlet weak var congratsText: UILabel!
         @IBOutlet weak var homeButton: GameButton!
         @IBOutlet weak var againButton: GameButton!
+        
         
         override func viewDidLoad() {
             super.viewDidLoad()
@@ -56,33 +60,28 @@ extension UILabel {
             
             if let language = UserDefaults.standard.string(forKey: "language") {
                 switch language {
-                case "zh_Hans":
-                    lang = 0
-                    break
                 case "fr_FR":
-                    lang = 2
+                    lang = "france"
                     break
                 case "es_ES":
-                    lang = 1
+                    lang = "spain"
                     break
                 default:
-                    lang = 0
+                    lang = "china"
                     
                 }
             } else {
-                lang = 0
+                lang = "china"
             }
             
-            /*petImg.image = UIImage(named: (minigame?.prevImg[lang])!)*/
+            petImg.image = UIImage(named: lang)
+           
+            congratsText.text = "You won!"
             
-            minigameName.text = minigame?.name.uppercased()
-            
-            if minigameName.numberOfVisibleLines > 1 {
+            /*if minigameName.numberOfVisibleLines > 1 {
                 minigameDesc.numberOfLines = 3
-            }
+            } */
             //YOU STILL NEED TO MOVE THE TEXT UP HERE!!!!!
-            
-            minigameDesc.text = minigame?.startDesc
             
             homeButton.layer.borderColor = UIColor(red: 108/255.0, green: 1, blue: 111/255.0, alpha: 1).cgColor
             homeButton.layer.cornerRadius = 14
@@ -103,16 +102,25 @@ extension UILabel {
             self.dismiss(animated: true, completion: nil)
         }
         
-        @IBAction func againButtonTouched(_ sender: Any) {
+        
+        @IBAction func homeButtonTouched(_ sender: GameButton) {
             self.transitioningDelegate = RZTransitionsManager.shared()
-            let nextViewController = storyboard?.instantiateViewController(withIdentifier: (minigame?.fileDest)! + "TypeView")
+            let nextViewController = storyboard?.instantiateViewController(withIdentifier: "playScreen")
             nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
             self.present(nextViewController!, animated:true) {}
         }
         
-        @IBAction func homeButtonTouched(_ sender: Any) {
+        @IBAction func againButtonTouched(_ sender: GameButton) {
+            
+            // so minigame doesn't exist
+            //let fileDest = completionHandler?()
+            
+            
             self.transitioningDelegate = RZTransitionsManager.shared()
-            let nextViewController = storyboard?.instantiateViewController(withIdentifier: (minigame?.fileDest)! + "TalkView")
+           /* let nextViewController = storyboard?.instantiateViewController(withIdentifier: (minigame?.fileDest)! + "TalkView") */
+            
+            let nextViewController = storyboard?.instantiateViewController(withIdentifier: (minigameName! + "TalkView"))
+            
             nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
             self.present(nextViewController!, animated:true) {}
         }
@@ -123,5 +131,5 @@ extension UILabel {
         
         
     }
-}
+//}
 

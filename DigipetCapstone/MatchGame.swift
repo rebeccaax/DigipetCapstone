@@ -98,6 +98,9 @@ class MatchGame: UIViewController, SFSpeechRecognizerDelegate {
         ],
         [
             ["白饭"],["le riz", "les riz"],["el arroz", "los arroces"]
+        ],
+        [
+            ["奶酪"],["le fromage", "les fromages"],["el queso", "los quesos"]
         ]
     ]
     
@@ -105,7 +108,7 @@ class MatchGame: UIViewController, SFSpeechRecognizerDelegate {
     var matchCard = -1
     
     
-    var randomHalf = (1...8).map{_ in Int(arc4random_uniform(5))}
+    var randomHalf = (1...8).map{_ in Int(arc4random_uniform(6))}
     var random: [Int] = []
     var flipped: Int = 0
     var flippedNum: Int = -1
@@ -244,9 +247,12 @@ class MatchGame: UIViewController, SFSpeechRecognizerDelegate {
             return #imageLiteral(resourceName: "meat")
         } else if card == 3 {
             return #imageLiteral(resourceName: "egg")
-        } else {
+        } else if card == 4 {
             return #imageLiteral(resourceName: "rice")
+        } else {
+            return #imageLiteral(resourceName: "cheese")
         }
+        
             
     }
     func cardTouch(num: Int) {
@@ -292,7 +298,7 @@ class MatchGame: UIViewController, SFSpeechRecognizerDelegate {
             var check = transKey[random[matchNum]][langArray]
             var looper = false
             for phrase in check {
-                if phrase.contains(detectedText){
+                if detectedText.contains(phrase){
                     looper = true
                 }
             }
