@@ -105,6 +105,14 @@
                                     <action selector="silhouetteGameTouched:" destination="sgx-Yj-ML6" eventType="touchUpInside" id="R4x-jB-T25"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DpQ-b3-B6S">
+                                <rect key="frame" x="-100" y="10" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="apple"/>
+                                <connections>
+                                    <action selector="testButtonTouched:" destination="sgx-Yj-ML6" eventType="touchUpInside" id="prH-6U-g8f"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -662,7 +670,7 @@
         <scene sceneID="fWY-io-2DH">
             <objects>
                 <viewController storyboardIdentifier="levelVC" id="mFk-7B-P2V" customClass="LevelVC" customModule="DigipetCapstone" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="9Id-5w-ynd">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="9Id-5w-ynd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -697,7 +705,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LESSONS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gb1-O5-8nH">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="LESSONS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gb1-O5-8nH">
                                 <rect key="frame" x="77" y="119" width="221" height="46"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="46" id="Fq9-93-DUR"/>
@@ -707,15 +715,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2XF-fJ-NCc">
+                            <containerView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2XF-fJ-NCc">
                                 <rect key="frame" x="0.0" y="175" width="375" height="492"/>
                                 <connections>
                                     <segue destination="vj3-Fy-UNY" kind="embed" id="EKy-s4-gTD"/>
                                 </connections>
                             </containerView>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6H8-CL-vqo">
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6H8-CL-vqo">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="zTn-DM-83n">
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="zTn-DM-83n">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
@@ -2215,7 +2223,7 @@
         <!--Game One Talk View-->
         <scene sceneID="R8O-G2-f0J">
             <objects>
-                <viewController storyboardIdentifier="L1GameOneTalkView" id="jeE-5m-ngB" customClass="L1GameOneTalkView" customModule="DigipetCapstone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mazeGame" id="jeE-5m-ngB" customClass="L1GameOneTalkView" customModule="DigipetCapstone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v3g-ki-1tg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2308,7 +2316,7 @@
         <!--Game Two Talk View-->
         <scene sceneID="ZvM-Xh-KOP">
             <objects>
-                <viewController storyboardIdentifier="L2GameTwoTalkView" id="1sd-xH-fmD" customClass="L2GameTwoTalkView" customModule="DigipetCapstone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="bodypartsGame" id="1sd-xH-fmD" customClass="L2GameTwoTalkView" customModule="DigipetCapstone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gM6-x2-DTc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2640,6 +2648,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="apple" width="600" height="600"/>
         <image name="arrowicon" width="74" height="51"/>
         <image name="backofcard" width="111" height="160"/>
         <image name="basicskyline" width="789" height="150"/>

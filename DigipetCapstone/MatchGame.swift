@@ -295,7 +295,7 @@ class MatchGame: UIViewController, SFSpeechRecognizerDelegate {
             isRecording = false
            
             
-            var check = transKey[random[matchNum]][langArray]
+            let check = transKey[random[matchNum]][langArray]
             var looper = false
             for phrase in check {
                 if detectedText.contains(phrase){
