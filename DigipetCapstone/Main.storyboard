@@ -450,7 +450,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5PA-cV-MAK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5230" y="-81"/>
+            <point key="canvasLocation" x="2156" y="2701"/>
         </scene>
         <!--Match Game-->
         <scene sceneID="V5T-eU-LWW">
@@ -2586,17 +2586,66 @@
             </objects>
             <point key="canvasLocation" x="3008.8000000000002" y="2158.4707646176912"/>
         </scene>
+        <!--Game One Talk View-->
+        <scene sceneID="ldD-yM-vrR">
+            <objects>
+                <viewController storyboardIdentifier="L2GameOneTalkView" id="SfY-fc-Olg" customClass="L2GameOneTalkView" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YHJ-7B-kax">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <skView contentMode="scaleToFill" fixedFrame="YES" sceneName="L1GameOne.sks" translatesAutoresizingMaskIntoConstraints="NO" id="hVY-J2-8yq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </skView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ErQ-Vf-3eM">
+                                <rect key="frame" x="15" y="40" width="35" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="arrowicon"/>
+                                <connections>
+                                    <action selector="backButtonTouched:" destination="SfY-fc-Olg" eventType="touchUpInside" id="HEs-kY-lCJ"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pb9-2M-5hl">
+                                <rect key="frame" x="75" y="35" width="220" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xmk-Jy-IT2">
+                                <rect key="frame" x="147" y="567" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="talk"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="SfY-fc-Olg" eventType="touchDown" id="a1a-Ro-qEy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="STt-He-40e"/>
+                    </view>
+                    <connections>
+                        <outlet property="myView" destination="hVY-J2-8yq" id="W2r-LB-AEN"/>
+                        <outlet property="talkButton" destination="Xmk-Jy-IT2" id="zTj-su-mjR"/>
+                        <outlet property="textField" destination="Pb9-2M-5hl" id="NRR-P9-Euy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jC3-C6-RGZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1328.8" y="2912.2938530734637"/>
+        </scene>
     </scenes>
     <resources>
         <image name="apple" width="600" height="600"/>
         <image name="arrowicon" width="74" height="51"/>
         <image name="backofcard" width="111" height="160"/>
         <image name="basicskyline" width="789" height="150"/>
-        <image name="china" width="300.239990234375" height="414.72000122070312"/>
+        <image name="china" width="1251" height="1728"/>
         <image name="clouds" width="1138" height="801"/>
         <image name="learnbutton" width="214" height="220"/>
         <image name="logo" width="586" height="456"/>
-        <image name="mazeWall" width="122.40000152587891" height="123.83999633789062"/>
+        <image name="mazeWall" width="510" height="516"/>
         <image name="menuicon" width="67" height="49"/>
         <image name="playbutton" width="215" height="220"/>
         <image name="settings" width="72" height="73"/>
