@@ -22,6 +22,10 @@ class L1LessonTwoTalkView : UIViewController, SFSpeechRecognizerDelegate {
     var request = SFSpeechAudioBufferRecognitionRequest()
     var recognitionTask: SFSpeechRecognitionTask?
     var isRecording = false
+    var buttonPressCounter : Int = 0
+    var lang : Int = 0
+    var hintCounter : Int = 0
+    var hints: [String] = ["say hi", "one apple","two dogs","five cats", "how many cars do you have?","how many books do you have?", "one thousand","goodbye", "hello", "eight people", "three people", "goodbye"]
     
     @IBAction func backButtonTouched(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
@@ -116,17 +120,50 @@ class L1LessonTwoTalkView : UIViewController, SFSpeechRecognizerDelegate {
             talkButton.setImage(UIImage(named: "talk"), for: UIControlState.normal)
             let correct: Bool = (myView.scene as! L1LessonTwo).checkAnswer(answer: textField.text!)
             let done: Bool! = (myView.scene as! L1LessonTwo).isDone()
+            let hintBool : Bool! = (buttonPressCounter >= 3)
+            
+            
+            if (hintBool) {
+                print("test")
+                textField.text = self.hints[self.hintCounter]
+                Timer.scheduledTimer(withTimeInterval: 1, repeats: false) {
+                    timer in
+                    self.textField.text = ""
+                }
+                self.buttonPressCounter += 1
+            }
+            
+            else if (!correct) {
+                textField.text = "👎"
+                Timer.scheduledTimer(withTimeInterval: 1, repeats: false) {
+                    timer in
+                    self.textField.text = ""
+                }
+                self.buttonPressCounter += 1
+            }
             
             if (correct) {
-                textField.text = ""
+                textField.text = "👍"
+                Timer.scheduledTimer(withTimeInterval: 1, repeats: false) {
+                    timer in
+                    self.textField.text = ""
+                }
+                self.buttonPressCounter = 0
+                self.hintCounter += 1
             }
             
             if (correct && done) {
+                // MUST CHANGE THIS SOMEHOW
                 self.transitioningDelegate = RZTransitionsManager.shared()
-                let nextViewController = storyboard?.instantiateViewController(withIdentifier: "matchGame")
+                let nextViewController = storyboard?.instantiateViewController(withIdentifier: "minigameCongrats")
+                
+                (nextViewController as! MinigameCongrats).minigameName = "L1LessonTwo"
                 nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
                 self.present(nextViewController!, animated: true) {}
+                self.buttonPressCounter = 0
+                self.hintCounter = 0
             }
+            
             
         } else {
             self.recordAndRecognizeSpeech()

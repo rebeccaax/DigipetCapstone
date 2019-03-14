@@ -42,7 +42,7 @@ class L1LessonTwo: SKScene {
     let petImgs = ["china", "spain", "france"]
     
     var prompts: [[String]] = [["你好", "我有","三个苹果","我有","几个苹果？" ,"我有","六只狗","我有","几只狗？","我有","四只猫","我有","几只猫？","我有","九辆车","我有","七本书","怎么说","谢谢！","再见！","你好","在这张照片里","有几个人？","几个人","跑步？","非常好！","再见！"],["¡Hola!", "Tengo", "tres manzanas","¿Cuántas manzanas","tengo?" ,"Tengo", "seis perros","¿Cuántos perros", "tengo?","Tengo", "cuatro gatos","¿Cuántos gatos", "tengo?","Tengo", "nueve autos", "Tengo", "siete libros","¿Cómo se dice","¡Gracias！","Adiós！","¡Hola!","¿Cuántas personas", "hay en esta foto?","¿Cuántas personas", "corren?","¡Asombroso!", "¡Adiós!"],["Bonjour!", "J'ai", "trois pommes", "J'ai", "combien de pommes?", "J'ai","six chiens","J'ai","combien de chiens?","J'ai","quatre chats","J'ai","combien de chats","J'ai","neuf voitures", "J'ai","sept livres","Comment dit-on","Merci!","Au revoir!","Bonjour!","Il y a combien de gens","sur cette photo?","Combien de gens","courent?","Bon trvail!","Au revoir!"]]
-    
+
     override func didMove(to view: SKView) {
         if let language = UserDefaults.standard.string(forKey: "language") {
             switch language {
@@ -234,7 +234,9 @@ class L1LessonTwo: SKScene {
         pointer.isHidden = true
         
         array = [entranceAnimation, math1, math2, math3, ask1, ask2, bigNumber, goodbye1, reentrance, people1, people2, goodbye2]
-        correctAnswers = [[["你好"], ["1个苹果"], ["2只狗"], ["5只猫"], ["你有几辆车"], ["你有几本书"], ["一千"], ["再见"], ["你好"], ["8个人"], ["3个人"], ["再见"]],[["hola", "¡hola!"], ["una manzana", "una", "tienes una manzana"],["dos perros", "dos", "tienes dos perros"],["cinco gatos", "cinco", "tienes cinco gatos"],["cuántos autos tienes", "¿cuántos autos tienes?"],["¿cuántos libros tienes?", "cuántos libros tienes"],["mil"],["adiós", "¡adiós!"],["hola", "¡hola!"], ["ocho personas", "ocho"], ["tres personas", "tres"], ["adiós", "¡adiós!"]],[["bonjour", "bonjour!", "salut", "salut!"],["une pomme","une", "tu as une pomme"], ["deux chiens", "deux", "tu as deux chiens"], ["cinq chats", "cinq", "tu as cinq chats"],["combien de voitures as-tu?", "tu as combien de voitures?", "combien de voitures as-tu", "tu as combien de voitures"],["combien de livres as-tu?", "combien de livres as-tu", "tu as combien de livres?", "tu as combien de livres"],["mille", "une mille"],["au revoir", "au revoir!"],["bonjour", "bonjour!", "salut", "salut!"],["huit gens", "huit"], ["trois gens", "trois"], ["au revoir", "au revoir!"]]]
+        correctAnswers = [[["你好。"], ["一个苹果"], ["两只狗。"], ["五只猫"], ["你有几辆车？"], ["你有几本书？"], ["一千。"], ["再见。"], ["你好。"], ["八个人。"], ["三个人。"], ["再见。"]],[["hola", "¡hola!"], ["una manzana", "una", "tienes una manzana"],["dos perros", "dos", "tienes dos perros"],["cinco gatos", "cinco", "tienes cinco gatos"],["cuántos autos tienes", "¿cuántos autos tienes?"],["¿cuántos libros tienes?", "cuántos libros tienes"],["mil"],["adiós", "¡adiós!"],["hola", "¡hola!"], ["ocho personas", "ocho"], ["tres personas", "tres"], ["adiós", "¡adiós!"]],[["bonjour", "bonjour!", "salut", "salut!"],["une pomme","une", "tu as une pomme"], ["deux chiens", "deux", "tu as deux chiens"], ["cinq chats", "cinq", "tu as cinq chats"],["combien de voitures as-tu?", "tu as combien de voitures?", "combien de voitures as-tu", "tu as combien de voitures"],["combien de livres as-tu?", "combien de livres as-tu", "tu as combien de livres?", "tu as combien de livres"],["mille", "une mille"],["au revoir", "au revoir!"],["bonjour", "bonjour!", "salut", "salut!"],["huit gens", "huit"], ["trois gens", "trois"], ["au revoir", "au revoir!"]]]
+    
+        
         runLesson()
     }
 
