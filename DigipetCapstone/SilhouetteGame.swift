@@ -257,7 +257,7 @@ class SilhouetteGame : UIViewController, SFSpeechRecognizerDelegate {
         textView.layer.borderWidth = 2
         textView.layer.cornerRadius = 10
         
-        randArray = [0, 1, 2, 3, 4, 5, 6, 7, 8 , 9, 10, 11]
+        randArray = [0, 1, 2, 3, 4, 5, 6, 7, 8 , 9]
         randArray.shuffle()
         
         setGuess()
