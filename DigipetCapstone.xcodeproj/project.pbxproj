@@ -76,11 +76,14 @@
 		11689888222422A90059F58F /* L1LessonThree.sks in Resources */ = {isa = PBXBuildFile; fileRef = 11689887222422A90059F58F /* L1LessonThree.sks */; };
 		1190F2EE222DC839007631E5 /* L1LessonThreeTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1190F2ED222DC839007631E5 /* L1LessonThreeTalkView.swift */; };
 		11BBFE4821F01A1500708598 /* MinigameCongrats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BBFE4721F01A1500708598 /* MinigameCongrats.swift */; };
+		123B6CF2EF64B7E87FA92A25 /* Pods_DigipetCapstone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBDF50D6260A8959E65B774 /* Pods_DigipetCapstone.framework */; };
 		2E31E0BB21E3D54F00CE52B7 /* L1GameOneTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E31E0BA21E3D54F00CE52B7 /* L1GameOneTypeView.swift */; };
 		2EAE700121E70CC5009A9009 /* MinigameCongratsBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE700021E70CC5009A9009 /* MinigameCongratsBox.swift */; };
 		2EC0EBAB21D3FFB500F5DDCE /* L1GameOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC0EBAA21D3FFB500F5DDCE /* L1GameOne.swift */; };
 		2EC5437E21C29E770098F2E4 /* L1GameOne.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2EC5437D21C29E770098F2E4 /* L1GameOne.sks */; };
 		2EFAD3A421BCD370004B4FCB /* L1GameOneTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAD3A321BCD370004B4FCB /* L1GameOneTalkView.swift */; };
+		52FE787CCBD507C47A4579FD /* Pods_DigipetCapstoneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007EB7F874014545270C7E98 /* Pods_DigipetCapstoneUITests.framework */; };
+		55C216A9636DFE22AB242C0F /* Pods_DigipetCapstoneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F06FBC72B958D5A2B5D06776 /* Pods_DigipetCapstoneTests.framework */; };
 		6ABACA1120ADBDFB001794E4 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABACA1020ADBDFB001794E4 /* SettingsPage.swift */; };
 /* End PBXBuildFile section */
 
@@ -108,6 +111,7 @@
 		0079CC3720A9BBA1002296D8 /* MinigameStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigameStart.swift; sourceTree = "<group>"; };
 		0079CC3920A9BC40002296D8 /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
 		0079CC3B20A9BC74002296D8 /* GameTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewController.swift; sourceTree = "<group>"; };
+		007EB7F874014545270C7E98 /* Pods_DigipetCapstoneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigipetCapstoneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0200321820AA5DE0003FB481 /* Play2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play2.swift; sourceTree = "<group>"; };
 		0223288820A082C0002A2646 /* Digipet-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Digipet-Bridging-Header.h"; sourceTree = "<group>"; };
 		0228973220B500570098E0E3 /* LevelVCPlay2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelVCPlay2.swift; sourceTree = "<group>"; };
@@ -203,12 +207,20 @@
 		11689887222422A90059F58F /* L1LessonThree.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = L1LessonThree.sks; sourceTree = "<group>"; };
 		1190F2ED222DC839007631E5 /* L1LessonThreeTalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonThreeTalkView.swift; sourceTree = "<group>"; };
 		11BBFE4721F01A1500708598 /* MinigameCongrats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigameCongrats.swift; sourceTree = "<group>"; };
+		1BC670389A7D9B850E4ABA37 /* Pods-DigipetCapstoneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigipetCapstoneUITests.release.xcconfig"; path = "Target Support Files/Pods-DigipetCapstoneUITests/Pods-DigipetCapstoneUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2E31E0BA21E3D54F00CE52B7 /* L1GameOneTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1GameOneTypeView.swift; sourceTree = "<group>"; };
 		2EAE700021E70CC5009A9009 /* MinigameCongratsBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigameCongratsBox.swift; sourceTree = "<group>"; };
 		2EC0EBAA21D3FFB500F5DDCE /* L1GameOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1GameOne.swift; sourceTree = "<group>"; };
 		2EC5437D21C29E770098F2E4 /* L1GameOne.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = L1GameOne.sks; sourceTree = "<group>"; };
 		2EFAD3A321BCD370004B4FCB /* L1GameOneTalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1GameOneTalkView.swift; sourceTree = "<group>"; };
+		404D7ABE947C64524C162327 /* Pods-DigipetCapstone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigipetCapstone.debug.xcconfig"; path = "Target Support Files/Pods-DigipetCapstone/Pods-DigipetCapstone.debug.xcconfig"; sourceTree = "<group>"; };
+		4DC7352459BC714336C32BAF /* Pods-DigipetCapstoneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigipetCapstoneUITests.debug.xcconfig"; path = "Target Support Files/Pods-DigipetCapstoneUITests/Pods-DigipetCapstoneUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6ABACA1020ADBDFB001794E4 /* SettingsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		77A4240E6BC030A91612DCD5 /* Pods-DigipetCapstoneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigipetCapstoneTests.debug.xcconfig"; path = "Target Support Files/Pods-DigipetCapstoneTests/Pods-DigipetCapstoneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CBDF50D6260A8959E65B774 /* Pods_DigipetCapstone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigipetCapstone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C033F632FBCACA461DCB1C /* Pods-DigipetCapstoneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigipetCapstoneTests.release.xcconfig"; path = "Target Support Files/Pods-DigipetCapstoneTests/Pods-DigipetCapstoneTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6FEDCDCA85A369E5988429A /* Pods-DigipetCapstone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigipetCapstone.release.xcconfig"; path = "Target Support Files/Pods-DigipetCapstone/Pods-DigipetCapstone.release.xcconfig"; sourceTree = "<group>"; };
+		F06FBC72B958D5A2B5D06776 /* Pods_DigipetCapstoneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigipetCapstoneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +228,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				123B6CF2EF64B7E87FA92A25 /* Pods_DigipetCapstone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +236,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C216A9636DFE22AB242C0F /* Pods_DigipetCapstoneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +244,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52FE787CCBD507C47A4579FD /* Pods_DigipetCapstoneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +259,8 @@
 				025B45F720A08009006849EE /* DigipetCapstoneTests */,
 				025B460220A08009006849EE /* DigipetCapstoneUITests */,
 				025B45DB20A08008006849EE /* Products */,
+				670041050FA2D190A9264BD7 /* Pods */,
+				2BC1B4401BD50E3B58C06E69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -445,6 +462,29 @@
 			path = Scenes;
 			sourceTree = "<group>";
 		};
+		2BC1B4401BD50E3B58C06E69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CBDF50D6260A8959E65B774 /* Pods_DigipetCapstone.framework */,
+				F06FBC72B958D5A2B5D06776 /* Pods_DigipetCapstoneTests.framework */,
+				007EB7F874014545270C7E98 /* Pods_DigipetCapstoneUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		670041050FA2D190A9264BD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				404D7ABE947C64524C162327 /* Pods-DigipetCapstone.debug.xcconfig */,
+				B6FEDCDCA85A369E5988429A /* Pods-DigipetCapstone.release.xcconfig */,
+				77A4240E6BC030A91612DCD5 /* Pods-DigipetCapstoneTests.debug.xcconfig */,
+				A1C033F632FBCACA461DCB1C /* Pods-DigipetCapstoneTests.release.xcconfig */,
+				4DC7352459BC714336C32BAF /* Pods-DigipetCapstoneUITests.debug.xcconfig */,
+				1BC670389A7D9B850E4ABA37 /* Pods-DigipetCapstoneUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -452,9 +492,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 025B460820A08009006849EE /* Build configuration list for PBXNativeTarget "DigipetCapstone" */;
 			buildPhases = (
+				0004D2B5A71EBC2C2E5BD393 /* [CP] Check Pods Manifest.lock */,
 				025B45D620A08008006849EE /* Sources */,
 				025B45D720A08008006849EE /* Frameworks */,
 				025B45D820A08008006849EE /* Resources */,
+				C7C66509F4423BB6E0114BEB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -469,6 +511,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 025B460B20A08009006849EE /* Build configuration list for PBXNativeTarget "DigipetCapstoneTests" */;
 			buildPhases = (
+				95DABE463CF0DBD7BBAB66FF /* [CP] Check Pods Manifest.lock */,
 				025B45F020A08009006849EE /* Sources */,
 				025B45F120A08009006849EE /* Frameworks */,
 				025B45F220A08009006849EE /* Resources */,
@@ -487,6 +530,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 025B460E20A08009006849EE /* Build configuration list for PBXNativeTarget "DigipetCapstoneUITests" */;
 			buildPhases = (
+				DBAAB70805A5A5BA180A8EC5 /* [CP] Check Pods Manifest.lock */,
 				025B45FB20A08009006849EE /* Sources */,
 				025B45FC20A08009006849EE /* Frameworks */,
 				025B45FD20A08009006849EE /* Resources */,
@@ -578,6 +622,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0004D2B5A71EBC2C2E5BD393 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DigipetCapstone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95DABE463CF0DBD7BBAB66FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DigipetCapstoneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7C66509F4423BB6E0114BEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DigipetCapstone/Pods-DigipetCapstone-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DigipetCapstone/Pods-DigipetCapstone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBAAB70805A5A5BA180A8EC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DigipetCapstoneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		025B45D620A08008006849EE /* Sources */ = {
@@ -797,10 +934,11 @@
 		};
 		025B460920A08009006849EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 404D7ABE947C64524C162327 /* Pods-DigipetCapstone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A9JWVD6Z87;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DigipetCapstone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -816,10 +954,11 @@
 		};
 		025B460A20A08009006849EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6FEDCDCA85A369E5988429A /* Pods-DigipetCapstone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A9JWVD6Z87;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DigipetCapstone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -835,6 +974,7 @@
 		};
 		025B460C20A08009006849EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A4240E6BC030A91612DCD5 /* Pods-DigipetCapstoneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -856,6 +996,7 @@
 		};
 		025B460D20A08009006849EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C033F632FBCACA461DCB1C /* Pods-DigipetCapstoneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -877,6 +1018,7 @@
 		};
 		025B460F20A08009006849EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DC7352459BC714336C32BAF /* Pods-DigipetCapstoneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -897,6 +1039,7 @@
 		};
 		025B461020A08009006849EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BC670389A7D9B850E4ABA37 /* Pods-DigipetCapstoneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
