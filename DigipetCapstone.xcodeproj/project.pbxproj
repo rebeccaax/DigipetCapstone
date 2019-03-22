@@ -69,6 +69,10 @@
 		026F42FE20A5C2490098EC23 /* L1LessonOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F42F720A5C2490098EC23 /* L1LessonOne.swift */; };
 		026F42FF20A5C2490098EC23 /* L1LessonOneTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F42F820A5C2490098EC23 /* L1LessonOneTalkView.swift */; };
 		026F430120A5C53A0098EC23 /* L1LessonTwoTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F430020A5C53A0098EC23 /* L1LessonTwoTalkView.swift */; };
+		04F3B69E22450963008DF5CE /* L1LessonFour.sks in Resources */ = {isa = PBXBuildFile; fileRef = 04F3B69D22450963008DF5CE /* L1LessonFour.sks */; };
+		04F3B6A0224509B8008DF5CE /* L1LessonFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3B69F224509B8008DF5CE /* L1LessonFour.swift */; };
+		04F3B6A222450A37008DF5CE /* L1LessonFourTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3B6A122450A37008DF5CE /* L1LessonFourTalkView.swift */; };
+		04F3B6A422450A60008DF5CE /* L1LessonFourTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3B6A322450A60008DF5CE /* L1LessonFourTypeView.swift */; };
 		11294044221382CF00548879 /* L2GameTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11294043221382CF00548879 /* L2GameTwo.swift */; };
 		112940462213B44B00548879 /* L2GameTwo.sks in Resources */ = {isa = PBXBuildFile; fileRef = 112940452213B44B00548879 /* L2GameTwo.sks */; };
 		113332012217CA96004C507B /* L2GameTwoTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113332002217CA96004C507B /* L2GameTwoTalkView.swift */; };
@@ -200,6 +204,10 @@
 		026F42F720A5C2490098EC23 /* L1LessonOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonOne.swift; sourceTree = "<group>"; };
 		026F42F820A5C2490098EC23 /* L1LessonOneTalkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonOneTalkView.swift; sourceTree = "<group>"; };
 		026F430020A5C53A0098EC23 /* L1LessonTwoTalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonTwoTalkView.swift; sourceTree = "<group>"; };
+		04F3B69D22450963008DF5CE /* L1LessonFour.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = L1LessonFour.sks; sourceTree = "<group>"; };
+		04F3B69F224509B8008DF5CE /* L1LessonFour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonFour.swift; sourceTree = "<group>"; };
+		04F3B6A122450A37008DF5CE /* L1LessonFourTalkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonFourTalkView.swift; sourceTree = "<group>"; };
+		04F3B6A322450A60008DF5CE /* L1LessonFourTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonFourTypeView.swift; sourceTree = "<group>"; };
 		11294043221382CF00548879 /* L2GameTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L2GameTwo.swift; sourceTree = "<group>"; };
 		112940452213B44B00548879 /* L2GameTwo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = L2GameTwo.sks; sourceTree = "<group>"; };
 		113332002217CA96004C507B /* L2GameTwoTalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L2GameTwoTalkView.swift; sourceTree = "<group>"; };
@@ -298,9 +306,13 @@
 				113B3DB2222030FB00111AAD /* L1LessonThree.swift */,
 				1190F2ED222DC839007631E5 /* L1LessonThreeTalkView.swift */,
 				026F42F320A5C2480098EC23 /* L1LessonTwo.sks */,
+				04F3B69D22450963008DF5CE /* L1LessonFour.sks */,
 				026F42F520A5C2480098EC23 /* L1LessonTwo.swift */,
+				04F3B69F224509B8008DF5CE /* L1LessonFour.swift */,
 				026F430020A5C53A0098EC23 /* L1LessonTwoTalkView.swift */,
+				04F3B6A122450A37008DF5CE /* L1LessonFourTalkView.swift */,
 				026F42F420A5C2480098EC23 /* L1LessonTwoTypeView.swift */,
+				04F3B6A322450A60008DF5CE /* L1LessonFourTypeView.swift */,
 				112940452213B44B00548879 /* L2GameTwo.sks */,
 				11294043221382CF00548879 /* L2GameTwo.swift */,
 				113332002217CA96004C507B /* L2GameTwoTalkView.swift */,
@@ -601,6 +613,7 @@
 				025B46C920A0820D006849EE /* Main.storyboard in Resources */,
 				026F42F920A5C2490098EC23 /* L1LessonOne.sks in Resources */,
 				025B46C720A081FA006849EE /* Assets.xcassets in Resources */,
+				04F3B69E22450963008DF5CE /* L1LessonFour.sks in Resources */,
 				2EC5437E21C29E770098F2E4 /* L1GameOne.sks in Resources */,
 				11689888222422A90059F58F /* L1LessonThree.sks in Resources */,
 				025B46A020A0811C006849EE /* Actions.sks in Resources */,
@@ -762,15 +775,18 @@
 				025B464B20A080E4006849EE /* RZZoomPushAnimationController.m in Sources */,
 				025B46A920A08190006849EE /* GameViewController.swift in Sources */,
 				0079CC3620A9B9A3002296D8 /* Minigame.swift in Sources */,
+				04F3B6A222450A37008DF5CE /* L1LessonFourTalkView.swift in Sources */,
 				0079CC3220A9B50D002296D8 /* Play.swift in Sources */,
 				0228973320B500570098E0E3 /* LevelVCPlay2.swift in Sources */,
 				025B46C120A081C0006849EE /* LessonStartBox.swift in Sources */,
 				025B46C020A081C0006849EE /* LessonRow.swift in Sources */,
 				0079CC3820A9BBA1002296D8 /* MinigameStart.swift in Sources */,
+				04F3B6A422450A60008DF5CE /* L1LessonFourTypeView.swift in Sources */,
 				0079CC3420A9B8F6002296D8 /* LevelVCPlay.swift in Sources */,
 				025B464A20A080E4006849EE /* RZTransitionsNavigationController.m in Sources */,
 				0228973520B639CD0098E0E3 /* GameTableViewController2.swift in Sources */,
 				113332012217CA96004C507B /* L2GameTwoTalkView.swift in Sources */,
+				04F3B6A0224509B8008DF5CE /* L1LessonFour.swift in Sources */,
 				025B465020A080E4006849EE /* RZRectZoomAnimationController.m in Sources */,
 				025B46A420A08139006849EE /* GameScene.swift in Sources */,
 				025B46BF20A081C0006849EE /* LessonInfoBox.swift in Sources */,

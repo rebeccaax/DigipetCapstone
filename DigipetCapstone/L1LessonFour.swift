@@ -41,7 +41,7 @@ class L1LessonFour: SKScene {
     
     let petImgs = ["china", "spain", "france"]
     
-    var prompts: [[String]] = [["你好", "天气","怎么样?","天气","怎么样?","天气","怎么样?","我有","九辆车","我有","七本书","怎么说","谢谢！","再见！","你好","在这张照片里","有几个人？","几个人","跑步？","非常好！","再见！"],["¡Hola!", "Tengo", "tres manzanas","¿Cuántas manzanas","tengo?" ,"Tengo", "seis perros","¿Cuántos perros", "tengo?","Tengo", "cuatro gatos","¿Cuántos gatos", "tengo?","Tengo", "nueve autos", "Tengo", "siete libros","¿Cómo se dice","¡Gracias！","Adiós！","¡Hola!","¿Cuántas personas", "hay en esta foto?","¿Cuántas personas", "corren?","¡Asombroso!", "¡Adiós!"],["Bonjour!", "J'ai", "trois pommes", "J'ai", "combien de pommes?", "J'ai","six chiens","J'ai","combien de chiens?","J'ai","quatre chats","J'ai","combien de chats","J'ai","neuf voitures", "J'ai","sept livres","Comment dit-on","Merci!","Au revoir!","Bonjour!","Il y a combien de gens","sur cette photo?","Combien de gens","courent?","Bon trvail!","Au revoir!"]]
+    var prompts: [[String]] = [["你好", "天气","怎样？","天气","怎样？" ,"我有","六只狗","我有","几只狗？","我有","四只猫","我有","几只猫？","我有","九辆车","我有","七本书","怎么说","谢谢！","再见！","你好","在这张照片里","有几个人？","几个人","跑步？","非常好！","再见！"],["¡Hola!", "Tengo", "tres manzanas","¿Cuántas manzanas","tengo?" ,"Tengo", "seis perros","¿Cuántos perros", "tengo?","Tengo", "cuatro gatos","¿Cuántos gatos", "tengo?","Tengo", "nueve autos", "Tengo", "siete libros","¿Cómo se dice","¡Gracias！","Adiós！","¡Hola!","¿Cuántas personas", "hay en esta foto?","¿Cuántas personas", "corren?","¡Asombroso!", "¡Adiós!"],["Bonjour!", "J'ai", "trois pommes", "J'ai", "combien de pommes?", "J'ai","six chiens","J'ai","combien de chiens?","J'ai","quatre chats","J'ai","combien de chats","J'ai","neuf voitures", "J'ai","sept livres","Comment dit-on","Merci!","Au revoir!","Bonjour!","Il y a combien de gens","sur cette photo?","Combien de gens","courent?","Bon trvail!","Au revoir!"]]
 
     override func didMove(to view: SKView) {
         if let language = UserDefaults.standard.string(forKey: "language") {
@@ -282,7 +282,7 @@ class L1LessonFour: SKScene {
         //talkButton.isHidden = true
         for i in (0..<frameText.count) {
             if i % 4 == 0 {
-                frameText[i].text = "🌧"
+                frameText[i].text = "🍎"
             } else {
                 frameText[i].text = " "
             }
@@ -323,7 +323,7 @@ class L1LessonFour: SKScene {
         
         for i in (0..<frameText.count) {
             if i < 3 || i > 5 {
-                frameText[i].text = "❄️"
+                frameText[i].text = "🐶"
             } else {
                 frameText[i].text = " "
             }
@@ -361,7 +361,7 @@ class L1LessonFour: SKScene {
         //talkButton.isHidden = true
         for i in (0..<frameText.count) {
             if i % 2 == 1 {
-                frameText[i].text = "☀️"
+                frameText[i].text = "🐱"
             } else {
                 frameText[i].text = " "
             }

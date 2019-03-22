@@ -25,7 +25,7 @@ class L1LessonFourTalkView : UIViewController, SFSpeechRecognizerDelegate {
     var buttonPressCounter : Int = 0
     var lang : Int = 0
     var hintCounter : Int = 0
-    var hints: [String] = ["say hi", "it's raining","it's snowing","it's sunny", "how many cars do you have?","how many books do you have?", "one thousand","goodbye", "hello", "eight people", "three people", "goodbye"]
+    var hints: [String] = ["say hi", "one apple","two dogs","five cats", "how many cars do you have?","how many books do you have?", "one thousand","goodbye", "hello", "eight people", "three people", "goodbye"]
     
     @IBAction func backButtonTouched(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
