@@ -75,6 +75,7 @@
 		113B3DB3222030FC00111AAD /* L1LessonThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113B3DB2222030FB00111AAD /* L1LessonThree.swift */; };
 		11689888222422A90059F58F /* L1LessonThree.sks in Resources */ = {isa = PBXBuildFile; fileRef = 11689887222422A90059F58F /* L1LessonThree.sks */; };
 		1190F2EE222DC839007631E5 /* L1LessonThreeTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1190F2ED222DC839007631E5 /* L1LessonThreeTalkView.swift */; };
+		11B8064B2243BB7600D7524A /* L1LessonThreeTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8064A2243BB7600D7524A /* L1LessonThreeTypeView.swift */; };
 		11BBFE4821F01A1500708598 /* MinigameCongrats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BBFE4721F01A1500708598 /* MinigameCongrats.swift */; };
 		2E31E0BB21E3D54F00CE52B7 /* L1GameOneTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E31E0BA21E3D54F00CE52B7 /* L1GameOneTypeView.swift */; };
 		2EAE700121E70CC5009A9009 /* MinigameCongratsBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE700021E70CC5009A9009 /* MinigameCongratsBox.swift */; };
@@ -202,6 +203,7 @@
 		113B3DB2222030FB00111AAD /* L1LessonThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonThree.swift; sourceTree = "<group>"; };
 		11689887222422A90059F58F /* L1LessonThree.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = L1LessonThree.sks; sourceTree = "<group>"; };
 		1190F2ED222DC839007631E5 /* L1LessonThreeTalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonThreeTalkView.swift; sourceTree = "<group>"; };
+		11B8064A2243BB7600D7524A /* L1LessonThreeTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonThreeTypeView.swift; sourceTree = "<group>"; };
 		11BBFE4721F01A1500708598 /* MinigameCongrats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigameCongrats.swift; sourceTree = "<group>"; };
 		2E31E0BA21E3D54F00CE52B7 /* L1GameOneTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1GameOneTypeView.swift; sourceTree = "<group>"; };
 		2EAE700021E70CC5009A9009 /* MinigameCongratsBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigameCongratsBox.swift; sourceTree = "<group>"; };
@@ -286,6 +288,7 @@
 				026F42F420A5C2480098EC23 /* L1LessonTwoTypeView.swift */,
 				112940452213B44B00548879 /* L2GameTwo.sks */,
 				11294043221382CF00548879 /* L2GameTwo.swift */,
+				11B8064A2243BB7600D7524A /* L1LessonThreeTypeView.swift */,
 				113332002217CA96004C507B /* L2GameTwoTalkView.swift */,
 				025B46C420A081D6006849EE /* LaunchScreen.storyboard */,
 				025B46B420A081B1006849EE /* Learn.swift */,
@@ -640,6 +643,7 @@
 				025B45DE20A08008006849EE /* AppDelegate.swift in Sources */,
 				2EFAD3A421BCD370004B4FCB /* L1GameOneTalkView.swift in Sources */,
 				025B465820A080E4006849EE /* RZUniqueTransition.m in Sources */,
+				11B8064B2243BB7600D7524A /* L1LessonThreeTypeView.swift in Sources */,
 				025B46B120A0819A006849EE /* SilhouetteGame.swift in Sources */,
 				025B464620A080E4006849EE /* RZTransitionsManager.m in Sources */,
 				025B46B820A081B2006849EE /* Learn.swift in Sources */,

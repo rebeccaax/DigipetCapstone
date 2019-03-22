@@ -227,10 +227,7 @@ class L1LessonThree: SKScene {
     // fade in transition for open fridge
     
     func sayHello() {
-        Timer.scheduledTimer(withTimeInterval: 2, repeats: false) {
-            timer in
-            self.Pet1.run(self.walkIn)
-        }
+        self.Pet1.run(self.walkIn)
         
         Timer.scheduledTimer(withTimeInterval: 4, repeats: false) {
             timer in
@@ -345,6 +342,9 @@ class L1LessonThree: SKScene {
             timer in
             self.pet1Text.text = ""
         }
+        //cryyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyskskskskskkkskskkssksksksksksksksksksskskshhhssjjjjjjjjhjjj
+        
+        done = true
     }
     
     
