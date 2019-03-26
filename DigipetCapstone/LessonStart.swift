@@ -106,6 +106,7 @@ class LessonStart : UIViewController {
     @IBAction func typeButtonTouched(_ sender: Any) {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: (lesson?.fileDest)! + "TypeView")
+            
         nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }

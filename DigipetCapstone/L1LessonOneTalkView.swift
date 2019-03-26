@@ -124,7 +124,7 @@ class L1LessonOneTalkView : UIViewController, SFSpeechRecognizerDelegate {
             
             if (correct && done) {
                 self.transitioningDelegate = RZTransitionsManager.shared()
-                let nextViewController = storyboard?.instantiateViewController(withIdentifier: "silhouetteGame")
+                let nextViewController = storyboard?.instantiateViewController(withIdentifier: "mazeGame")
                 nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
                 self.present(nextViewController!, animated: true) {}
             }

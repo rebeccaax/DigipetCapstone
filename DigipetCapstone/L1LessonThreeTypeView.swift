@@ -1,9 +1,9 @@
 //
-//  NewL1LessonOne.swift
-//  Digipet
+//  L1LessonThreeTypeView.swift
+//  DigipetCapstone
 //
-//  Created by Nicholas Kassoy on 3/13/18.
-//  Copyright © 2018 Katie Katz. All rights reserved.
+//  Created by Cassandra on 3/21/19.
+//  Copyright © 2019 Katie Katz. All rights reserved.
 //
 
 import Foundation
@@ -11,13 +11,14 @@ import UIKit
 import SpriteKit
 import GameplayKit
 
-class L1LessonOneTypeView : UIViewController {
+class L1LessonThreeTypeView : UIViewController {
     
     @IBOutlet weak var myView: SKView!
+    
     @IBOutlet weak var talkButton: UIButton!
     @IBOutlet weak var textField: UITextField!
     
-    var myScene: L1LessonOne = L1LessonOne()
+    var myScene: L1LessonThree = L1LessonThree()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,8 +35,8 @@ class L1LessonOneTypeView : UIViewController {
     
     @IBAction func answerDone(_ sender: UITextField) {
         //myScene.checkAnswer(answer: textField.text!)
-        let correct: Bool = (myView.scene as! L1LessonOne).checkAnswer(answer: textField.text!)
-        let done: Bool! = (myView.scene as! L1LessonOne).isDone()
+        let correct: Bool = (myView.scene as! L1LessonThree).checkAnswer(answer: textField.text!)
+        let done: Bool! = (myView.scene as! L1LessonThree).isDone()
         
         if (correct) {
             textField.text = ""
@@ -67,7 +68,7 @@ class L1LessonOneTypeView : UIViewController {
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-
+        
     }
     
     override var shouldAutorotate: Bool {
@@ -91,3 +92,4 @@ class L1LessonOneTypeView : UIViewController {
         return true
     }
 }
+
