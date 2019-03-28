@@ -47,7 +47,7 @@ class L1GameOne : SKScene {
     
     override func didMove(to view: SKView) {
         
-        self.backgroundColor = UIColor.green
+        self.backgroundColor = UIColor.white
         
         
     /*MinigameCongrats.completionHandler = { */
