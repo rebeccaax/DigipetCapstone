@@ -42,13 +42,12 @@ class SettingsPage : UIViewController {
     }
     // stan loona
     
-    @IBAction func pressLogIn(_ sender: Any) {
+    @IBAction func pressLogin(_ sender: Any) {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "loginPage")
         nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
-    
     
     @IBAction func backButtonTouched(_ sender: Any) {
         if UserDefaults.standard.string(forKey: "language") == "zh_Hans" {
