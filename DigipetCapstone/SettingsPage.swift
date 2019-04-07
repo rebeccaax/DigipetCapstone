@@ -14,6 +14,7 @@ class SettingsPage : UIViewController {
     @IBOutlet weak var chineseButton: UIButton!
     @IBOutlet weak var spanishButton: UIButton!
     @IBOutlet weak var frenchButton: UIButton!
+    @IBOutlet weak var progressButton: UIButton!
     @IBOutlet weak var currentLanguage: UILabel!
     let languages = ["中文", "Français","Español"]
     override func viewDidLoad() {
@@ -45,6 +46,13 @@ class SettingsPage : UIViewController {
     @IBAction func pressLogin(_ sender: Any) {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "loginPage")
+        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        self.present(nextViewController!, animated:true) {}
+    }
+    
+    @IBAction func pressProgress(_ sender: Any) {
+        self.transitioningDelegate = RZTransitionsManager.shared()
+        let nextViewController = storyboard?.instantiateViewController(withIdentifier: "progressScreen")
         nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }

@@ -1,231 +1,233 @@
 // !$*UTF8*$!
 {
-    archiveVersion = 1;
-    classes = {
-    };
-    objectVersion = 50;
-    objects = {
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
 
 /* Begin PBXBuildFile section */
-        0079CC3220A9B50D002296D8 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0079CC3120A9B50D002296D8 /* Play.swift */; };
-        0079CC3420A9B8F6002296D8 /* LevelVCPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0079CC3320A9B8F6002296D8 /* LevelVCPlay.swift */; };
-        0079CC3620A9B9A3002296D8 /* Minigame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0079CC3520A9B9A3002296D8 /* Minigame.swift */; };
-        0079CC3820A9BBA1002296D8 /* MinigameStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0079CC3720A9BBA1002296D8 /* MinigameStart.swift */; };
-        0079CC3A20A9BC40002296D8 /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0079CC3920A9BC40002296D8 /* GameTableViewCell.swift */; };
-        0079CC3C20A9BC74002296D8 /* GameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0079CC3B20A9BC74002296D8 /* GameTableViewController.swift */; };
-        0200321920AA5DE0003FB481 /* Play2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0200321820AA5DE0003FB481 /* Play2.swift */; };
-        0228973320B500570098E0E3 /* LevelVCPlay2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228973220B500570098E0E3 /* LevelVCPlay2.swift */; };
-        0228973520B639CD0098E0E3 /* GameTableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228973420B639CD0098E0E3 /* GameTableViewController2.swift */; };
-        0228973720B63ADE0098E0E3 /* GameTableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228973620B63ADE0098E0E3 /* GameTableViewCell2.swift */; };
-        025B45DE20A08008006849EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B45DD20A08008006849EE /* AppDelegate.swift */; };
-        025B45F920A08009006849EE /* DigipetCapstoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B45F820A08009006849EE /* DigipetCapstoneTests.swift */; };
-        025B460420A08009006849EE /* DigipetCapstoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B460320A08009006849EE /* DigipetCapstoneUITests.swift */; };
-        025B461220A0809C006849EE /* VoiceRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B461120A0809C006849EE /* VoiceRecognition.swift */; };
-        025B464620A080E4006849EE /* RZTransitionsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B461620A080E4006849EE /* RZTransitionsManager.m */; };
-        025B464720A080E4006849EE /* NSObject+RZTransitionsViewHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B461920A080E4006849EE /* NSObject+RZTransitionsViewHelpers.m */; };
-        025B464820A080E4006849EE /* UIImage+RZTransitionsSnapshotHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B461A20A080E4006849EE /* UIImage+RZTransitionsSnapshotHelpers.m */; };
-        025B464920A080E4006849EE /* UIImage+RZTransitionsFastImageBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B461C20A080E4006849EE /* UIImage+RZTransitionsFastImageBlur.m */; };
-        025B464A20A080E4006849EE /* RZTransitionsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B462020A080E4006849EE /* RZTransitionsNavigationController.m */; };
-        025B464B20A080E4006849EE /* RZZoomPushAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B462520A080E4006849EE /* RZZoomPushAnimationController.m */; };
-        025B464C20A080E4006849EE /* RZZoomAlphaAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B462720A080E4006849EE /* RZZoomAlphaAnimationController.m */; };
-        025B464D20A080E4006849EE /* RZSegmentControlMoveFadeAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B462920A080E4006849EE /* RZSegmentControlMoveFadeAnimationController.m */; };
-        025B464E20A080E4006849EE /* RZCardSlideAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B462D20A080E4006849EE /* RZCardSlideAnimationController.m */; };
-        025B464F20A080E4006849EE /* RZZoomBlurAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B462F20A080E4006849EE /* RZZoomBlurAnimationController.m */; };
-        025B465020A080E4006849EE /* RZRectZoomAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B463020A080E4006849EE /* RZRectZoomAnimationController.m */; };
-        025B465120A080E4006849EE /* RZShrinkZoomAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B463220A080E4006849EE /* RZShrinkZoomAnimationController.m */; };
-        025B465220A080E4006849EE /* RZCirclePushAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B463420A080E4006849EE /* RZCirclePushAnimationController.m */; };
-        025B465320A080E4006849EE /* RZBaseSwipeInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B463620A080E4006849EE /* RZBaseSwipeInteractionController.m */; };
-        025B465420A080E4006849EE /* RZHorizontalInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B463820A080E4006849EE /* RZHorizontalInteractionController.m */; };
-        025B465520A080E4006849EE /* RZVerticalSwipeInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B463A20A080E4006849EE /* RZVerticalSwipeInteractionController.m */; };
-        025B465620A080E4006849EE /* RZOverscrollInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B463B20A080E4006849EE /* RZOverscrollInteractionController.m */; };
-        025B465720A080E4006849EE /* RZPinchInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B463F20A080E4006849EE /* RZPinchInteractionController.m */; };
-        025B465820A080E4006849EE /* RZUniqueTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B464520A080E4006849EE /* RZUniqueTransition.m */; };
-        025B46A020A0811C006849EE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 025B469F20A0811C006849EE /* Actions.sks */; };
-        025B46A320A08139006849EE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 025B46A120A08138006849EE /* GameScene.sks */; };
-        025B46A420A08139006849EE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46A220A08138006849EE /* GameScene.swift */; };
-        025B46A720A0816F006849EE /* Plumpfull.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 025B46A620A0816F006849EE /* Plumpfull.ttf */; };
-        025B46A920A08190006849EE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46A820A08190006849EE /* GameViewController.swift */; };
-        025B46AE20A0819A006849EE /* LevelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46AA20A0819A006849EE /* LevelVC.swift */; };
-        025B46AF20A0819A006849EE /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46AB20A0819A006849EE /* MainScreen.swift */; };
-        025B46B020A0819A006849EE /* LessonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46AC20A0819A006849EE /* LessonTableViewCell.swift */; };
-        025B46B120A0819A006849EE /* SilhouetteGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46AD20A0819A006849EE /* SilhouetteGame.swift */; };
-        025B46B620A081B2006849EE /* LessonStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46B220A081B1006849EE /* LessonStart.swift */; };
-        025B46B720A081B2006849EE /* MatchGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46B320A081B1006849EE /* MatchGame.swift */; };
-        025B46B820A081B2006849EE /* Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46B420A081B1006849EE /* Learn.swift */; };
-        025B46B920A081B2006849EE /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46B520A081B2006849EE /* Lesson.swift */; };
-        025B46BF20A081C0006849EE /* LessonInfoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46BA20A081BF006849EE /* LessonInfoBox.swift */; };
-        025B46C020A081C0006849EE /* LessonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46BB20A081BF006849EE /* LessonRow.swift */; };
-        025B46C120A081C0006849EE /* LessonStartBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46BC20A081BF006849EE /* LessonStartBox.swift */; };
-        025B46C220A081C0006849EE /* LessonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46BD20A081BF006849EE /* LessonTableViewController.swift */; };
-        025B46C320A081C0006849EE /* SwiftySKScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46BE20A081BF006849EE /* SwiftySKScrollView.swift */; };
-        025B46C520A081D7006849EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025B46C420A081D6006849EE /* LaunchScreen.storyboard */; };
-        025B46C720A081FA006849EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 025B46C620A081F9006849EE /* Assets.xcassets */; };
-        025B46C920A0820D006849EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025B46C820A0820D006849EE /* Main.storyboard */; };
-        026F42F920A5C2490098EC23 /* L1LessonOne.sks in Resources */ = {isa = PBXBuildFile; fileRef = 026F42F220A5C2480098EC23 /* L1LessonOne.sks */; };
-        026F42FA20A5C2490098EC23 /* L1LessonTwo.sks in Resources */ = {isa = PBXBuildFile; fileRef = 026F42F320A5C2480098EC23 /* L1LessonTwo.sks */; };
-        026F42FB20A5C2490098EC23 /* L1LessonTwoTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F42F420A5C2480098EC23 /* L1LessonTwoTypeView.swift */; };
-        026F42FC20A5C2490098EC23 /* L1LessonTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F42F520A5C2480098EC23 /* L1LessonTwo.swift */; };
-        026F42FD20A5C2490098EC23 /* L1LessonOneTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F42F620A5C2480098EC23 /* L1LessonOneTypeView.swift */; };
-        026F42FE20A5C2490098EC23 /* L1LessonOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F42F720A5C2490098EC23 /* L1LessonOne.swift */; };
-        026F42FF20A5C2490098EC23 /* L1LessonOneTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F42F820A5C2490098EC23 /* L1LessonOneTalkView.swift */; };
-        026F430120A5C53A0098EC23 /* L1LessonTwoTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F430020A5C53A0098EC23 /* L1LessonTwoTalkView.swift */; };
+		0079CC3220A9B50D002296D8 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0079CC3120A9B50D002296D8 /* Play.swift */; };
+		0079CC3420A9B8F6002296D8 /* LevelVCPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0079CC3320A9B8F6002296D8 /* LevelVCPlay.swift */; };
+		0079CC3620A9B9A3002296D8 /* Minigame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0079CC3520A9B9A3002296D8 /* Minigame.swift */; };
+		0079CC3820A9BBA1002296D8 /* MinigameStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0079CC3720A9BBA1002296D8 /* MinigameStart.swift */; };
+		0079CC3A20A9BC40002296D8 /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0079CC3920A9BC40002296D8 /* GameTableViewCell.swift */; };
+		0079CC3C20A9BC74002296D8 /* GameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0079CC3B20A9BC74002296D8 /* GameTableViewController.swift */; };
+		0200321920AA5DE0003FB481 /* Play2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0200321820AA5DE0003FB481 /* Play2.swift */; };
+		0228973320B500570098E0E3 /* LevelVCPlay2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228973220B500570098E0E3 /* LevelVCPlay2.swift */; };
+		0228973520B639CD0098E0E3 /* GameTableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228973420B639CD0098E0E3 /* GameTableViewController2.swift */; };
+		0228973720B63ADE0098E0E3 /* GameTableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228973620B63ADE0098E0E3 /* GameTableViewCell2.swift */; };
+		025B45DE20A08008006849EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B45DD20A08008006849EE /* AppDelegate.swift */; };
+		025B45F920A08009006849EE /* DigipetCapstoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B45F820A08009006849EE /* DigipetCapstoneTests.swift */; };
+		025B460420A08009006849EE /* DigipetCapstoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B460320A08009006849EE /* DigipetCapstoneUITests.swift */; };
+		025B461220A0809C006849EE /* VoiceRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B461120A0809C006849EE /* VoiceRecognition.swift */; };
+		025B464620A080E4006849EE /* RZTransitionsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B461620A080E4006849EE /* RZTransitionsManager.m */; };
+		025B464720A080E4006849EE /* NSObject+RZTransitionsViewHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B461920A080E4006849EE /* NSObject+RZTransitionsViewHelpers.m */; };
+		025B464820A080E4006849EE /* UIImage+RZTransitionsSnapshotHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B461A20A080E4006849EE /* UIImage+RZTransitionsSnapshotHelpers.m */; };
+		025B464920A080E4006849EE /* UIImage+RZTransitionsFastImageBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B461C20A080E4006849EE /* UIImage+RZTransitionsFastImageBlur.m */; };
+		025B464A20A080E4006849EE /* RZTransitionsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B462020A080E4006849EE /* RZTransitionsNavigationController.m */; };
+		025B464B20A080E4006849EE /* RZZoomPushAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B462520A080E4006849EE /* RZZoomPushAnimationController.m */; };
+		025B464C20A080E4006849EE /* RZZoomAlphaAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B462720A080E4006849EE /* RZZoomAlphaAnimationController.m */; };
+		025B464D20A080E4006849EE /* RZSegmentControlMoveFadeAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B462920A080E4006849EE /* RZSegmentControlMoveFadeAnimationController.m */; };
+		025B464E20A080E4006849EE /* RZCardSlideAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B462D20A080E4006849EE /* RZCardSlideAnimationController.m */; };
+		025B464F20A080E4006849EE /* RZZoomBlurAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B462F20A080E4006849EE /* RZZoomBlurAnimationController.m */; };
+		025B465020A080E4006849EE /* RZRectZoomAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B463020A080E4006849EE /* RZRectZoomAnimationController.m */; };
+		025B465120A080E4006849EE /* RZShrinkZoomAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B463220A080E4006849EE /* RZShrinkZoomAnimationController.m */; };
+		025B465220A080E4006849EE /* RZCirclePushAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B463420A080E4006849EE /* RZCirclePushAnimationController.m */; };
+		025B465320A080E4006849EE /* RZBaseSwipeInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B463620A080E4006849EE /* RZBaseSwipeInteractionController.m */; };
+		025B465420A080E4006849EE /* RZHorizontalInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B463820A080E4006849EE /* RZHorizontalInteractionController.m */; };
+		025B465520A080E4006849EE /* RZVerticalSwipeInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B463A20A080E4006849EE /* RZVerticalSwipeInteractionController.m */; };
+		025B465620A080E4006849EE /* RZOverscrollInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B463B20A080E4006849EE /* RZOverscrollInteractionController.m */; };
+		025B465720A080E4006849EE /* RZPinchInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B463F20A080E4006849EE /* RZPinchInteractionController.m */; };
+		025B465820A080E4006849EE /* RZUniqueTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B464520A080E4006849EE /* RZUniqueTransition.m */; };
+		025B46A020A0811C006849EE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 025B469F20A0811C006849EE /* Actions.sks */; };
+		025B46A320A08139006849EE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 025B46A120A08138006849EE /* GameScene.sks */; };
+		025B46A420A08139006849EE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46A220A08138006849EE /* GameScene.swift */; };
+		025B46A720A0816F006849EE /* Plumpfull.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 025B46A620A0816F006849EE /* Plumpfull.ttf */; };
+		025B46A920A08190006849EE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46A820A08190006849EE /* GameViewController.swift */; };
+		025B46AE20A0819A006849EE /* LevelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46AA20A0819A006849EE /* LevelVC.swift */; };
+		025B46AF20A0819A006849EE /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46AB20A0819A006849EE /* MainScreen.swift */; };
+		025B46B020A0819A006849EE /* LessonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46AC20A0819A006849EE /* LessonTableViewCell.swift */; };
+		025B46B120A0819A006849EE /* SilhouetteGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46AD20A0819A006849EE /* SilhouetteGame.swift */; };
+		025B46B620A081B2006849EE /* LessonStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46B220A081B1006849EE /* LessonStart.swift */; };
+		025B46B720A081B2006849EE /* MatchGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46B320A081B1006849EE /* MatchGame.swift */; };
+		025B46B820A081B2006849EE /* Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46B420A081B1006849EE /* Learn.swift */; };
+		025B46B920A081B2006849EE /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46B520A081B2006849EE /* Lesson.swift */; };
+		025B46BF20A081C0006849EE /* LessonInfoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46BA20A081BF006849EE /* LessonInfoBox.swift */; };
+		025B46C020A081C0006849EE /* LessonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46BB20A081BF006849EE /* LessonRow.swift */; };
+		025B46C120A081C0006849EE /* LessonStartBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46BC20A081BF006849EE /* LessonStartBox.swift */; };
+		025B46C220A081C0006849EE /* LessonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46BD20A081BF006849EE /* LessonTableViewController.swift */; };
+		025B46C320A081C0006849EE /* SwiftySKScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B46BE20A081BF006849EE /* SwiftySKScrollView.swift */; };
+		025B46C520A081D7006849EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025B46C420A081D6006849EE /* LaunchScreen.storyboard */; };
+		025B46C720A081FA006849EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 025B46C620A081F9006849EE /* Assets.xcassets */; };
+		025B46C920A0820D006849EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025B46C820A0820D006849EE /* Main.storyboard */; };
+		026F42F920A5C2490098EC23 /* L1LessonOne.sks in Resources */ = {isa = PBXBuildFile; fileRef = 026F42F220A5C2480098EC23 /* L1LessonOne.sks */; };
+		026F42FA20A5C2490098EC23 /* L1LessonTwo.sks in Resources */ = {isa = PBXBuildFile; fileRef = 026F42F320A5C2480098EC23 /* L1LessonTwo.sks */; };
+		026F42FB20A5C2490098EC23 /* L1LessonTwoTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F42F420A5C2480098EC23 /* L1LessonTwoTypeView.swift */; };
+		026F42FC20A5C2490098EC23 /* L1LessonTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F42F520A5C2480098EC23 /* L1LessonTwo.swift */; };
+		026F42FD20A5C2490098EC23 /* L1LessonOneTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F42F620A5C2480098EC23 /* L1LessonOneTypeView.swift */; };
+		026F42FE20A5C2490098EC23 /* L1LessonOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F42F720A5C2490098EC23 /* L1LessonOne.swift */; };
+		026F42FF20A5C2490098EC23 /* L1LessonOneTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F42F820A5C2490098EC23 /* L1LessonOneTalkView.swift */; };
+		026F430120A5C53A0098EC23 /* L1LessonTwoTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F430020A5C53A0098EC23 /* L1LessonTwoTalkView.swift */; };
 		04F3B69E22450963008DF5CE /* L1LessonFour.sks in Resources */ = {isa = PBXBuildFile; fileRef = 04F3B69D22450963008DF5CE /* L1LessonFour.sks */; };
 		04F3B6A0224509B8008DF5CE /* L1LessonFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3B69F224509B8008DF5CE /* L1LessonFour.swift */; };
 		04F3B6A222450A37008DF5CE /* L1LessonFourTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3B6A122450A37008DF5CE /* L1LessonFourTalkView.swift */; };
 		04F3B6A422450A60008DF5CE /* L1LessonFourTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3B6A322450A60008DF5CE /* L1LessonFourTypeView.swift */; };
-        11294044221382CF00548879 /* L2GameTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11294043221382CF00548879 /* L2GameTwo.swift */; };
-        112940462213B44B00548879 /* L2GameTwo.sks in Resources */ = {isa = PBXBuildFile; fileRef = 112940452213B44B00548879 /* L2GameTwo.sks */; };
-        113332012217CA96004C507B /* L2GameTwoTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113332002217CA96004C507B /* L2GameTwoTalkView.swift */; };
-        113B3DB3222030FC00111AAD /* L1LessonThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113B3DB2222030FB00111AAD /* L1LessonThree.swift */; };
-        11689888222422A90059F58F /* L1LessonThree.sks in Resources */ = {isa = PBXBuildFile; fileRef = 11689887222422A90059F58F /* L1LessonThree.sks */; };
-        1190F2EE222DC839007631E5 /* L1LessonThreeTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1190F2ED222DC839007631E5 /* L1LessonThreeTalkView.swift */; };
-        11B8064B2243BB7600D7524A /* L1LessonThreeTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8064A2243BB7600D7524A /* L1LessonThreeTypeView.swift */; };
-        11BBFE4821F01A1500708598 /* MinigameCongrats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BBFE4721F01A1500708598 /* MinigameCongrats.swift */; };
-		123B6CF2EF64B7E87FA92A25 /* Pods_DigipetCapstone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBDF50D6260A8959E65B774 /* Pods_DigipetCapstone.framework */; };
-        2E31E0BB21E3D54F00CE52B7 /* L1GameOneTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E31E0BA21E3D54F00CE52B7 /* L1GameOneTypeView.swift */; };
-        2EAE700121E70CC5009A9009 /* MinigameCongratsBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE700021E70CC5009A9009 /* MinigameCongratsBox.swift */; };
-        2EC0EBAB21D3FFB500F5DDCE /* L1GameOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC0EBAA21D3FFB500F5DDCE /* L1GameOne.swift */; };
-        2EC5437E21C29E770098F2E4 /* L1GameOne.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2EC5437D21C29E770098F2E4 /* L1GameOne.sks */; };
-        2EFAD3A421BCD370004B4FCB /* L1GameOneTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAD3A321BCD370004B4FCB /* L1GameOneTalkView.swift */; };
+		11294044221382CF00548879 /* L2GameTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11294043221382CF00548879 /* L2GameTwo.swift */; };
+		112940462213B44B00548879 /* L2GameTwo.sks in Resources */ = {isa = PBXBuildFile; fileRef = 112940452213B44B00548879 /* L2GameTwo.sks */; };
+		113332012217CA96004C507B /* L2GameTwoTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113332002217CA96004C507B /* L2GameTwoTalkView.swift */; };
+		113B3DB3222030FC00111AAD /* L1LessonThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113B3DB2222030FB00111AAD /* L1LessonThree.swift */; };
+		11689888222422A90059F58F /* L1LessonThree.sks in Resources */ = {isa = PBXBuildFile; fileRef = 11689887222422A90059F58F /* L1LessonThree.sks */; };
+		1190F2EE222DC839007631E5 /* L1LessonThreeTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1190F2ED222DC839007631E5 /* L1LessonThreeTalkView.swift */; };
+		11B8064B2243BB7600D7524A /* L1LessonThreeTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8064A2243BB7600D7524A /* L1LessonThreeTypeView.swift */; };
+		11BB746022538D6000EDFC80 /* ProgressScreenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BB745F22538D6000EDFC80 /* ProgressScreenTableViewController.swift */; };
+		11BBFE4821F01A1500708598 /* MinigameCongrats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BBFE4721F01A1500708598 /* MinigameCongrats.swift */; };
+		123B6CF2EF64B7E87FA92A25 /* Pods_DigipetCapstone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBDF50D6260A8959E65B774 /* Pods_DigipetCapstone.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		2E31E0BB21E3D54F00CE52B7 /* L1GameOneTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E31E0BA21E3D54F00CE52B7 /* L1GameOneTypeView.swift */; };
+		2EAE700121E70CC5009A9009 /* MinigameCongratsBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE700021E70CC5009A9009 /* MinigameCongratsBox.swift */; };
+		2EC0EBAB21D3FFB500F5DDCE /* L1GameOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC0EBAA21D3FFB500F5DDCE /* L1GameOne.swift */; };
+		2EC5437E21C29E770098F2E4 /* L1GameOne.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2EC5437D21C29E770098F2E4 /* L1GameOne.sks */; };
+		2EFAD3A421BCD370004B4FCB /* L1GameOneTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAD3A321BCD370004B4FCB /* L1GameOneTalkView.swift */; };
 		52FE787CCBD507C47A4579FD /* Pods_DigipetCapstoneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007EB7F874014545270C7E98 /* Pods_DigipetCapstoneUITests.framework */; };
 		55C216A9636DFE22AB242C0F /* Pods_DigipetCapstoneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F06FBC72B958D5A2B5D06776 /* Pods_DigipetCapstoneTests.framework */; };
-        6ABACA1120ADBDFB001794E4 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABACA1020ADBDFB001794E4 /* SettingsPage.swift */; };
+		6ABACA1120ADBDFB001794E4 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABACA1020ADBDFB001794E4 /* SettingsPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-        025B45F520A08009006849EE /* PBXContainerItemProxy */ = {
-            isa = PBXContainerItemProxy;
-            containerPortal = 025B45D220A08008006849EE /* Project object */;
-            proxyType = 1;
-            remoteGlobalIDString = 025B45D920A08008006849EE;
-            remoteInfo = DigipetCapstone;
-        };
-        025B460020A08009006849EE /* PBXContainerItemProxy */ = {
-            isa = PBXContainerItemProxy;
-            containerPortal = 025B45D220A08008006849EE /* Project object */;
-            proxyType = 1;
-            remoteGlobalIDString = 025B45D920A08008006849EE;
-            remoteInfo = DigipetCapstone;
-        };
+		025B45F520A08009006849EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025B45D220A08008006849EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025B45D920A08008006849EE;
+			remoteInfo = DigipetCapstone;
+		};
+		025B460020A08009006849EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025B45D220A08008006849EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025B45D920A08008006849EE;
+			remoteInfo = DigipetCapstone;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-        0079CC3120A9B50D002296D8 /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
-        0079CC3320A9B8F6002296D8 /* LevelVCPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelVCPlay.swift; sourceTree = "<group>"; };
-        0079CC3520A9B9A3002296D8 /* Minigame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minigame.swift; sourceTree = "<group>"; };
-        0079CC3720A9BBA1002296D8 /* MinigameStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigameStart.swift; sourceTree = "<group>"; };
-        0079CC3920A9BC40002296D8 /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
-        0079CC3B20A9BC74002296D8 /* GameTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewController.swift; sourceTree = "<group>"; };
+		0079CC3120A9B50D002296D8 /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
+		0079CC3320A9B8F6002296D8 /* LevelVCPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelVCPlay.swift; sourceTree = "<group>"; };
+		0079CC3520A9B9A3002296D8 /* Minigame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minigame.swift; sourceTree = "<group>"; };
+		0079CC3720A9BBA1002296D8 /* MinigameStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigameStart.swift; sourceTree = "<group>"; };
+		0079CC3920A9BC40002296D8 /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		0079CC3B20A9BC74002296D8 /* GameTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewController.swift; sourceTree = "<group>"; };
 		007EB7F874014545270C7E98 /* Pods_DigipetCapstoneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigipetCapstoneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-        0200321820AA5DE0003FB481 /* Play2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play2.swift; sourceTree = "<group>"; };
-        0223288820A082C0002A2646 /* Digipet-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Digipet-Bridging-Header.h"; sourceTree = "<group>"; };
-        0228973220B500570098E0E3 /* LevelVCPlay2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelVCPlay2.swift; sourceTree = "<group>"; };
-        0228973420B639CD0098E0E3 /* GameTableViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewController2.swift; sourceTree = "<group>"; };
-        0228973620B63ADE0098E0E3 /* GameTableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell2.swift; sourceTree = "<group>"; };
-        025B45DA20A08008006849EE /* DigipetCapstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigipetCapstone.app; sourceTree = BUILT_PRODUCTS_DIR; };
-        025B45DD20A08008006849EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-        025B45EF20A08009006849EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-        025B45F420A08009006849EE /* DigipetCapstoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigipetCapstoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-        025B45F820A08009006849EE /* DigipetCapstoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigipetCapstoneTests.swift; sourceTree = "<group>"; };
-        025B45FA20A08009006849EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-        025B45FF20A08009006849EE /* DigipetCapstoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigipetCapstoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-        025B460320A08009006849EE /* DigipetCapstoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigipetCapstoneUITests.swift; sourceTree = "<group>"; };
-        025B460520A08009006849EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-        025B461120A0809C006849EE /* VoiceRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecognition.swift; sourceTree = "<group>"; };
-        025B461520A080E4006849EE /* RZTransitionsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZTransitionsManager.h; sourceTree = "<group>"; };
-        025B461620A080E4006849EE /* RZTransitionsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZTransitionsManager.m; sourceTree = "<group>"; };
-        025B461820A080E4006849EE /* UIImage+RZTransitionsFastImageBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RZTransitionsFastImageBlur.h"; sourceTree = "<group>"; };
-        025B461920A080E4006849EE /* NSObject+RZTransitionsViewHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RZTransitionsViewHelpers.m"; sourceTree = "<group>"; };
-        025B461A20A080E4006849EE /* UIImage+RZTransitionsSnapshotHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RZTransitionsSnapshotHelpers.m"; sourceTree = "<group>"; };
-        025B461B20A080E4006849EE /* NSObject+RZTransitionsViewHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RZTransitionsViewHelpers.h"; sourceTree = "<group>"; };
-        025B461C20A080E4006849EE /* UIImage+RZTransitionsFastImageBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RZTransitionsFastImageBlur.m"; sourceTree = "<group>"; };
-        025B461D20A080E4006849EE /* UIImage+RZTransitionsSnapshotHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RZTransitionsSnapshotHelpers.h"; sourceTree = "<group>"; };
-        025B461F20A080E4006849EE /* RZTransitionsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZTransitionsNavigationController.h; sourceTree = "<group>"; };
-        025B462020A080E4006849EE /* RZTransitionsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZTransitionsNavigationController.m; sourceTree = "<group>"; };
-        025B462120A080E4006849EE /* RZTransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZTransitions.h; sourceTree = "<group>"; };
-        025B462320A080E4006849EE /* RZAnimationControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZAnimationControllerProtocol.h; sourceTree = "<group>"; };
-        025B462420A080E4006849EE /* RZTransitionsAnimationControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZTransitionsAnimationControllers.h; sourceTree = "<group>"; };
-        025B462520A080E4006849EE /* RZZoomPushAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZZoomPushAnimationController.m; sourceTree = "<group>"; };
-        025B462620A080E4006849EE /* RZCardSlideAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZCardSlideAnimationController.h; sourceTree = "<group>"; };
-        025B462720A080E4006849EE /* RZZoomAlphaAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZZoomAlphaAnimationController.m; sourceTree = "<group>"; };
-        025B462820A080E4006849EE /* RZShrinkZoomAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZShrinkZoomAnimationController.h; sourceTree = "<group>"; };
-        025B462920A080E4006849EE /* RZSegmentControlMoveFadeAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZSegmentControlMoveFadeAnimationController.m; sourceTree = "<group>"; };
-        025B462A20A080E4006849EE /* RZZoomBlurAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZZoomBlurAnimationController.h; sourceTree = "<group>"; };
-        025B462B20A080E4006849EE /* RZRectZoomAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZRectZoomAnimationController.h; sourceTree = "<group>"; };
-        025B462C20A080E4006849EE /* RZCirclePushAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZCirclePushAnimationController.h; sourceTree = "<group>"; };
-        025B462D20A080E4006849EE /* RZCardSlideAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZCardSlideAnimationController.m; sourceTree = "<group>"; };
-        025B462E20A080E4006849EE /* RZZoomPushAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZZoomPushAnimationController.h; sourceTree = "<group>"; };
-        025B462F20A080E4006849EE /* RZZoomBlurAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZZoomBlurAnimationController.m; sourceTree = "<group>"; };
-        025B463020A080E4006849EE /* RZRectZoomAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZRectZoomAnimationController.m; sourceTree = "<group>"; };
-        025B463120A080E4006849EE /* RZSegmentControlMoveFadeAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZSegmentControlMoveFadeAnimationController.h; sourceTree = "<group>"; };
-        025B463220A080E4006849EE /* RZShrinkZoomAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZShrinkZoomAnimationController.m; sourceTree = "<group>"; };
-        025B463320A080E4006849EE /* RZZoomAlphaAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZZoomAlphaAnimationController.h; sourceTree = "<group>"; };
-        025B463420A080E4006849EE /* RZCirclePushAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZCirclePushAnimationController.m; sourceTree = "<group>"; };
-        025B463620A080E4006849EE /* RZBaseSwipeInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZBaseSwipeInteractionController.m; sourceTree = "<group>"; };
-        025B463720A080E4006849EE /* RZOverscrollInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZOverscrollInteractionController.h; sourceTree = "<group>"; };
-        025B463820A080E4006849EE /* RZHorizontalInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZHorizontalInteractionController.m; sourceTree = "<group>"; };
-        025B463920A080E4006849EE /* RZPinchInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZPinchInteractionController.h; sourceTree = "<group>"; };
-        025B463A20A080E4006849EE /* RZVerticalSwipeInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZVerticalSwipeInteractionController.m; sourceTree = "<group>"; };
-        025B463B20A080E4006849EE /* RZOverscrollInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZOverscrollInteractionController.m; sourceTree = "<group>"; };
-        025B463C20A080E4006849EE /* RZBaseSwipeInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZBaseSwipeInteractionController.h; sourceTree = "<group>"; };
-        025B463D20A080E4006849EE /* RZTransitionsInteractionControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZTransitionsInteractionControllers.h; sourceTree = "<group>"; };
-        025B463E20A080E4006849EE /* RZHorizontalInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZHorizontalInteractionController.h; sourceTree = "<group>"; };
-        025B463F20A080E4006849EE /* RZPinchInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZPinchInteractionController.m; sourceTree = "<group>"; };
-        025B464020A080E4006849EE /* RZTransitionInteractionControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZTransitionInteractionControllerProtocol.h; sourceTree = "<group>"; };
-        025B464120A080E4006849EE /* RZVerticalSwipeInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZVerticalSwipeInteractionController.h; sourceTree = "<group>"; };
-        025B464320A080E4006849EE /* RZUniqueTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZUniqueTransition.h; sourceTree = "<group>"; };
-        025B464420A080E4006849EE /* RZTransitionAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZTransitionAction.h; sourceTree = "<group>"; };
-        025B464520A080E4006849EE /* RZUniqueTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZUniqueTransition.m; sourceTree = "<group>"; };
-        025B469F20A0811C006849EE /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-        025B46A120A08138006849EE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-        025B46A220A08138006849EE /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-        025B46A620A0816F006849EE /* Plumpfull.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Plumpfull.ttf; sourceTree = "<group>"; };
-        025B46A820A08190006849EE /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-        025B46AA20A0819A006849EE /* LevelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelVC.swift; sourceTree = "<group>"; };
-        025B46AB20A0819A006849EE /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
-        025B46AC20A0819A006849EE /* LessonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonTableViewCell.swift; sourceTree = "<group>"; };
-        025B46AD20A0819A006849EE /* SilhouetteGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SilhouetteGame.swift; sourceTree = "<group>"; };
-        025B46B220A081B1006849EE /* LessonStart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonStart.swift; sourceTree = "<group>"; };
-        025B46B320A081B1006849EE /* MatchGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchGame.swift; sourceTree = "<group>"; };
-        025B46B420A081B1006849EE /* Learn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Learn.swift; sourceTree = "<group>"; };
-        025B46B520A081B2006849EE /* Lesson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
-        025B46BA20A081BF006849EE /* LessonInfoBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonInfoBox.swift; sourceTree = "<group>"; };
-        025B46BB20A081BF006849EE /* LessonRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonRow.swift; sourceTree = "<group>"; };
-        025B46BC20A081BF006849EE /* LessonStartBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonStartBox.swift; sourceTree = "<group>"; };
-        025B46BD20A081BF006849EE /* LessonTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonTableViewController.swift; sourceTree = "<group>"; };
-        025B46BE20A081BF006849EE /* SwiftySKScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftySKScrollView.swift; sourceTree = "<group>"; };
-        025B46C420A081D6006849EE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-        025B46C620A081F9006849EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-        025B46C820A0820D006849EE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-        026F42F220A5C2480098EC23 /* L1LessonOne.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = L1LessonOne.sks; sourceTree = "<group>"; };
-        026F42F320A5C2480098EC23 /* L1LessonTwo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = L1LessonTwo.sks; sourceTree = "<group>"; };
-        026F42F420A5C2480098EC23 /* L1LessonTwoTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonTwoTypeView.swift; sourceTree = "<group>"; };
-        026F42F520A5C2480098EC23 /* L1LessonTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonTwo.swift; sourceTree = "<group>"; };
-        026F42F620A5C2480098EC23 /* L1LessonOneTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonOneTypeView.swift; sourceTree = "<group>"; };
-        026F42F720A5C2490098EC23 /* L1LessonOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonOne.swift; sourceTree = "<group>"; };
-        026F42F820A5C2490098EC23 /* L1LessonOneTalkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonOneTalkView.swift; sourceTree = "<group>"; };
-        026F430020A5C53A0098EC23 /* L1LessonTwoTalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonTwoTalkView.swift; sourceTree = "<group>"; };
+		0200321820AA5DE0003FB481 /* Play2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play2.swift; sourceTree = "<group>"; };
+		0223288820A082C0002A2646 /* Digipet-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Digipet-Bridging-Header.h"; sourceTree = "<group>"; };
+		0228973220B500570098E0E3 /* LevelVCPlay2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelVCPlay2.swift; sourceTree = "<group>"; };
+		0228973420B639CD0098E0E3 /* GameTableViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewController2.swift; sourceTree = "<group>"; };
+		0228973620B63ADE0098E0E3 /* GameTableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell2.swift; sourceTree = "<group>"; };
+		025B45DA20A08008006849EE /* DigipetCapstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigipetCapstone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		025B45DD20A08008006849EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		025B45EF20A08009006849EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		025B45F420A08009006849EE /* DigipetCapstoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigipetCapstoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		025B45F820A08009006849EE /* DigipetCapstoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigipetCapstoneTests.swift; sourceTree = "<group>"; };
+		025B45FA20A08009006849EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		025B45FF20A08009006849EE /* DigipetCapstoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigipetCapstoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		025B460320A08009006849EE /* DigipetCapstoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigipetCapstoneUITests.swift; sourceTree = "<group>"; };
+		025B460520A08009006849EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		025B461120A0809C006849EE /* VoiceRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecognition.swift; sourceTree = "<group>"; };
+		025B461520A080E4006849EE /* RZTransitionsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZTransitionsManager.h; sourceTree = "<group>"; };
+		025B461620A080E4006849EE /* RZTransitionsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZTransitionsManager.m; sourceTree = "<group>"; };
+		025B461820A080E4006849EE /* UIImage+RZTransitionsFastImageBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RZTransitionsFastImageBlur.h"; sourceTree = "<group>"; };
+		025B461920A080E4006849EE /* NSObject+RZTransitionsViewHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RZTransitionsViewHelpers.m"; sourceTree = "<group>"; };
+		025B461A20A080E4006849EE /* UIImage+RZTransitionsSnapshotHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RZTransitionsSnapshotHelpers.m"; sourceTree = "<group>"; };
+		025B461B20A080E4006849EE /* NSObject+RZTransitionsViewHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RZTransitionsViewHelpers.h"; sourceTree = "<group>"; };
+		025B461C20A080E4006849EE /* UIImage+RZTransitionsFastImageBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RZTransitionsFastImageBlur.m"; sourceTree = "<group>"; };
+		025B461D20A080E4006849EE /* UIImage+RZTransitionsSnapshotHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RZTransitionsSnapshotHelpers.h"; sourceTree = "<group>"; };
+		025B461F20A080E4006849EE /* RZTransitionsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZTransitionsNavigationController.h; sourceTree = "<group>"; };
+		025B462020A080E4006849EE /* RZTransitionsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZTransitionsNavigationController.m; sourceTree = "<group>"; };
+		025B462120A080E4006849EE /* RZTransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZTransitions.h; sourceTree = "<group>"; };
+		025B462320A080E4006849EE /* RZAnimationControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZAnimationControllerProtocol.h; sourceTree = "<group>"; };
+		025B462420A080E4006849EE /* RZTransitionsAnimationControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZTransitionsAnimationControllers.h; sourceTree = "<group>"; };
+		025B462520A080E4006849EE /* RZZoomPushAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZZoomPushAnimationController.m; sourceTree = "<group>"; };
+		025B462620A080E4006849EE /* RZCardSlideAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZCardSlideAnimationController.h; sourceTree = "<group>"; };
+		025B462720A080E4006849EE /* RZZoomAlphaAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZZoomAlphaAnimationController.m; sourceTree = "<group>"; };
+		025B462820A080E4006849EE /* RZShrinkZoomAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZShrinkZoomAnimationController.h; sourceTree = "<group>"; };
+		025B462920A080E4006849EE /* RZSegmentControlMoveFadeAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZSegmentControlMoveFadeAnimationController.m; sourceTree = "<group>"; };
+		025B462A20A080E4006849EE /* RZZoomBlurAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZZoomBlurAnimationController.h; sourceTree = "<group>"; };
+		025B462B20A080E4006849EE /* RZRectZoomAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZRectZoomAnimationController.h; sourceTree = "<group>"; };
+		025B462C20A080E4006849EE /* RZCirclePushAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZCirclePushAnimationController.h; sourceTree = "<group>"; };
+		025B462D20A080E4006849EE /* RZCardSlideAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZCardSlideAnimationController.m; sourceTree = "<group>"; };
+		025B462E20A080E4006849EE /* RZZoomPushAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZZoomPushAnimationController.h; sourceTree = "<group>"; };
+		025B462F20A080E4006849EE /* RZZoomBlurAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZZoomBlurAnimationController.m; sourceTree = "<group>"; };
+		025B463020A080E4006849EE /* RZRectZoomAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZRectZoomAnimationController.m; sourceTree = "<group>"; };
+		025B463120A080E4006849EE /* RZSegmentControlMoveFadeAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZSegmentControlMoveFadeAnimationController.h; sourceTree = "<group>"; };
+		025B463220A080E4006849EE /* RZShrinkZoomAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZShrinkZoomAnimationController.m; sourceTree = "<group>"; };
+		025B463320A080E4006849EE /* RZZoomAlphaAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZZoomAlphaAnimationController.h; sourceTree = "<group>"; };
+		025B463420A080E4006849EE /* RZCirclePushAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZCirclePushAnimationController.m; sourceTree = "<group>"; };
+		025B463620A080E4006849EE /* RZBaseSwipeInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZBaseSwipeInteractionController.m; sourceTree = "<group>"; };
+		025B463720A080E4006849EE /* RZOverscrollInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZOverscrollInteractionController.h; sourceTree = "<group>"; };
+		025B463820A080E4006849EE /* RZHorizontalInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZHorizontalInteractionController.m; sourceTree = "<group>"; };
+		025B463920A080E4006849EE /* RZPinchInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZPinchInteractionController.h; sourceTree = "<group>"; };
+		025B463A20A080E4006849EE /* RZVerticalSwipeInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZVerticalSwipeInteractionController.m; sourceTree = "<group>"; };
+		025B463B20A080E4006849EE /* RZOverscrollInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZOverscrollInteractionController.m; sourceTree = "<group>"; };
+		025B463C20A080E4006849EE /* RZBaseSwipeInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZBaseSwipeInteractionController.h; sourceTree = "<group>"; };
+		025B463D20A080E4006849EE /* RZTransitionsInteractionControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZTransitionsInteractionControllers.h; sourceTree = "<group>"; };
+		025B463E20A080E4006849EE /* RZHorizontalInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZHorizontalInteractionController.h; sourceTree = "<group>"; };
+		025B463F20A080E4006849EE /* RZPinchInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZPinchInteractionController.m; sourceTree = "<group>"; };
+		025B464020A080E4006849EE /* RZTransitionInteractionControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZTransitionInteractionControllerProtocol.h; sourceTree = "<group>"; };
+		025B464120A080E4006849EE /* RZVerticalSwipeInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZVerticalSwipeInteractionController.h; sourceTree = "<group>"; };
+		025B464320A080E4006849EE /* RZUniqueTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZUniqueTransition.h; sourceTree = "<group>"; };
+		025B464420A080E4006849EE /* RZTransitionAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZTransitionAction.h; sourceTree = "<group>"; };
+		025B464520A080E4006849EE /* RZUniqueTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZUniqueTransition.m; sourceTree = "<group>"; };
+		025B469F20A0811C006849EE /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		025B46A120A08138006849EE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		025B46A220A08138006849EE /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		025B46A620A0816F006849EE /* Plumpfull.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Plumpfull.ttf; sourceTree = "<group>"; };
+		025B46A820A08190006849EE /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		025B46AA20A0819A006849EE /* LevelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelVC.swift; sourceTree = "<group>"; };
+		025B46AB20A0819A006849EE /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		025B46AC20A0819A006849EE /* LessonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonTableViewCell.swift; sourceTree = "<group>"; };
+		025B46AD20A0819A006849EE /* SilhouetteGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SilhouetteGame.swift; sourceTree = "<group>"; };
+		025B46B220A081B1006849EE /* LessonStart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonStart.swift; sourceTree = "<group>"; };
+		025B46B320A081B1006849EE /* MatchGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchGame.swift; sourceTree = "<group>"; };
+		025B46B420A081B1006849EE /* Learn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Learn.swift; sourceTree = "<group>"; };
+		025B46B520A081B2006849EE /* Lesson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		025B46BA20A081BF006849EE /* LessonInfoBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonInfoBox.swift; sourceTree = "<group>"; };
+		025B46BB20A081BF006849EE /* LessonRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonRow.swift; sourceTree = "<group>"; };
+		025B46BC20A081BF006849EE /* LessonStartBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonStartBox.swift; sourceTree = "<group>"; };
+		025B46BD20A081BF006849EE /* LessonTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonTableViewController.swift; sourceTree = "<group>"; };
+		025B46BE20A081BF006849EE /* SwiftySKScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftySKScrollView.swift; sourceTree = "<group>"; };
+		025B46C420A081D6006849EE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		025B46C620A081F9006849EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		025B46C820A0820D006849EE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		026F42F220A5C2480098EC23 /* L1LessonOne.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = L1LessonOne.sks; sourceTree = "<group>"; };
+		026F42F320A5C2480098EC23 /* L1LessonTwo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = L1LessonTwo.sks; sourceTree = "<group>"; };
+		026F42F420A5C2480098EC23 /* L1LessonTwoTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonTwoTypeView.swift; sourceTree = "<group>"; };
+		026F42F520A5C2480098EC23 /* L1LessonTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonTwo.swift; sourceTree = "<group>"; };
+		026F42F620A5C2480098EC23 /* L1LessonOneTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonOneTypeView.swift; sourceTree = "<group>"; };
+		026F42F720A5C2490098EC23 /* L1LessonOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonOne.swift; sourceTree = "<group>"; };
+		026F42F820A5C2490098EC23 /* L1LessonOneTalkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonOneTalkView.swift; sourceTree = "<group>"; };
+		026F430020A5C53A0098EC23 /* L1LessonTwoTalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonTwoTalkView.swift; sourceTree = "<group>"; };
 		04F3B69D22450963008DF5CE /* L1LessonFour.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = L1LessonFour.sks; sourceTree = "<group>"; };
 		04F3B69F224509B8008DF5CE /* L1LessonFour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonFour.swift; sourceTree = "<group>"; };
 		04F3B6A122450A37008DF5CE /* L1LessonFourTalkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonFourTalkView.swift; sourceTree = "<group>"; };
 		04F3B6A322450A60008DF5CE /* L1LessonFourTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonFourTypeView.swift; sourceTree = "<group>"; };
-        11294043221382CF00548879 /* L2GameTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L2GameTwo.swift; sourceTree = "<group>"; };
-        112940452213B44B00548879 /* L2GameTwo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = L2GameTwo.sks; sourceTree = "<group>"; };
-        113332002217CA96004C507B /* L2GameTwoTalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L2GameTwoTalkView.swift; sourceTree = "<group>"; };
-        113B3DB2222030FB00111AAD /* L1LessonThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonThree.swift; sourceTree = "<group>"; };
-        11689887222422A90059F58F /* L1LessonThree.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = L1LessonThree.sks; sourceTree = "<group>"; };
-        1190F2ED222DC839007631E5 /* L1LessonThreeTalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonThreeTalkView.swift; sourceTree = "<group>"; };
-        11B8064A2243BB7600D7524A /* L1LessonThreeTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonThreeTypeView.swift; sourceTree = "<group>"; };
-        11BBFE4721F01A1500708598 /* MinigameCongrats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigameCongrats.swift; sourceTree = "<group>"; };
+		11294043221382CF00548879 /* L2GameTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L2GameTwo.swift; sourceTree = "<group>"; };
+		112940452213B44B00548879 /* L2GameTwo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = L2GameTwo.sks; sourceTree = "<group>"; };
+		113332002217CA96004C507B /* L2GameTwoTalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L2GameTwoTalkView.swift; sourceTree = "<group>"; };
+		113B3DB2222030FB00111AAD /* L1LessonThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonThree.swift; sourceTree = "<group>"; };
+		11689887222422A90059F58F /* L1LessonThree.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = L1LessonThree.sks; sourceTree = "<group>"; };
+		1190F2ED222DC839007631E5 /* L1LessonThreeTalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonThreeTalkView.swift; sourceTree = "<group>"; };
+		11B8064A2243BB7600D7524A /* L1LessonThreeTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonThreeTypeView.swift; sourceTree = "<group>"; };
+		11BB745F22538D6000EDFC80 /* ProgressScreenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressScreenTableViewController.swift; sourceTree = "<group>"; };
+		11BBFE4721F01A1500708598 /* MinigameCongrats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigameCongrats.swift; sourceTree = "<group>"; };
 		1BC670389A7D9B850E4ABA37 /* Pods-DigipetCapstoneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigipetCapstoneUITests.release.xcconfig"; path = "Target Support Files/Pods-DigipetCapstoneUITests/Pods-DigipetCapstoneUITests.release.xcconfig"; sourceTree = "<group>"; };
-        2E31E0BA21E3D54F00CE52B7 /* L1GameOneTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1GameOneTypeView.swift; sourceTree = "<group>"; };
-        2EAE700021E70CC5009A9009 /* MinigameCongratsBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigameCongratsBox.swift; sourceTree = "<group>"; };
-        2EC0EBAA21D3FFB500F5DDCE /* L1GameOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1GameOne.swift; sourceTree = "<group>"; };
-        2EC5437D21C29E770098F2E4 /* L1GameOne.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = L1GameOne.sks; sourceTree = "<group>"; };
-        2EFAD3A321BCD370004B4FCB /* L1GameOneTalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1GameOneTalkView.swift; sourceTree = "<group>"; };
+		2E31E0BA21E3D54F00CE52B7 /* L1GameOneTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1GameOneTypeView.swift; sourceTree = "<group>"; };
+		2EAE700021E70CC5009A9009 /* MinigameCongratsBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigameCongratsBox.swift; sourceTree = "<group>"; };
+		2EC0EBAA21D3FFB500F5DDCE /* L1GameOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1GameOne.swift; sourceTree = "<group>"; };
+		2EC5437D21C29E770098F2E4 /* L1GameOne.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = L1GameOne.sks; sourceTree = "<group>"; };
+		2EFAD3A321BCD370004B4FCB /* L1GameOneTalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1GameOneTalkView.swift; sourceTree = "<group>"; };
 		404D7ABE947C64524C162327 /* Pods-DigipetCapstone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigipetCapstone.debug.xcconfig"; path = "Target Support Files/Pods-DigipetCapstone/Pods-DigipetCapstone.debug.xcconfig"; sourceTree = "<group>"; };
 		4DC7352459BC714336C32BAF /* Pods-DigipetCapstoneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigipetCapstoneUITests.debug.xcconfig"; path = "Target Support Files/Pods-DigipetCapstoneUITests/Pods-DigipetCapstoneUITests.debug.xcconfig"; sourceTree = "<group>"; };
-        6ABACA1020ADBDFB001794E4 /* SettingsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		6ABACA1020ADBDFB001794E4 /* SettingsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
 		77A4240E6BC030A91612DCD5 /* Pods-DigipetCapstoneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigipetCapstoneTests.debug.xcconfig"; path = "Target Support Files/Pods-DigipetCapstoneTests/Pods-DigipetCapstoneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7CBDF50D6260A8959E65B774 /* Pods_DigipetCapstone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigipetCapstone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C033F632FBCACA461DCB1C /* Pods-DigipetCapstoneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigipetCapstoneTests.release.xcconfig"; path = "Target Support Files/Pods-DigipetCapstoneTests/Pods-DigipetCapstoneTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -234,247 +236,248 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-        025B45D720A08008006849EE /* Frameworks */ = {
-            isa = PBXFrameworksBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
+		025B45D720A08008006849EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 				123B6CF2EF64B7E87FA92A25 /* Pods_DigipetCapstone.framework in Frameworks */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
-        025B45F120A08009006849EE /* Frameworks */ = {
-            isa = PBXFrameworksBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025B45F120A08009006849EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 				55C216A9636DFE22AB242C0F /* Pods_DigipetCapstoneTests.framework in Frameworks */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
-        025B45FC20A08009006849EE /* Frameworks */ = {
-            isa = PBXFrameworksBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025B45FC20A08009006849EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 				52FE787CCBD507C47A4579FD /* Pods_DigipetCapstoneUITests.framework in Frameworks */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-        025B45D120A08008006849EE = {
-            isa = PBXGroup;
-            children = (
-                2E31E0BA21E3D54F00CE52B7 /* L1GameOneTypeView.swift */,
-                025B45DC20A08008006849EE /* DigipetCapstone */,
-                025B45F720A08009006849EE /* DigipetCapstoneTests */,
-                025B460220A08009006849EE /* DigipetCapstoneUITests */,
-                025B45DB20A08008006849EE /* Products */,
+		025B45D120A08008006849EE = {
+			isa = PBXGroup;
+			children = (
+				2E31E0BA21E3D54F00CE52B7 /* L1GameOneTypeView.swift */,
+				025B45DC20A08008006849EE /* DigipetCapstone */,
+				025B45F720A08009006849EE /* DigipetCapstoneTests */,
+				025B460220A08009006849EE /* DigipetCapstoneUITests */,
+				025B45DB20A08008006849EE /* Products */,
 				670041050FA2D190A9264BD7 /* Pods */,
 				2BC1B4401BD50E3B58C06E69 /* Frameworks */,
-            );
-            sourceTree = "<group>";
-        };
-        025B45DB20A08008006849EE /* Products */ = {
-            isa = PBXGroup;
-            children = (
-                025B45DA20A08008006849EE /* DigipetCapstone.app */,
-                025B45F420A08009006849EE /* DigipetCapstoneTests.xctest */,
-                025B45FF20A08009006849EE /* DigipetCapstoneUITests.xctest */,
-            );
-            name = Products;
-            sourceTree = "<group>";
-        };
-        025B45DC20A08008006849EE /* DigipetCapstone */ = {
-            isa = PBXGroup;
-            children = (
-                025B469F20A0811C006849EE /* Actions.sks */,
-                025B45DD20A08008006849EE /* AppDelegate.swift */,
-                025B46C620A081F9006849EE /* Assets.xcassets */,
-                0223288820A082C0002A2646 /* Digipet-Bridging-Header.h */,
-                0079CC3920A9BC40002296D8 /* GameTableViewCell.swift */,
-                0228973620B63ADE0098E0E3 /* GameTableViewCell2.swift */,
-                0079CC3B20A9BC74002296D8 /* GameTableViewController.swift */,
-                0228973420B639CD0098E0E3 /* GameTableViewController2.swift */,
-                025B46A820A08190006849EE /* GameViewController.swift */,
-                025B45EF20A08009006849EE /* Info.plist */,
-                2EC5437D21C29E770098F2E4 /* L1GameOne.sks */,
-                2EC0EBAA21D3FFB500F5DDCE /* L1GameOne.swift */,
-                2EFAD3A321BCD370004B4FCB /* L1GameOneTalkView.swift */,
-                026F42F220A5C2480098EC23 /* L1LessonOne.sks */,
-                026F42F720A5C2490098EC23 /* L1LessonOne.swift */,
-                026F42F820A5C2490098EC23 /* L1LessonOneTalkView.swift */,
-                026F42F620A5C2480098EC23 /* L1LessonOneTypeView.swift */,
-                11689887222422A90059F58F /* L1LessonThree.sks */,
-                113B3DB2222030FB00111AAD /* L1LessonThree.swift */,
-                1190F2ED222DC839007631E5 /* L1LessonThreeTalkView.swift */,
-                026F42F320A5C2480098EC23 /* L1LessonTwo.sks */,
+			);
+			sourceTree = "<group>";
+		};
+		025B45DB20A08008006849EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				025B45DA20A08008006849EE /* DigipetCapstone.app */,
+				025B45F420A08009006849EE /* DigipetCapstoneTests.xctest */,
+				025B45FF20A08009006849EE /* DigipetCapstoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		025B45DC20A08008006849EE /* DigipetCapstone */ = {
+			isa = PBXGroup;
+			children = (
+				025B469F20A0811C006849EE /* Actions.sks */,
+				025B45DD20A08008006849EE /* AppDelegate.swift */,
+				025B46C620A081F9006849EE /* Assets.xcassets */,
+				0223288820A082C0002A2646 /* Digipet-Bridging-Header.h */,
+				0079CC3920A9BC40002296D8 /* GameTableViewCell.swift */,
+				0228973620B63ADE0098E0E3 /* GameTableViewCell2.swift */,
+				0079CC3B20A9BC74002296D8 /* GameTableViewController.swift */,
+				0228973420B639CD0098E0E3 /* GameTableViewController2.swift */,
+				025B46A820A08190006849EE /* GameViewController.swift */,
+				025B45EF20A08009006849EE /* Info.plist */,
+				2EC5437D21C29E770098F2E4 /* L1GameOne.sks */,
+				2EC0EBAA21D3FFB500F5DDCE /* L1GameOne.swift */,
+				2EFAD3A321BCD370004B4FCB /* L1GameOneTalkView.swift */,
+				026F42F220A5C2480098EC23 /* L1LessonOne.sks */,
+				026F42F720A5C2490098EC23 /* L1LessonOne.swift */,
+				026F42F820A5C2490098EC23 /* L1LessonOneTalkView.swift */,
+				026F42F620A5C2480098EC23 /* L1LessonOneTypeView.swift */,
+				11689887222422A90059F58F /* L1LessonThree.sks */,
+				113B3DB2222030FB00111AAD /* L1LessonThree.swift */,
+				1190F2ED222DC839007631E5 /* L1LessonThreeTalkView.swift */,
+				026F42F320A5C2480098EC23 /* L1LessonTwo.sks */,
 				04F3B69D22450963008DF5CE /* L1LessonFour.sks */,
-                026F42F520A5C2480098EC23 /* L1LessonTwo.swift */,
+				026F42F520A5C2480098EC23 /* L1LessonTwo.swift */,
 				04F3B69F224509B8008DF5CE /* L1LessonFour.swift */,
-                026F430020A5C53A0098EC23 /* L1LessonTwoTalkView.swift */,
+				026F430020A5C53A0098EC23 /* L1LessonTwoTalkView.swift */,
 				04F3B6A122450A37008DF5CE /* L1LessonFourTalkView.swift */,
-                026F42F420A5C2480098EC23 /* L1LessonTwoTypeView.swift */,
+				026F42F420A5C2480098EC23 /* L1LessonTwoTypeView.swift */,
 				04F3B6A322450A60008DF5CE /* L1LessonFourTypeView.swift */,
-                112940452213B44B00548879 /* L2GameTwo.sks */,
-                11294043221382CF00548879 /* L2GameTwo.swift */,
-                11B8064A2243BB7600D7524A /* L1LessonThreeTypeView.swift */,
-                113332002217CA96004C507B /* L2GameTwoTalkView.swift */,
-                025B46C420A081D6006849EE /* LaunchScreen.storyboard */,
-                025B46B420A081B1006849EE /* Learn.swift */,
-                025B46B520A081B2006849EE /* Lesson.swift */,
-                025B46BA20A081BF006849EE /* LessonInfoBox.swift */,
-                025B46BB20A081BF006849EE /* LessonRow.swift */,
-                025B46B220A081B1006849EE /* LessonStart.swift */,
-                025B46BC20A081BF006849EE /* LessonStartBox.swift */,
-                025B46AC20A0819A006849EE /* LessonTableViewCell.swift */,
-                025B46BD20A081BF006849EE /* LessonTableViewController.swift */,
-                025B46AA20A0819A006849EE /* LevelVC.swift */,
-                0079CC3320A9B8F6002296D8 /* LevelVCPlay.swift */,
-                0228973220B500570098E0E3 /* LevelVCPlay2.swift */,
-                025B46C820A0820D006849EE /* Main.storyboard */,
-                025B46AB20A0819A006849EE /* MainScreen.swift */,
-                025B46B320A081B1006849EE /* MatchGame.swift */,
-                0079CC3520A9B9A3002296D8 /* Minigame.swift */,
-                11BBFE4721F01A1500708598 /* MinigameCongrats.swift */,
-                2EAE700021E70CC5009A9009 /* MinigameCongratsBox.swift */,
-                0079CC3720A9BBA1002296D8 /* MinigameStart.swift */,
-                0079CC3120A9B50D002296D8 /* Play.swift */,
-                0200321820AA5DE0003FB481 /* Play2.swift */,
-                025B461320A080E4006849EE /* RZTransitions */,
-                025B46A520A08152006849EE /* Scenes */,
-                6ABACA1020ADBDFB001794E4 /* SettingsPage.swift */,
-                025B46AD20A0819A006849EE /* SilhouetteGame.swift */,
-                025B46BE20A081BF006849EE /* SwiftySKScrollView.swift */,
-                025B461120A0809C006849EE /* VoiceRecognition.swift */,
-            );
-            path = DigipetCapstone;
-            sourceTree = "<group>";
-        };
-        025B45F720A08009006849EE /* DigipetCapstoneTests */ = {
-            isa = PBXGroup;
-            children = (
-                025B45F820A08009006849EE /* DigipetCapstoneTests.swift */,
-                025B45FA20A08009006849EE /* Info.plist */,
-            );
-            path = DigipetCapstoneTests;
-            sourceTree = "<group>";
-        };
-        025B460220A08009006849EE /* DigipetCapstoneUITests */ = {
-            isa = PBXGroup;
-            children = (
-                025B460320A08009006849EE /* DigipetCapstoneUITests.swift */,
-                025B460520A08009006849EE /* Info.plist */,
-            );
-            path = DigipetCapstoneUITests;
-            sourceTree = "<group>";
-        };
-        025B461320A080E4006849EE /* RZTransitions */ = {
-            isa = PBXGroup;
-            children = (
-                025B461420A080E4006849EE /* Managers */,
-                025B461720A080E4006849EE /* Utilities */,
-                025B461E20A080E4006849EE /* Components */,
-                025B462120A080E4006849EE /* RZTransitions.h */,
-                025B462220A080E4006849EE /* Transitions */,
-                025B463520A080E4006849EE /* Interactors */,
-                025B464220A080E4006849EE /* Data */,
-            );
-            path = RZTransitions;
-            sourceTree = "<group>";
-        };
-        025B461420A080E4006849EE /* Managers */ = {
-            isa = PBXGroup;
-            children = (
-                025B461520A080E4006849EE /* RZTransitionsManager.h */,
-                025B461620A080E4006849EE /* RZTransitionsManager.m */,
-            );
-            path = Managers;
-            sourceTree = "<group>";
-        };
-        025B461720A080E4006849EE /* Utilities */ = {
-            isa = PBXGroup;
-            children = (
-                025B461820A080E4006849EE /* UIImage+RZTransitionsFastImageBlur.h */,
-                025B461920A080E4006849EE /* NSObject+RZTransitionsViewHelpers.m */,
-                025B461A20A080E4006849EE /* UIImage+RZTransitionsSnapshotHelpers.m */,
-                025B461B20A080E4006849EE /* NSObject+RZTransitionsViewHelpers.h */,
-                025B461C20A080E4006849EE /* UIImage+RZTransitionsFastImageBlur.m */,
-                025B461D20A080E4006849EE /* UIImage+RZTransitionsSnapshotHelpers.h */,
-            );
-            path = Utilities;
-            sourceTree = "<group>";
-        };
-        025B461E20A080E4006849EE /* Components */ = {
-            isa = PBXGroup;
-            children = (
-                025B461F20A080E4006849EE /* RZTransitionsNavigationController.h */,
-                025B462020A080E4006849EE /* RZTransitionsNavigationController.m */,
-            );
-            path = Components;
-            sourceTree = "<group>";
-        };
-        025B462220A080E4006849EE /* Transitions */ = {
-            isa = PBXGroup;
-            children = (
-                025B462320A080E4006849EE /* RZAnimationControllerProtocol.h */,
-                025B462420A080E4006849EE /* RZTransitionsAnimationControllers.h */,
-                025B462520A080E4006849EE /* RZZoomPushAnimationController.m */,
-                025B462620A080E4006849EE /* RZCardSlideAnimationController.h */,
-                025B462720A080E4006849EE /* RZZoomAlphaAnimationController.m */,
-                025B462820A080E4006849EE /* RZShrinkZoomAnimationController.h */,
-                025B462920A080E4006849EE /* RZSegmentControlMoveFadeAnimationController.m */,
-                025B462A20A080E4006849EE /* RZZoomBlurAnimationController.h */,
-                025B462B20A080E4006849EE /* RZRectZoomAnimationController.h */,
-                025B462C20A080E4006849EE /* RZCirclePushAnimationController.h */,
-                025B462D20A080E4006849EE /* RZCardSlideAnimationController.m */,
-                025B462E20A080E4006849EE /* RZZoomPushAnimationController.h */,
-                025B462F20A080E4006849EE /* RZZoomBlurAnimationController.m */,
-                025B463020A080E4006849EE /* RZRectZoomAnimationController.m */,
-                025B463120A080E4006849EE /* RZSegmentControlMoveFadeAnimationController.h */,
-                025B463220A080E4006849EE /* RZShrinkZoomAnimationController.m */,
-                025B463320A080E4006849EE /* RZZoomAlphaAnimationController.h */,
-                025B463420A080E4006849EE /* RZCirclePushAnimationController.m */,
-            );
-            path = Transitions;
-            sourceTree = "<group>";
-        };
-        025B463520A080E4006849EE /* Interactors */ = {
-            isa = PBXGroup;
-            children = (
-                025B463620A080E4006849EE /* RZBaseSwipeInteractionController.m */,
-                025B463720A080E4006849EE /* RZOverscrollInteractionController.h */,
-                025B463820A080E4006849EE /* RZHorizontalInteractionController.m */,
-                025B463920A080E4006849EE /* RZPinchInteractionController.h */,
-                025B463A20A080E4006849EE /* RZVerticalSwipeInteractionController.m */,
-                025B463B20A080E4006849EE /* RZOverscrollInteractionController.m */,
-                025B463C20A080E4006849EE /* RZBaseSwipeInteractionController.h */,
-                025B463D20A080E4006849EE /* RZTransitionsInteractionControllers.h */,
-                025B463E20A080E4006849EE /* RZHorizontalInteractionController.h */,
-                025B463F20A080E4006849EE /* RZPinchInteractionController.m */,
-                025B464020A080E4006849EE /* RZTransitionInteractionControllerProtocol.h */,
-                025B464120A080E4006849EE /* RZVerticalSwipeInteractionController.h */,
-            );
-            path = Interactors;
-            sourceTree = "<group>";
-        };
-        025B464220A080E4006849EE /* Data */ = {
-            isa = PBXGroup;
-            children = (
-                025B464320A080E4006849EE /* RZUniqueTransition.h */,
-                025B464420A080E4006849EE /* RZTransitionAction.h */,
-                025B464520A080E4006849EE /* RZUniqueTransition.m */,
-            );
-            path = Data;
-            sourceTree = "<group>";
-        };
-        025B46A520A08152006849EE /* Scenes */ = {
-            isa = PBXGroup;
-            children = (
-                025B46A620A0816F006849EE /* Plumpfull.ttf */,
-                025B46A120A08138006849EE /* GameScene.sks */,
-                025B46A220A08138006849EE /* GameScene.swift */,
-            );
-            path = Scenes;
+				112940452213B44B00548879 /* L2GameTwo.sks */,
+				11294043221382CF00548879 /* L2GameTwo.swift */,
+				11B8064A2243BB7600D7524A /* L1LessonThreeTypeView.swift */,
+				113332002217CA96004C507B /* L2GameTwoTalkView.swift */,
+				025B46C420A081D6006849EE /* LaunchScreen.storyboard */,
+				025B46B420A081B1006849EE /* Learn.swift */,
+				025B46B520A081B2006849EE /* Lesson.swift */,
+				025B46BA20A081BF006849EE /* LessonInfoBox.swift */,
+				025B46BB20A081BF006849EE /* LessonRow.swift */,
+				025B46B220A081B1006849EE /* LessonStart.swift */,
+				025B46BC20A081BF006849EE /* LessonStartBox.swift */,
+				025B46AC20A0819A006849EE /* LessonTableViewCell.swift */,
+				025B46BD20A081BF006849EE /* LessonTableViewController.swift */,
+				025B46AA20A0819A006849EE /* LevelVC.swift */,
+				0079CC3320A9B8F6002296D8 /* LevelVCPlay.swift */,
+				0228973220B500570098E0E3 /* LevelVCPlay2.swift */,
+				025B46C820A0820D006849EE /* Main.storyboard */,
+				11BB745F22538D6000EDFC80 /* ProgressScreenTableViewController.swift */,
+				025B46AB20A0819A006849EE /* MainScreen.swift */,
+				025B46B320A081B1006849EE /* MatchGame.swift */,
+				0079CC3520A9B9A3002296D8 /* Minigame.swift */,
+				11BBFE4721F01A1500708598 /* MinigameCongrats.swift */,
+				2EAE700021E70CC5009A9009 /* MinigameCongratsBox.swift */,
+				0079CC3720A9BBA1002296D8 /* MinigameStart.swift */,
+				0079CC3120A9B50D002296D8 /* Play.swift */,
+				0200321820AA5DE0003FB481 /* Play2.swift */,
+				025B461320A080E4006849EE /* RZTransitions */,
+				025B46A520A08152006849EE /* Scenes */,
+				6ABACA1020ADBDFB001794E4 /* SettingsPage.swift */,
+				025B46AD20A0819A006849EE /* SilhouetteGame.swift */,
+				025B46BE20A081BF006849EE /* SwiftySKScrollView.swift */,
+				025B461120A0809C006849EE /* VoiceRecognition.swift */,
+			);
+			path = DigipetCapstone;
+			sourceTree = "<group>";
+		};
+		025B45F720A08009006849EE /* DigipetCapstoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				025B45F820A08009006849EE /* DigipetCapstoneTests.swift */,
+				025B45FA20A08009006849EE /* Info.plist */,
+			);
+			path = DigipetCapstoneTests;
+			sourceTree = "<group>";
+		};
+		025B460220A08009006849EE /* DigipetCapstoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				025B460320A08009006849EE /* DigipetCapstoneUITests.swift */,
+				025B460520A08009006849EE /* Info.plist */,
+			);
+			path = DigipetCapstoneUITests;
+			sourceTree = "<group>";
+		};
+		025B461320A080E4006849EE /* RZTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				025B461420A080E4006849EE /* Managers */,
+				025B461720A080E4006849EE /* Utilities */,
+				025B461E20A080E4006849EE /* Components */,
+				025B462120A080E4006849EE /* RZTransitions.h */,
+				025B462220A080E4006849EE /* Transitions */,
+				025B463520A080E4006849EE /* Interactors */,
+				025B464220A080E4006849EE /* Data */,
+			);
+			path = RZTransitions;
+			sourceTree = "<group>";
+		};
+		025B461420A080E4006849EE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				025B461520A080E4006849EE /* RZTransitionsManager.h */,
+				025B461620A080E4006849EE /* RZTransitionsManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		025B461720A080E4006849EE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				025B461820A080E4006849EE /* UIImage+RZTransitionsFastImageBlur.h */,
+				025B461920A080E4006849EE /* NSObject+RZTransitionsViewHelpers.m */,
+				025B461A20A080E4006849EE /* UIImage+RZTransitionsSnapshotHelpers.m */,
+				025B461B20A080E4006849EE /* NSObject+RZTransitionsViewHelpers.h */,
+				025B461C20A080E4006849EE /* UIImage+RZTransitionsFastImageBlur.m */,
+				025B461D20A080E4006849EE /* UIImage+RZTransitionsSnapshotHelpers.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		025B461E20A080E4006849EE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				025B461F20A080E4006849EE /* RZTransitionsNavigationController.h */,
+				025B462020A080E4006849EE /* RZTransitionsNavigationController.m */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		025B462220A080E4006849EE /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				025B462320A080E4006849EE /* RZAnimationControllerProtocol.h */,
+				025B462420A080E4006849EE /* RZTransitionsAnimationControllers.h */,
+				025B462520A080E4006849EE /* RZZoomPushAnimationController.m */,
+				025B462620A080E4006849EE /* RZCardSlideAnimationController.h */,
+				025B462720A080E4006849EE /* RZZoomAlphaAnimationController.m */,
+				025B462820A080E4006849EE /* RZShrinkZoomAnimationController.h */,
+				025B462920A080E4006849EE /* RZSegmentControlMoveFadeAnimationController.m */,
+				025B462A20A080E4006849EE /* RZZoomBlurAnimationController.h */,
+				025B462B20A080E4006849EE /* RZRectZoomAnimationController.h */,
+				025B462C20A080E4006849EE /* RZCirclePushAnimationController.h */,
+				025B462D20A080E4006849EE /* RZCardSlideAnimationController.m */,
+				025B462E20A080E4006849EE /* RZZoomPushAnimationController.h */,
+				025B462F20A080E4006849EE /* RZZoomBlurAnimationController.m */,
+				025B463020A080E4006849EE /* RZRectZoomAnimationController.m */,
+				025B463120A080E4006849EE /* RZSegmentControlMoveFadeAnimationController.h */,
+				025B463220A080E4006849EE /* RZShrinkZoomAnimationController.m */,
+				025B463320A080E4006849EE /* RZZoomAlphaAnimationController.h */,
+				025B463420A080E4006849EE /* RZCirclePushAnimationController.m */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		025B463520A080E4006849EE /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				025B463620A080E4006849EE /* RZBaseSwipeInteractionController.m */,
+				025B463720A080E4006849EE /* RZOverscrollInteractionController.h */,
+				025B463820A080E4006849EE /* RZHorizontalInteractionController.m */,
+				025B463920A080E4006849EE /* RZPinchInteractionController.h */,
+				025B463A20A080E4006849EE /* RZVerticalSwipeInteractionController.m */,
+				025B463B20A080E4006849EE /* RZOverscrollInteractionController.m */,
+				025B463C20A080E4006849EE /* RZBaseSwipeInteractionController.h */,
+				025B463D20A080E4006849EE /* RZTransitionsInteractionControllers.h */,
+				025B463E20A080E4006849EE /* RZHorizontalInteractionController.h */,
+				025B463F20A080E4006849EE /* RZPinchInteractionController.m */,
+				025B464020A080E4006849EE /* RZTransitionInteractionControllerProtocol.h */,
+				025B464120A080E4006849EE /* RZVerticalSwipeInteractionController.h */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		025B464220A080E4006849EE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				025B464320A080E4006849EE /* RZUniqueTransition.h */,
+				025B464420A080E4006849EE /* RZTransitionAction.h */,
+				025B464520A080E4006849EE /* RZUniqueTransition.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		025B46A520A08152006849EE /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				025B46A620A0816F006849EE /* Plumpfull.ttf */,
+				025B46A120A08138006849EE /* GameScene.sks */,
+				025B46A220A08138006849EE /* GameScene.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 		2BC1B4401BD50E3B58C06E69 /* Frameworks */ = {
@@ -498,626 +501,627 @@
 				1BC670389A7D9B850E4ABA37 /* Pods-DigipetCapstoneUITests.release.xcconfig */,
 			);
 			path = Pods;
-            sourceTree = "<group>";
-        };
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-        025B45D920A08008006849EE /* DigipetCapstone */ = {
-            isa = PBXNativeTarget;
-            buildConfigurationList = 025B460820A08009006849EE /* Build configuration list for PBXNativeTarget "DigipetCapstone" */;
-            buildPhases = (
+		025B45D920A08008006849EE /* DigipetCapstone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025B460820A08009006849EE /* Build configuration list for PBXNativeTarget "DigipetCapstone" */;
+			buildPhases = (
 				0004D2B5A71EBC2C2E5BD393 /* [CP] Check Pods Manifest.lock */,
-                025B45D620A08008006849EE /* Sources */,
-                025B45D720A08008006849EE /* Frameworks */,
-                025B45D820A08008006849EE /* Resources */,
-                DD9C289D338BE5940D5C8BCA /* [CP] Embed Pods Frameworks */,
-            );
-            buildRules = (
-            );
-            dependencies = (
-            );
-            name = DigipetCapstone;
-            productName = DigipetCapstone;
-            productReference = 025B45DA20A08008006849EE /* DigipetCapstone.app */;
-            productType = "com.apple.product-type.application";
-        };
-        025B45F320A08009006849EE /* DigipetCapstoneTests */ = {
-            isa = PBXNativeTarget;
-            buildConfigurationList = 025B460B20A08009006849EE /* Build configuration list for PBXNativeTarget "DigipetCapstoneTests" */;
-            buildPhases = (
+				025B45D620A08008006849EE /* Sources */,
+				025B45D720A08008006849EE /* Frameworks */,
+				025B45D820A08008006849EE /* Resources */,
+				DD9C289D338BE5940D5C8BCA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigipetCapstone;
+			productName = DigipetCapstone;
+			productReference = 025B45DA20A08008006849EE /* DigipetCapstone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		025B45F320A08009006849EE /* DigipetCapstoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025B460B20A08009006849EE /* Build configuration list for PBXNativeTarget "DigipetCapstoneTests" */;
+			buildPhases = (
 				95DABE463CF0DBD7BBAB66FF /* [CP] Check Pods Manifest.lock */,
-                025B45F020A08009006849EE /* Sources */,
-                025B45F120A08009006849EE /* Frameworks */,
-                025B45F220A08009006849EE /* Resources */,
-            );
-            buildRules = (
-            );
-            dependencies = (
-                025B45F620A08009006849EE /* PBXTargetDependency */,
-            );
-            name = DigipetCapstoneTests;
-            productName = DigipetCapstoneTests;
-            productReference = 025B45F420A08009006849EE /* DigipetCapstoneTests.xctest */;
-            productType = "com.apple.product-type.bundle.unit-test";
-        };
-        025B45FE20A08009006849EE /* DigipetCapstoneUITests */ = {
-            isa = PBXNativeTarget;
-            buildConfigurationList = 025B460E20A08009006849EE /* Build configuration list for PBXNativeTarget "DigipetCapstoneUITests" */;
-            buildPhases = (
+				025B45F020A08009006849EE /* Sources */,
+				025B45F120A08009006849EE /* Frameworks */,
+				025B45F220A08009006849EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				025B45F620A08009006849EE /* PBXTargetDependency */,
+			);
+			name = DigipetCapstoneTests;
+			productName = DigipetCapstoneTests;
+			productReference = 025B45F420A08009006849EE /* DigipetCapstoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		025B45FE20A08009006849EE /* DigipetCapstoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025B460E20A08009006849EE /* Build configuration list for PBXNativeTarget "DigipetCapstoneUITests" */;
+			buildPhases = (
 				DBAAB70805A5A5BA180A8EC5 /* [CP] Check Pods Manifest.lock */,
-                025B45FB20A08009006849EE /* Sources */,
-                025B45FC20A08009006849EE /* Frameworks */,
-                025B45FD20A08009006849EE /* Resources */,
-            );
-            buildRules = (
-            );
-            dependencies = (
-                025B460120A08009006849EE /* PBXTargetDependency */,
-            );
-            name = DigipetCapstoneUITests;
-            productName = DigipetCapstoneUITests;
-            productReference = 025B45FF20A08009006849EE /* DigipetCapstoneUITests.xctest */;
-            productType = "com.apple.product-type.bundle.ui-testing";
-        };
+				025B45FB20A08009006849EE /* Sources */,
+				025B45FC20A08009006849EE /* Frameworks */,
+				025B45FD20A08009006849EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				025B460120A08009006849EE /* PBXTargetDependency */,
+			);
+			name = DigipetCapstoneUITests;
+			productName = DigipetCapstoneUITests;
+			productReference = 025B45FF20A08009006849EE /* DigipetCapstoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-        025B45D220A08008006849EE /* Project object */ = {
-            isa = PBXProject;
-            attributes = {
-                LastSwiftUpdateCheck = 0930;
-                LastUpgradeCheck = 0930;
-                ORGANIZATIONNAME = "Katie Katz";
-                TargetAttributes = {
-                    025B45D920A08008006849EE = {
-                        CreatedOnToolsVersion = 9.3;
-                    };
-                    025B45F320A08009006849EE = {
-                        CreatedOnToolsVersion = 9.3;
-                        TestTargetID = 025B45D920A08008006849EE;
-                    };
-                    025B45FE20A08009006849EE = {
-                        CreatedOnToolsVersion = 9.3;
-                        TestTargetID = 025B45D920A08008006849EE;
-                    };
-                };
-            };
-            buildConfigurationList = 025B45D520A08008006849EE /* Build configuration list for PBXProject "DigipetCapstone" */;
-            compatibilityVersion = "Xcode 9.3";
-            developmentRegion = en;
-            hasScannedForEncodings = 0;
-            knownRegions = (
-                en,
-                Base,
-            );
-            mainGroup = 025B45D120A08008006849EE;
-            productRefGroup = 025B45DB20A08008006849EE /* Products */;
-            projectDirPath = "";
-            projectRoot = "";
-            targets = (
-                025B45D920A08008006849EE /* DigipetCapstone */,
-                025B45F320A08009006849EE /* DigipetCapstoneTests */,
-                025B45FE20A08009006849EE /* DigipetCapstoneUITests */,
-            );
-        };
+		025B45D220A08008006849EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Katie Katz";
+				TargetAttributes = {
+					025B45D920A08008006849EE = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					025B45F320A08009006849EE = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 025B45D920A08008006849EE;
+					};
+					025B45FE20A08009006849EE = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 025B45D920A08008006849EE;
+					};
+				};
+			};
+			buildConfigurationList = 025B45D520A08008006849EE /* Build configuration list for PBXProject "DigipetCapstone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 025B45D120A08008006849EE;
+			productRefGroup = 025B45DB20A08008006849EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				025B45D920A08008006849EE /* DigipetCapstone */,
+				025B45F320A08009006849EE /* DigipetCapstoneTests */,
+				025B45FE20A08009006849EE /* DigipetCapstoneUITests */,
+			);
+		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-        025B45D820A08008006849EE /* Resources */ = {
-            isa = PBXResourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                112940462213B44B00548879 /* L2GameTwo.sks in Resources */,
-                025B46A320A08139006849EE /* GameScene.sks in Resources */,
-                026F42FA20A5C2490098EC23 /* L1LessonTwo.sks in Resources */,
-                025B46C520A081D7006849EE /* LaunchScreen.storyboard in Resources */,
-                025B46A720A0816F006849EE /* Plumpfull.ttf in Resources */,
-                025B46C920A0820D006849EE /* Main.storyboard in Resources */,
-                026F42F920A5C2490098EC23 /* L1LessonOne.sks in Resources */,
-                025B46C720A081FA006849EE /* Assets.xcassets in Resources */,
+		025B45D820A08008006849EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112940462213B44B00548879 /* L2GameTwo.sks in Resources */,
+				025B46A320A08139006849EE /* GameScene.sks in Resources */,
+				026F42FA20A5C2490098EC23 /* L1LessonTwo.sks in Resources */,
+				025B46C520A081D7006849EE /* LaunchScreen.storyboard in Resources */,
+				025B46A720A0816F006849EE /* Plumpfull.ttf in Resources */,
+				025B46C920A0820D006849EE /* Main.storyboard in Resources */,
+				026F42F920A5C2490098EC23 /* L1LessonOne.sks in Resources */,
+				025B46C720A081FA006849EE /* Assets.xcassets in Resources */,
 				04F3B69E22450963008DF5CE /* L1LessonFour.sks in Resources */,
-                2EC5437E21C29E770098F2E4 /* L1GameOne.sks in Resources */,
-                11689888222422A90059F58F /* L1LessonThree.sks in Resources */,
-                025B46A020A0811C006849EE /* Actions.sks in Resources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
-        025B45F220A08009006849EE /* Resources */ = {
-            isa = PBXResourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
-        025B45FD20A08009006849EE /* Resources */ = {
-            isa = PBXResourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+				2EC5437E21C29E770098F2E4 /* L1GameOne.sks in Resources */,
+				11689888222422A90059F58F /* L1LessonThree.sks in Resources */,
+				025B46A020A0811C006849EE /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025B45F220A08009006849EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025B45FD20A08009006849EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-        0004D2B5A71EBC2C2E5BD393 /* [CP] Check Pods Manifest.lock */ = {
-            isa = PBXShellScriptBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-            );
-            inputFileListPaths = (
-            );
-            inputPaths = (
-                "${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-                "${PODS_ROOT}/Manifest.lock",
-            );
-            name = "[CP] Check Pods Manifest.lock";
-            outputFileListPaths = (
-            );
-            outputPaths = (
-                "$(DERIVED_FILE_DIR)/Pods-DigipetCapstone-checkManifestLockResult.txt",
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-            shellPath = /bin/sh;
-            shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-            showEnvVarsInLog = 0;
-        };
-        95DABE463CF0DBD7BBAB66FF /* [CP] Check Pods Manifest.lock */ = {
-            isa = PBXShellScriptBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-            );
-            inputFileListPaths = (
-            );
-            inputPaths = (
-                "${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-                "${PODS_ROOT}/Manifest.lock",
-            );
-            name = "[CP] Check Pods Manifest.lock";
-            outputFileListPaths = (
-            );
-            outputPaths = (
-                "$(DERIVED_FILE_DIR)/Pods-DigipetCapstoneTests-checkManifestLockResult.txt",
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-            shellPath = /bin/sh;
-            shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-            showEnvVarsInLog = 0;
-        };
-        DBAAB70805A5A5BA180A8EC5 /* [CP] Check Pods Manifest.lock */ = {
-            isa = PBXShellScriptBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-            );
-            inputFileListPaths = (
-            );
-            inputPaths = (
-                "${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-                "${PODS_ROOT}/Manifest.lock",
-            );
-            name = "[CP] Check Pods Manifest.lock";
-            outputFileListPaths = (
-            );
-            outputPaths = (
-                "$(DERIVED_FILE_DIR)/Pods-DigipetCapstoneUITests-checkManifestLockResult.txt",
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-            shellPath = /bin/sh;
-            shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-            showEnvVarsInLog = 0;
-        };
-        DD9C289D338BE5940D5C8BCA /* [CP] Embed Pods Frameworks */ = {
-            isa = PBXShellScriptBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-            );
-            inputFileListPaths = (
-            );
-            inputPaths = (
-                "${PODS_ROOT}/Target Support Files/Pods-DigipetCapstone/Pods-DigipetCapstone-frameworks.sh",
-                "${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-                "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-            );
-            name = "[CP] Embed Pods Frameworks";
-            outputFileListPaths = (
-            );
-            outputPaths = (
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-            shellPath = /bin/sh;
-            shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DigipetCapstone/Pods-DigipetCapstone-frameworks.sh\"\n";
-            showEnvVarsInLog = 0;
-        };
+		0004D2B5A71EBC2C2E5BD393 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DigipetCapstone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95DABE463CF0DBD7BBAB66FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DigipetCapstoneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBAAB70805A5A5BA180A8EC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DigipetCapstoneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD9C289D338BE5940D5C8BCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DigipetCapstone/Pods-DigipetCapstone-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DigipetCapstone/Pods-DigipetCapstone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-        025B45D620A08008006849EE /* Sources */ = {
-            isa = PBXSourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                2E31E0BB21E3D54F00CE52B7 /* L1GameOneTypeView.swift in Sources */,
-                025B465220A080E4006849EE /* RZCirclePushAnimationController.m in Sources */,
-                025B46C320A081C0006849EE /* SwiftySKScrollView.swift in Sources */,
-                025B46AE20A0819A006849EE /* LevelVC.swift in Sources */,
-                0200321920AA5DE0003FB481 /* Play2.swift in Sources */,
-                025B465620A080E4006849EE /* RZOverscrollInteractionController.m in Sources */,
-                1190F2EE222DC839007631E5 /* L1LessonThreeTalkView.swift in Sources */,
-                025B46B920A081B2006849EE /* Lesson.swift in Sources */,
-                025B465120A080E4006849EE /* RZShrinkZoomAnimationController.m in Sources */,
-                025B464C20A080E4006849EE /* RZZoomAlphaAnimationController.m in Sources */,
-                113B3DB3222030FC00111AAD /* L1LessonThree.swift in Sources */,
-                2EAE700121E70CC5009A9009 /* MinigameCongratsBox.swift in Sources */,
-                025B46C220A081C0006849EE /* LessonTableViewController.swift in Sources */,
-                11294044221382CF00548879 /* L2GameTwo.swift in Sources */,
-                6ABACA1120ADBDFB001794E4 /* SettingsPage.swift in Sources */,
-                025B465520A080E4006849EE /* RZVerticalSwipeInteractionController.m in Sources */,
-                0079CC3C20A9BC74002296D8 /* GameTableViewController.swift in Sources */,
-                0228973720B63ADE0098E0E3 /* GameTableViewCell2.swift in Sources */,
-                026F42FF20A5C2490098EC23 /* L1LessonOneTalkView.swift in Sources */,
-                0079CC3A20A9BC40002296D8 /* GameTableViewCell.swift in Sources */,
-                026F42FB20A5C2490098EC23 /* L1LessonTwoTypeView.swift in Sources */,
-                025B464820A080E4006849EE /* UIImage+RZTransitionsSnapshotHelpers.m in Sources */,
-                025B461220A0809C006849EE /* VoiceRecognition.swift in Sources */,
-                025B465720A080E4006849EE /* RZPinchInteractionController.m in Sources */,
-                026F42FD20A5C2490098EC23 /* L1LessonOneTypeView.swift in Sources */,
-                026F42FC20A5C2490098EC23 /* L1LessonTwo.swift in Sources */,
-                025B464E20A080E4006849EE /* RZCardSlideAnimationController.m in Sources */,
-                025B464F20A080E4006849EE /* RZZoomBlurAnimationController.m in Sources */,
-                026F430120A5C53A0098EC23 /* L1LessonTwoTalkView.swift in Sources */,
-                025B464920A080E4006849EE /* UIImage+RZTransitionsFastImageBlur.m in Sources */,
-                11BBFE4821F01A1500708598 /* MinigameCongrats.swift in Sources */,
-                025B46AF20A0819A006849EE /* MainScreen.swift in Sources */,
-                025B46B720A081B2006849EE /* MatchGame.swift in Sources */,
-                025B46B020A0819A006849EE /* LessonTableViewCell.swift in Sources */,
-                2EC0EBAB21D3FFB500F5DDCE /* L1GameOne.swift in Sources */,
-                025B465420A080E4006849EE /* RZHorizontalInteractionController.m in Sources */,
-                025B465320A080E4006849EE /* RZBaseSwipeInteractionController.m in Sources */,
-                026F42FE20A5C2490098EC23 /* L1LessonOne.swift in Sources */,
-                025B464B20A080E4006849EE /* RZZoomPushAnimationController.m in Sources */,
-                025B46A920A08190006849EE /* GameViewController.swift in Sources */,
-                0079CC3620A9B9A3002296D8 /* Minigame.swift in Sources */,
+		025B45D620A08008006849EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E31E0BB21E3D54F00CE52B7 /* L1GameOneTypeView.swift in Sources */,
+				025B465220A080E4006849EE /* RZCirclePushAnimationController.m in Sources */,
+				025B46C320A081C0006849EE /* SwiftySKScrollView.swift in Sources */,
+				025B46AE20A0819A006849EE /* LevelVC.swift in Sources */,
+				0200321920AA5DE0003FB481 /* Play2.swift in Sources */,
+				025B465620A080E4006849EE /* RZOverscrollInteractionController.m in Sources */,
+				1190F2EE222DC839007631E5 /* L1LessonThreeTalkView.swift in Sources */,
+				025B46B920A081B2006849EE /* Lesson.swift in Sources */,
+				025B465120A080E4006849EE /* RZShrinkZoomAnimationController.m in Sources */,
+				025B464C20A080E4006849EE /* RZZoomAlphaAnimationController.m in Sources */,
+				113B3DB3222030FC00111AAD /* L1LessonThree.swift in Sources */,
+				2EAE700121E70CC5009A9009 /* MinigameCongratsBox.swift in Sources */,
+				025B46C220A081C0006849EE /* LessonTableViewController.swift in Sources */,
+				11294044221382CF00548879 /* L2GameTwo.swift in Sources */,
+				6ABACA1120ADBDFB001794E4 /* SettingsPage.swift in Sources */,
+				025B465520A080E4006849EE /* RZVerticalSwipeInteractionController.m in Sources */,
+				0079CC3C20A9BC74002296D8 /* GameTableViewController.swift in Sources */,
+				0228973720B63ADE0098E0E3 /* GameTableViewCell2.swift in Sources */,
+				026F42FF20A5C2490098EC23 /* L1LessonOneTalkView.swift in Sources */,
+				0079CC3A20A9BC40002296D8 /* GameTableViewCell.swift in Sources */,
+				026F42FB20A5C2490098EC23 /* L1LessonTwoTypeView.swift in Sources */,
+				025B464820A080E4006849EE /* UIImage+RZTransitionsSnapshotHelpers.m in Sources */,
+				025B461220A0809C006849EE /* VoiceRecognition.swift in Sources */,
+				025B465720A080E4006849EE /* RZPinchInteractionController.m in Sources */,
+				026F42FD20A5C2490098EC23 /* L1LessonOneTypeView.swift in Sources */,
+				026F42FC20A5C2490098EC23 /* L1LessonTwo.swift in Sources */,
+				025B464E20A080E4006849EE /* RZCardSlideAnimationController.m in Sources */,
+				025B464F20A080E4006849EE /* RZZoomBlurAnimationController.m in Sources */,
+				026F430120A5C53A0098EC23 /* L1LessonTwoTalkView.swift in Sources */,
+				025B464920A080E4006849EE /* UIImage+RZTransitionsFastImageBlur.m in Sources */,
+				11BBFE4821F01A1500708598 /* MinigameCongrats.swift in Sources */,
+				025B46AF20A0819A006849EE /* MainScreen.swift in Sources */,
+				025B46B720A081B2006849EE /* MatchGame.swift in Sources */,
+				025B46B020A0819A006849EE /* LessonTableViewCell.swift in Sources */,
+				2EC0EBAB21D3FFB500F5DDCE /* L1GameOne.swift in Sources */,
+				025B465420A080E4006849EE /* RZHorizontalInteractionController.m in Sources */,
+				025B465320A080E4006849EE /* RZBaseSwipeInteractionController.m in Sources */,
+				026F42FE20A5C2490098EC23 /* L1LessonOne.swift in Sources */,
+				025B464B20A080E4006849EE /* RZZoomPushAnimationController.m in Sources */,
+				025B46A920A08190006849EE /* GameViewController.swift in Sources */,
+				0079CC3620A9B9A3002296D8 /* Minigame.swift in Sources */,
+				11BB746022538D6000EDFC80 /* ProgressScreenTableViewController.swift in Sources */,
 				04F3B6A222450A37008DF5CE /* L1LessonFourTalkView.swift in Sources */,
-                0079CC3220A9B50D002296D8 /* Play.swift in Sources */,
-                0228973320B500570098E0E3 /* LevelVCPlay2.swift in Sources */,
-                025B46C120A081C0006849EE /* LessonStartBox.swift in Sources */,
-                025B46C020A081C0006849EE /* LessonRow.swift in Sources */,
-                0079CC3820A9BBA1002296D8 /* MinigameStart.swift in Sources */,
+				0079CC3220A9B50D002296D8 /* Play.swift in Sources */,
+				0228973320B500570098E0E3 /* LevelVCPlay2.swift in Sources */,
+				025B46C120A081C0006849EE /* LessonStartBox.swift in Sources */,
+				025B46C020A081C0006849EE /* LessonRow.swift in Sources */,
+				0079CC3820A9BBA1002296D8 /* MinigameStart.swift in Sources */,
 				04F3B6A422450A60008DF5CE /* L1LessonFourTypeView.swift in Sources */,
-                0079CC3420A9B8F6002296D8 /* LevelVCPlay.swift in Sources */,
-                025B464A20A080E4006849EE /* RZTransitionsNavigationController.m in Sources */,
-                0228973520B639CD0098E0E3 /* GameTableViewController2.swift in Sources */,
-                113332012217CA96004C507B /* L2GameTwoTalkView.swift in Sources */,
+				0079CC3420A9B8F6002296D8 /* LevelVCPlay.swift in Sources */,
+				025B464A20A080E4006849EE /* RZTransitionsNavigationController.m in Sources */,
+				0228973520B639CD0098E0E3 /* GameTableViewController2.swift in Sources */,
+				113332012217CA96004C507B /* L2GameTwoTalkView.swift in Sources */,
 				04F3B6A0224509B8008DF5CE /* L1LessonFour.swift in Sources */,
-                025B465020A080E4006849EE /* RZRectZoomAnimationController.m in Sources */,
-                025B46A420A08139006849EE /* GameScene.swift in Sources */,
-                025B46BF20A081C0006849EE /* LessonInfoBox.swift in Sources */,
-                025B45DE20A08008006849EE /* AppDelegate.swift in Sources */,
-                2EFAD3A421BCD370004B4FCB /* L1GameOneTalkView.swift in Sources */,
-                025B465820A080E4006849EE /* RZUniqueTransition.m in Sources */,
-                11B8064B2243BB7600D7524A /* L1LessonThreeTypeView.swift in Sources */,
-                025B46B120A0819A006849EE /* SilhouetteGame.swift in Sources */,
-                025B464620A080E4006849EE /* RZTransitionsManager.m in Sources */,
-                025B46B820A081B2006849EE /* Learn.swift in Sources */,
-                025B464720A080E4006849EE /* NSObject+RZTransitionsViewHelpers.m in Sources */,
-                025B46B620A081B2006849EE /* LessonStart.swift in Sources */,
-                025B464D20A080E4006849EE /* RZSegmentControlMoveFadeAnimationController.m in Sources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
-        025B45F020A08009006849EE /* Sources */ = {
-            isa = PBXSourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                025B45F920A08009006849EE /* DigipetCapstoneTests.swift in Sources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
-        025B45FB20A08009006849EE /* Sources */ = {
-            isa = PBXSourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                025B460420A08009006849EE /* DigipetCapstoneUITests.swift in Sources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+				025B465020A080E4006849EE /* RZRectZoomAnimationController.m in Sources */,
+				025B46A420A08139006849EE /* GameScene.swift in Sources */,
+				025B46BF20A081C0006849EE /* LessonInfoBox.swift in Sources */,
+				025B45DE20A08008006849EE /* AppDelegate.swift in Sources */,
+				2EFAD3A421BCD370004B4FCB /* L1GameOneTalkView.swift in Sources */,
+				025B465820A080E4006849EE /* RZUniqueTransition.m in Sources */,
+				11B8064B2243BB7600D7524A /* L1LessonThreeTypeView.swift in Sources */,
+				025B46B120A0819A006849EE /* SilhouetteGame.swift in Sources */,
+				025B464620A080E4006849EE /* RZTransitionsManager.m in Sources */,
+				025B46B820A081B2006849EE /* Learn.swift in Sources */,
+				025B464720A080E4006849EE /* NSObject+RZTransitionsViewHelpers.m in Sources */,
+				025B46B620A081B2006849EE /* LessonStart.swift in Sources */,
+				025B464D20A080E4006849EE /* RZSegmentControlMoveFadeAnimationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025B45F020A08009006849EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025B45F920A08009006849EE /* DigipetCapstoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025B45FB20A08009006849EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025B460420A08009006849EE /* DigipetCapstoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-        025B45F620A08009006849EE /* PBXTargetDependency */ = {
-            isa = PBXTargetDependency;
-            target = 025B45D920A08008006849EE /* DigipetCapstone */;
-            targetProxy = 025B45F520A08009006849EE /* PBXContainerItemProxy */;
-        };
-        025B460120A08009006849EE /* PBXTargetDependency */ = {
-            isa = PBXTargetDependency;
-            target = 025B45D920A08008006849EE /* DigipetCapstone */;
-            targetProxy = 025B460020A08009006849EE /* PBXContainerItemProxy */;
-        };
+		025B45F620A08009006849EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 025B45D920A08008006849EE /* DigipetCapstone */;
+			targetProxy = 025B45F520A08009006849EE /* PBXContainerItemProxy */;
+		};
+		025B460120A08009006849EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 025B45D920A08008006849EE /* DigipetCapstone */;
+			targetProxy = 025B460020A08009006849EE /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-        025B460620A08009006849EE /* Debug */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ALWAYS_SEARCH_USER_PATHS = NO;
-                CLANG_ANALYZER_NONNULL = YES;
-                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-                CLANG_CXX_LIBRARY = "libc++";
-                CLANG_ENABLE_MODULES = YES;
-                CLANG_ENABLE_OBJC_ARC = YES;
-                CLANG_ENABLE_OBJC_WEAK = YES;
-                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-                CLANG_WARN_BOOL_CONVERSION = YES;
-                CLANG_WARN_COMMA = YES;
-                CLANG_WARN_CONSTANT_CONVERSION = YES;
-                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-                CLANG_WARN_EMPTY_BODY = YES;
-                CLANG_WARN_ENUM_CONVERSION = YES;
-                CLANG_WARN_INFINITE_RECURSION = YES;
-                CLANG_WARN_INT_CONVERSION = YES;
-                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-                CLANG_WARN_STRICT_PROTOTYPES = YES;
-                CLANG_WARN_SUSPICIOUS_MOVE = YES;
-                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-                CLANG_WARN_UNREACHABLE_CODE = YES;
-                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-                CODE_SIGN_IDENTITY = "iPhone Developer";
-                COPY_PHASE_STRIP = NO;
-                DEBUG_INFORMATION_FORMAT = dwarf;
-                ENABLE_STRICT_OBJC_MSGSEND = YES;
-                ENABLE_TESTABILITY = YES;
-                GCC_C_LANGUAGE_STANDARD = gnu11;
-                GCC_DYNAMIC_NO_PIC = NO;
-                GCC_NO_COMMON_BLOCKS = YES;
-                GCC_OPTIMIZATION_LEVEL = 0;
-                GCC_PREPROCESSOR_DEFINITIONS = (
-                    "DEBUG=1",
-                    "$(inherited)",
-                );
-                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-                GCC_WARN_UNDECLARED_SELECTOR = YES;
-                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-                GCC_WARN_UNUSED_FUNCTION = YES;
-                GCC_WARN_UNUSED_VARIABLE = YES;
-                IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-                MTL_ENABLE_DEBUG_INFO = YES;
-                ONLY_ACTIVE_ARCH = YES;
-                SDKROOT = iphoneos;
-                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-            };
-            name = Debug;
-        };
-        025B460720A08009006849EE /* Release */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ALWAYS_SEARCH_USER_PATHS = NO;
-                CLANG_ANALYZER_NONNULL = YES;
-                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-                CLANG_CXX_LIBRARY = "libc++";
-                CLANG_ENABLE_MODULES = YES;
-                CLANG_ENABLE_OBJC_ARC = YES;
-                CLANG_ENABLE_OBJC_WEAK = YES;
-                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-                CLANG_WARN_BOOL_CONVERSION = YES;
-                CLANG_WARN_COMMA = YES;
-                CLANG_WARN_CONSTANT_CONVERSION = YES;
-                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-                CLANG_WARN_EMPTY_BODY = YES;
-                CLANG_WARN_ENUM_CONVERSION = YES;
-                CLANG_WARN_INFINITE_RECURSION = YES;
-                CLANG_WARN_INT_CONVERSION = YES;
-                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-                CLANG_WARN_STRICT_PROTOTYPES = YES;
-                CLANG_WARN_SUSPICIOUS_MOVE = YES;
-                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-                CLANG_WARN_UNREACHABLE_CODE = YES;
-                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-                CODE_SIGN_IDENTITY = "iPhone Developer";
-                COPY_PHASE_STRIP = NO;
-                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-                ENABLE_NS_ASSERTIONS = NO;
-                ENABLE_STRICT_OBJC_MSGSEND = YES;
-                GCC_C_LANGUAGE_STANDARD = gnu11;
-                GCC_NO_COMMON_BLOCKS = YES;
-                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-                GCC_WARN_UNDECLARED_SELECTOR = YES;
-                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-                GCC_WARN_UNUSED_FUNCTION = YES;
-                GCC_WARN_UNUSED_VARIABLE = YES;
-                IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-                MTL_ENABLE_DEBUG_INFO = NO;
-                SDKROOT = iphoneos;
-                SWIFT_COMPILATION_MODE = wholemodule;
-                SWIFT_OPTIMIZATION_LEVEL = "-O";
-                VALIDATE_PRODUCT = YES;
-            };
-            name = Release;
-        };
-        025B460920A08009006849EE /* Debug */ = {
-            isa = XCBuildConfiguration;
+		025B460620A08009006849EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		025B460720A08009006849EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		025B460920A08009006849EE /* Debug */ = {
+			isa = XCBuildConfiguration;
 			baseConfigurationReference = 404D7ABE947C64524C162327 /* Pods-DigipetCapstone.debug.xcconfig */;
-            buildSettings = {
-                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-                CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 623F8T3Y6S;
-                INFOPLIST_FILE = DigipetCapstone/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = (
-                    "$(inherited)",
-                    "@executable_path/Frameworks",
-                );
-                PRODUCT_BUNDLE_IDENTIFIER = com.cassandramoe.DigipetCapstone;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_OBJC_BRIDGING_HEADER = "DigipetCapstone/Digipet-Bridging-Header.h";
-                SWIFT_VERSION = 4.0;
-                TARGETED_DEVICE_FAMILY = "1,2";
-            };
-            name = Debug;
-        };
-        025B460A20A08009006849EE /* Release */ = {
-            isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9JWVD6Z87;
+				INFOPLIST_FILE = DigipetCapstone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cassandramoe.DigipetCapstone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DigipetCapstone/Digipet-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		025B460A20A08009006849EE /* Release */ = {
+			isa = XCBuildConfiguration;
 			baseConfigurationReference = B6FEDCDCA85A369E5988429A /* Pods-DigipetCapstone.release.xcconfig */;
-            buildSettings = {
-                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-                CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 623F8T3Y6S;
-                INFOPLIST_FILE = DigipetCapstone/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = (
-                    "$(inherited)",
-                    "@executable_path/Frameworks",
-                );
-                PRODUCT_BUNDLE_IDENTIFIER = com.cassandramoe.DigipetCapstone;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_OBJC_BRIDGING_HEADER = "DigipetCapstone/Digipet-Bridging-Header.h";
-                SWIFT_VERSION = 4.0;
-                TARGETED_DEVICE_FAMILY = "1,2";
-            };
-            name = Release;
-        };
-        025B460C20A08009006849EE /* Debug */ = {
-            isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9JWVD6Z87;
+				INFOPLIST_FILE = DigipetCapstone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cassandramoe.DigipetCapstone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DigipetCapstone/Digipet-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		025B460C20A08009006849EE /* Debug */ = {
+			isa = XCBuildConfiguration;
 			baseConfigurationReference = 77A4240E6BC030A91612DCD5 /* Pods-DigipetCapstoneTests.debug.xcconfig */;
-            buildSettings = {
-                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-                BUNDLE_LOADER = "$(TEST_HOST)";
-                CODE_SIGN_STYLE = Automatic;
-                DEVELOPMENT_TEAM = 4QL3776T85;
-                INFOPLIST_FILE = DigipetCapstoneTests/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = (
-                    "$(inherited)",
-                    "@executable_path/Frameworks",
-                    "@loader_path/Frameworks",
-                );
-                PRODUCT_BUNDLE_IDENTIFIER = com.kaitlynkatz.DigipetCapstoneTests;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 4.0;
-                TARGETED_DEVICE_FAMILY = "1,2";
-                TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigipetCapstone.app/DigipetCapstone";
-            };
-            name = Debug;
-        };
-        025B460D20A08009006849EE /* Release */ = {
-            isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QL3776T85;
+				INFOPLIST_FILE = DigipetCapstoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaitlynkatz.DigipetCapstoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigipetCapstone.app/DigipetCapstone";
+			};
+			name = Debug;
+		};
+		025B460D20A08009006849EE /* Release */ = {
+			isa = XCBuildConfiguration;
 			baseConfigurationReference = A1C033F632FBCACA461DCB1C /* Pods-DigipetCapstoneTests.release.xcconfig */;
-            buildSettings = {
-                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-                BUNDLE_LOADER = "$(TEST_HOST)";
-                CODE_SIGN_STYLE = Automatic;
-                DEVELOPMENT_TEAM = 4QL3776T85;
-                INFOPLIST_FILE = DigipetCapstoneTests/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = (
-                    "$(inherited)",
-                    "@executable_path/Frameworks",
-                    "@loader_path/Frameworks",
-                );
-                PRODUCT_BUNDLE_IDENTIFIER = com.kaitlynkatz.DigipetCapstoneTests;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 4.0;
-                TARGETED_DEVICE_FAMILY = "1,2";
-                TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigipetCapstone.app/DigipetCapstone";
-            };
-            name = Release;
-        };
-        025B460F20A08009006849EE /* Debug */ = {
-            isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QL3776T85;
+				INFOPLIST_FILE = DigipetCapstoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaitlynkatz.DigipetCapstoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigipetCapstone.app/DigipetCapstone";
+			};
+			name = Release;
+		};
+		025B460F20A08009006849EE /* Debug */ = {
+			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4DC7352459BC714336C32BAF /* Pods-DigipetCapstoneUITests.debug.xcconfig */;
-            buildSettings = {
-                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-                CODE_SIGN_STYLE = Automatic;
-                DEVELOPMENT_TEAM = 4QL3776T85;
-                INFOPLIST_FILE = DigipetCapstoneUITests/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = (
-                    "$(inherited)",
-                    "@executable_path/Frameworks",
-                    "@loader_path/Frameworks",
-                );
-                PRODUCT_BUNDLE_IDENTIFIER = com.kaitlynkatz.DigipetCapstoneUITests;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 4.0;
-                TARGETED_DEVICE_FAMILY = "1,2";
-                TEST_TARGET_NAME = DigipetCapstone;
-            };
-            name = Debug;
-        };
-        025B461020A08009006849EE /* Release */ = {
-            isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QL3776T85;
+				INFOPLIST_FILE = DigipetCapstoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaitlynkatz.DigipetCapstoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DigipetCapstone;
+			};
+			name = Debug;
+		};
+		025B461020A08009006849EE /* Release */ = {
+			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1BC670389A7D9B850E4ABA37 /* Pods-DigipetCapstoneUITests.release.xcconfig */;
-            buildSettings = {
-                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-                CODE_SIGN_STYLE = Automatic;
-                DEVELOPMENT_TEAM = 4QL3776T85;
-                INFOPLIST_FILE = DigipetCapstoneUITests/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = (
-                    "$(inherited)",
-                    "@executable_path/Frameworks",
-                    "@loader_path/Frameworks",
-                );
-                PRODUCT_BUNDLE_IDENTIFIER = com.kaitlynkatz.DigipetCapstoneUITests;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 4.0;
-                TARGETED_DEVICE_FAMILY = "1,2";
-                TEST_TARGET_NAME = DigipetCapstone;
-            };
-            name = Release;
-        };
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QL3776T85;
+				INFOPLIST_FILE = DigipetCapstoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaitlynkatz.DigipetCapstoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DigipetCapstone;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-        025B45D520A08008006849EE /* Build configuration list for PBXProject "DigipetCapstone" */ = {
-            isa = XCConfigurationList;
-            buildConfigurations = (
-                025B460620A08009006849EE /* Debug */,
-                025B460720A08009006849EE /* Release */,
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-        };
-        025B460820A08009006849EE /* Build configuration list for PBXNativeTarget "DigipetCapstone" */ = {
-            isa = XCConfigurationList;
-            buildConfigurations = (
-                025B460920A08009006849EE /* Debug */,
-                025B460A20A08009006849EE /* Release */,
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-        };
-        025B460B20A08009006849EE /* Build configuration list for PBXNativeTarget "DigipetCapstoneTests" */ = {
-            isa = XCConfigurationList;
-            buildConfigurations = (
-                025B460C20A08009006849EE /* Debug */,
-                025B460D20A08009006849EE /* Release */,
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-        };
-        025B460E20A08009006849EE /* Build configuration list for PBXNativeTarget "DigipetCapstoneUITests" */ = {
-            isa = XCConfigurationList;
-            buildConfigurations = (
-                025B460F20A08009006849EE /* Debug */,
-                025B461020A08009006849EE /* Release */,
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-        };
+		025B45D520A08008006849EE /* Build configuration list for PBXProject "DigipetCapstone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025B460620A08009006849EE /* Debug */,
+				025B460720A08009006849EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025B460820A08009006849EE /* Build configuration list for PBXNativeTarget "DigipetCapstone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025B460920A08009006849EE /* Debug */,
+				025B460A20A08009006849EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025B460B20A08009006849EE /* Build configuration list for PBXNativeTarget "DigipetCapstoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025B460C20A08009006849EE /* Debug */,
+				025B460D20A08009006849EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025B460E20A08009006849EE /* Build configuration list for PBXNativeTarget "DigipetCapstoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025B460F20A08009006849EE /* Debug */,
+				025B461020A08009006849EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
-    };
-    rootObject = 025B45D220A08008006849EE /* Project object */;
+	};
+	rootObject = 025B45D220A08008006849EE /* Project object */;
 }

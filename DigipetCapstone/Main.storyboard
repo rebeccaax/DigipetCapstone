@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.15" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sgx-Yj-ML6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sgx-Yj-ML6">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.9"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -180,14 +180,14 @@
                                     <action selector="backButtonTouched:" destination="3eF-DO-C7J" eventType="touchUpInside" id="FuU-18-aj5"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="LEARN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDP-hJ-Pab">
-                                <rect key="frame" x="70" y="84" width="211" height="76"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LEARN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDP-hJ-Pab">
+                                <rect key="frame" x="70" y="84" width="211" height="60"/>
                                 <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="65"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9a-nf-hzm">
-                                <rect key="frame" x="281" y="84" width="24" height="76"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9a-nf-hzm">
+                                <rect key="frame" x="281" y="84" width="24" height="60"/>
                                 <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="65"/>
                                 <color key="textColor" red="0.4998677373" green="0.2762259245" blue="0.86774939299999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -275,7 +275,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NnL-Tc-OUl">
-                                <rect key="frame" x="190" y="500" width="170" height="164"/>
+                                <rect key="frame" x="190" y="500" width="170" height="158"/>
                                 <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="130"/>
                                 <state key="normal" title="6">
                                     <color key="titleColor" red="0.98680108789999998" green="0.93241268399999999" blue="0.13197958470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -397,13 +397,13 @@
                                 <rect key="frame" x="62" y="370" width="251" height="150"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Incorrect!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66Y-g9-Vzp">
-                                        <rect key="frame" x="41" y="28" width="169" height="47"/>
+                                        <rect key="frame" x="29.5" y="28" width="192.5" height="37"/>
                                         <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="40"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="That is a vegetable." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GtT-iF-cgE">
-                                        <rect key="frame" x="10" y="83" width="231" height="85"/>
+                                        <rect key="frame" x="10" y="73" width="231" height="85"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="85" id="EPG-yw-qSL"/>
                                         </constraints>
@@ -608,7 +608,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehg-Eg-G1T">
-                                <rect key="frame" x="87" y="68" width="201" height="29.5"/>
+                                <rect key="frame" x="87" y="68" width="201" height="23"/>
                                 <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -739,7 +739,7 @@
                                             <rect key="frame" x="37" y="196" width="300" height="275"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LESSON INFO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdj-IS-dTj">
-                                                    <rect key="frame" x="20" y="20" width="196.5" height="27"/>
+                                                    <rect key="frame" x="20" y="20" width="197.5" height="27"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="27" id="w4E-or-zCD"/>
                                                     </constraints>
@@ -752,19 +752,19 @@
                                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uod-9L-uSK">
-                                                    <rect key="frame" x="20" y="62" width="49" height="23.5"/>
+                                                    <rect key="frame" x="20" y="62" width="56" height="18.5"/>
                                                     <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vocab Highlights" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VP2-8s-pb4">
-                                                    <rect key="frame" x="20" y="98.5" width="136" height="21"/>
+                                                    <rect key="frame" x="20" y="93.5" width="157.5" height="17"/>
                                                     <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vocab" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dud-Nj-R8h">
-                                                    <rect key="frame" x="20" y="120.5" width="266" height="40"/>
+                                                    <rect key="frame" x="20" y="111.5" width="266" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="40" id="SpP-p2-kRO"/>
                                                         <constraint firstAttribute="width" constant="266" id="WTv-3E-pPq"/>
@@ -774,13 +774,13 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLO-hl-jru">
-                                                    <rect key="frame" x="20" y="171.5" width="145.5" height="21"/>
+                                                    <rect key="frame" x="20" y="162.5" width="165.5" height="17"/>
                                                     <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Desc" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vdO-Xb-VCs">
-                                                    <rect key="frame" x="20" y="193.5" width="266" height="40"/>
+                                                    <rect key="frame" x="20" y="180.5" width="266" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="266" id="NAA-m8-FXD"/>
                                                         <constraint firstAttribute="height" constant="40" id="p3d-ZX-jHJ"/>
@@ -790,7 +790,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zjs-dh-xMN" customClass="LessonButton" customModule="DigipetCapstone" customModuleProvider="target">
-                                                    <rect key="frame" x="40" y="244.5" width="100" height="28"/>
+                                                    <rect key="frame" x="40" y="231.5" width="100" height="28"/>
                                                     <gestureRecognizers/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="100" id="7ro-ip-yfm"/>
@@ -805,7 +805,7 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hh1-e9-xyl" customClass="LessonButton" customModule="DigipetCapstone" customModuleProvider="target">
-                                                    <rect key="frame" x="160" y="244.5" width="100" height="28"/>
+                                                    <rect key="frame" x="160" y="231.5" width="100" height="28"/>
                                                     <gestureRecognizers/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="28" id="95z-uZ-0rk"/>
@@ -915,7 +915,7 @@
                                 <rect key="frame" x="37" y="284" width="301" height="275"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rWm-mc-yYa">
-                                        <rect key="frame" x="21" y="102" width="259" height="35"/>
+                                        <rect key="frame" x="21" y="102" width="259" height="28"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="259" id="Uyd-qx-HqD"/>
                                         </constraints>
@@ -924,7 +924,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="desc" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMG-xf-cBu">
-                                        <rect key="frame" x="21" y="145" width="259" height="59"/>
+                                        <rect key="frame" x="21" y="138" width="259" height="59"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="259" id="fCU-8s-Wdl"/>
                                             <constraint firstAttribute="height" constant="59" id="vpw-ul-WQz"/>
@@ -934,7 +934,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you want to talk or type?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6WP-Ws-EfO">
-                                        <rect key="frame" x="37" y="206" width="227.5" height="21"/>
+                                        <rect key="frame" x="12.5" y="210" width="276" height="17"/>
                                         <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1296,6 +1296,43 @@
             </objects>
             <point key="canvasLocation" x="4342" y="620"/>
         </scene>
+        <!--Progress Screen-->
+        <scene sceneID="qbV-ju-53Z">
+            <objects>
+                <tableViewController storyboardIdentifier="progressScreen" id="GaR-Ig-BwL" customClass="ProgressScreen" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="wfw-LR-3sr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="QL1-yP-u6l" style="IBUITableViewCellStyleDefault" id="JsM-Ua-mQJ">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JsM-Ua-mQJ" id="Dvd-DV-is3">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QL1-yP-u6l">
+                                            <rect key="frame" x="16" y="0.0" width="343" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="GaR-Ig-BwL" id="xE2-cp-Abw"/>
+                            <outlet property="delegate" destination="GaR-Ig-BwL" id="QfH-kp-8L4"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H0D-Yb-8tM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="479" y="648"/>
+        </scene>
         <!--Play2-->
         <scene sceneID="YrB-jK-paL">
             <objects>
@@ -1396,13 +1433,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9x8-ek-LBd">
-                                <rect key="frame" x="91" y="82" width="158" height="76"/>
+                                <rect key="frame" x="91" y="82" width="168.5" height="60"/>
                                 <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="65"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4s-Tm-sAu">
-                                <rect key="frame" x="249" y="82" width="17" height="76"/>
+                                <rect key="frame" x="259.5" y="82" width="24" height="60"/>
                                 <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="65"/>
                                 <color key="textColor" red="0.4998677373" green="0.2762259245" blue="0.86774939299999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1741,19 +1778,19 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LEVEL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6vi-zr-8Ae">
-                                <rect key="frame" x="93" y="65" width="147.5" height="58.5"/>
+                                <rect key="frame" x="93" y="65" width="143.5" height="46"/>
                                 <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mtr-j8-NfD">
-                                <rect key="frame" x="248.5" y="65" width="28" height="58.5"/>
+                                <rect key="frame" x="244.5" y="65" width="35.5" height="46"/>
                                 <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="50"/>
                                 <color key="textColor" red="0.4998677373" green="0.2762259245" blue="0.86774939299999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MINIGAMES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHA-Cr-499">
-                                <rect key="frame" x="46.5" y="108" width="282.5" height="58.5"/>
+                                <rect key="frame" x="39" y="108" width="297.5" height="46"/>
                                 <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1771,7 +1808,7 @@
                                             <rect key="frame" x="37" y="196" width="300" height="275"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MINIGAME #" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WS4-uI-tpI">
-                                                    <rect key="frame" x="20" y="20" width="175.5" height="27"/>
+                                                    <rect key="frame" x="20" y="20" width="194.5" height="27"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="27" id="RVv-aS-Tb8"/>
                                                     </constraints>
@@ -1784,19 +1821,19 @@
                                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWq-5o-FCH">
-                                                    <rect key="frame" x="20" y="62" width="49" height="23.5"/>
+                                                    <rect key="frame" x="20" y="62" width="56" height="18.5"/>
                                                     <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vocab Highlights" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAJ-cC-7lT">
-                                                    <rect key="frame" x="20" y="98.5" width="136" height="21"/>
+                                                    <rect key="frame" x="20" y="93.5" width="157.5" height="17"/>
                                                     <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vocab" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lD4-2b-3iK">
-                                                    <rect key="frame" x="20" y="120.5" width="266" height="40"/>
+                                                    <rect key="frame" x="20" y="111.5" width="266" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="266" id="46X-Fb-13c"/>
                                                         <constraint firstAttribute="height" constant="40" id="fdR-xv-BkG"/>
@@ -1806,13 +1843,13 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MKD-yw-8W3">
-                                                    <rect key="frame" x="20" y="171.5" width="81" height="21"/>
+                                                    <rect key="frame" x="20" y="162.5" width="92.5" height="17"/>
                                                     <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Desc" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ng5-7b-oa4">
-                                                    <rect key="frame" x="20" y="193.5" width="266" height="40"/>
+                                                    <rect key="frame" x="20" y="180.5" width="266" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="40" id="CxN-En-jYg"/>
                                                         <constraint firstAttribute="width" constant="266" id="Uj3-ed-9C3"/>
@@ -1822,7 +1859,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phH-Eu-4DF" customClass="GameButton" customModule="DigipetCapstone" customModuleProvider="target">
-                                                    <rect key="frame" x="40" y="244.5" width="100" height="28"/>
+                                                    <rect key="frame" x="40" y="231.5" width="100" height="28"/>
                                                     <gestureRecognizers/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="100" id="Tvv-Pt-TY9"/>
@@ -1837,7 +1874,7 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7B-gv-MZf" customClass="GameButton" customModule="DigipetCapstone" customModuleProvider="target">
-                                                    <rect key="frame" x="160" y="244.5" width="100" height="28"/>
+                                                    <rect key="frame" x="160" y="231.5" width="100" height="28"/>
                                                     <gestureRecognizers/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="100" id="4yE-iI-NGn"/>
@@ -1853,7 +1890,7 @@
                                                     </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAd-9k-gua">
-                                                    <rect key="frame" x="219" y="28" width="17" height="27"/>
+                                                    <rect key="frame" x="214.5" y="21" width="21.5" height="27"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="27" id="jAo-4K-NHq"/>
                                                     </constraints>
@@ -2006,7 +2043,7 @@
                                             <rect key="frame" x="37" y="196" width="300" height="275"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MINIGAME #" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MiO-dQ-d2P">
-                                                    <rect key="frame" x="20" y="20" width="175.5" height="27"/>
+                                                    <rect key="frame" x="20" y="20" width="194.5" height="27"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="27" id="7fz-O1-8CP"/>
                                                     </constraints>
@@ -2019,19 +2056,19 @@
                                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meP-My-ZSR">
-                                                    <rect key="frame" x="20" y="62" width="49" height="23.5"/>
+                                                    <rect key="frame" x="20" y="62" width="56" height="18.5"/>
                                                     <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vocab Highlights" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1w-Uu-r8F">
-                                                    <rect key="frame" x="20" y="98.5" width="136" height="21"/>
+                                                    <rect key="frame" x="20" y="93.5" width="157.5" height="17"/>
                                                     <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vocab" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dbr-R4-iQo">
-                                                    <rect key="frame" x="20" y="120.5" width="266" height="40"/>
+                                                    <rect key="frame" x="20" y="111.5" width="266" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="266" id="FTl-2P-4kc"/>
                                                         <constraint firstAttribute="height" constant="40" id="Nck-ei-sqZ"/>
@@ -2041,13 +2078,13 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olU-HP-mVI">
-                                                    <rect key="frame" x="20" y="171.5" width="81" height="21"/>
+                                                    <rect key="frame" x="20" y="162.5" width="92.5" height="17"/>
                                                     <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Desc" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mZF-YK-1re">
-                                                    <rect key="frame" x="20" y="193.5" width="266" height="40"/>
+                                                    <rect key="frame" x="20" y="180.5" width="266" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="266" id="BcK-Ua-9aS"/>
                                                         <constraint firstAttribute="height" constant="40" id="N1U-Ze-94y"/>
@@ -2057,7 +2094,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ur-RJ-Ysb" userLabel="Info Start Button" customClass="GameButton" customModule="DigipetCapstone" customModuleProvider="target">
-                                                    <rect key="frame" x="40" y="244.5" width="100" height="28"/>
+                                                    <rect key="frame" x="40" y="231.5" width="100" height="28"/>
                                                     <gestureRecognizers/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="100" id="3b4-yi-7vc"/>
@@ -2072,7 +2109,7 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fpT-Xg-HaZ" customClass="GameButton" customModule="DigipetCapstone" customModuleProvider="target">
-                                                    <rect key="frame" x="160" y="244.5" width="100" height="28"/>
+                                                    <rect key="frame" x="160" y="231.5" width="100" height="28"/>
                                                     <gestureRecognizers/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="100" id="TJO-a5-INz"/>
@@ -2087,7 +2124,7 @@
                                                     </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LdR-rP-R56">
-                                                    <rect key="frame" x="219" y="28" width="17" height="27"/>
+                                                    <rect key="frame" x="214.5" y="21" width="21.5" height="27"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="27" id="tk0-MG-wPB"/>
                                                     </constraints>
@@ -2216,13 +2253,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CURRENT LANGUAGE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LcO-se-kBT">
-                                <rect key="frame" x="31" y="69" width="313" height="35"/>
+                                <rect key="frame" x="32" y="69" width="311" height="28"/>
                                 <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1yy-ZG-G1o">
-                                <rect key="frame" x="172" y="153" width="31" height="24"/>
+                                <rect key="frame" x="172" y="146" width="31" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2235,6 +2272,16 @@
                                 </state>
                                 <connections>
                                     <action selector="pressLogin:" destination="g42-Gh-Bt8" eventType="touchUpInside" id="a2v-VD-eYH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lXM-l3-ypu">
+                                <rect key="frame" x="157" y="451" width="61" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Progress">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressProgress:" destination="g42-Gh-Bt8" eventType="touchUpInside" id="emf-1G-Qie"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2259,6 +2306,7 @@
                         <outlet property="chineseButton" destination="jwd-H1-lx7" id="NvD-Bh-CDz"/>
                         <outlet property="currentLanguage" destination="1yy-ZG-G1o" id="RL0-0E-9t8"/>
                         <outlet property="frenchButton" destination="rg9-tW-qj0" id="d0N-aE-gpd"/>
+                        <outlet property="progressButton" destination="lXM-l3-ypu" id="dr8-2M-yoO"/>
                         <outlet property="spanishButton" destination="huX-2t-55q" id="Egb-pF-fV0"/>
                     </connections>
                 </viewController>
@@ -2505,7 +2553,7 @@
                                 <rect key="frame" x="37" y="284" width="301" height="275"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qCI-Vf-D79" userLabel="Minigame Name">
-                                        <rect key="frame" x="21" y="102" width="259" height="35"/>
+                                        <rect key="frame" x="21" y="102" width="259" height="28"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="259" id="mbd-WJ-fdj"/>
                                         </constraints>
@@ -2514,7 +2562,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="desc" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwm-eh-XyR" userLabel="Minigame Desc">
-                                        <rect key="frame" x="21" y="145" width="259" height="59"/>
+                                        <rect key="frame" x="21" y="138" width="259" height="59"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="59" id="KSo-c2-Dhn"/>
                                             <constraint firstAttribute="width" constant="259" id="vCO-Vm-dQJ"/>
@@ -2524,7 +2572,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you want to talk or type?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJI-hq-Xa9">
-                                        <rect key="frame" x="37" y="206" width="227.5" height="21"/>
+                                        <rect key="frame" x="12.5" y="210" width="276" height="17"/>
                                         <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -2626,7 +2674,7 @@
                                 <rect key="frame" x="37" y="284" width="301" height="275"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You won!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rnJ-sH-UMK" userLabel="Minigame Congrats">
-                                        <rect key="frame" x="21" y="102" width="259" height="35"/>
+                                        <rect key="frame" x="21" y="102" width="259" height="28"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="259" id="78Y-fq-OYv"/>
                                         </constraints>
