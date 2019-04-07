@@ -44,7 +44,7 @@ class SettingsPage : UIViewController {
     
     @IBAction func pressLogin(_ sender: Any) {
         self.transitioningDelegate = RZTransitionsManager.shared()
-        let nextViewController = storyboard?.instantiateViewController(withIdentifier: "loginPage")
+        let nextViewController = storyboard?.instantiateViewController(withIdentifier: "NavigationView")
         nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }

@@ -69,6 +69,7 @@
 		026F42FE20A5C2490098EC23 /* L1LessonOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F42F720A5C2490098EC23 /* L1LessonOne.swift */; };
 		026F42FF20A5C2490098EC23 /* L1LessonOneTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F42F820A5C2490098EC23 /* L1LessonOneTalkView.swift */; };
 		026F430120A5C53A0098EC23 /* L1LessonTwoTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F430020A5C53A0098EC23 /* L1LessonTwoTalkView.swift */; };
+		04DF15FA22577EEB00C3DFAB /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF15F922577EEB00C3DFAB /* NavigationViewController.swift */; };
 		04F3B69E22450963008DF5CE /* L1LessonFour.sks in Resources */ = {isa = PBXBuildFile; fileRef = 04F3B69D22450963008DF5CE /* L1LessonFour.sks */; };
 		04F3B6A0224509B8008DF5CE /* L1LessonFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3B69F224509B8008DF5CE /* L1LessonFour.swift */; };
 		04F3B6A222450A37008DF5CE /* L1LessonFourTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3B6A122450A37008DF5CE /* L1LessonFourTalkView.swift */; };
@@ -205,6 +206,7 @@
 		026F42F720A5C2490098EC23 /* L1LessonOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonOne.swift; sourceTree = "<group>"; };
 		026F42F820A5C2490098EC23 /* L1LessonOneTalkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonOneTalkView.swift; sourceTree = "<group>"; };
 		026F430020A5C53A0098EC23 /* L1LessonTwoTalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonTwoTalkView.swift; sourceTree = "<group>"; };
+		04DF15F922577EEB00C3DFAB /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		04F3B69D22450963008DF5CE /* L1LessonFour.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = L1LessonFour.sks; sourceTree = "<group>"; };
 		04F3B69F224509B8008DF5CE /* L1LessonFour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonFour.swift; sourceTree = "<group>"; };
 		04F3B6A122450A37008DF5CE /* L1LessonFourTalkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonFourTalkView.swift; sourceTree = "<group>"; };
@@ -287,6 +289,7 @@
 		025B45DC20A08008006849EE /* DigipetCapstone */ = {
 			isa = PBXGroup;
 			children = (
+				04DF15F922577EEB00C3DFAB /* NavigationViewController.swift */,
 				025B469F20A0811C006849EE /* Actions.sks */,
 				025B45DD20A08008006849EE /* AppDelegate.swift */,
 				025B46C620A081F9006849EE /* Assets.xcassets */,
@@ -757,6 +760,7 @@
 				0228973720B63ADE0098E0E3 /* GameTableViewCell2.swift in Sources */,
 				026F42FF20A5C2490098EC23 /* L1LessonOneTalkView.swift in Sources */,
 				0079CC3A20A9BC40002296D8 /* GameTableViewCell.swift in Sources */,
+				04DF15FA22577EEB00C3DFAB /* NavigationViewController.swift in Sources */,
 				026F42FB20A5C2490098EC23 /* L1LessonTwoTypeView.swift in Sources */,
 				025B464820A080E4006849EE /* UIImage+RZTransitionsSnapshotHelpers.m in Sources */,
 				025B461220A0809C006849EE /* VoiceRecognition.swift in Sources */,
