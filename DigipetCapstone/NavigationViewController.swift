@@ -12,9 +12,8 @@ class NavigationViewController : UIViewController {
     var mainScreen: MainScreen?
     
     
-    override var prefersStatusBarHidden: Bool {
-        return true
+    override func viewDidLoad() {
+        super.viewDidLoad()
     }
     
 }
-
