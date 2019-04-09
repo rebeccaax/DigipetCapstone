@@ -71,6 +71,7 @@
 		026F430120A5C53A0098EC23 /* L1LessonTwoTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F430020A5C53A0098EC23 /* L1LessonTwoTalkView.swift */; };
 		042318D4225B77A400DFE4C1 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042318D3225B77A400DFE4C1 /* LoginPage.swift */; };
 		04DF15FA22577EEB00C3DFAB /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF15F922577EEB00C3DFAB /* NavigationViewController.swift */; };
+		04F3693D225B7A3500AA9753 /* SignUpPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3693C225B7A3500AA9753 /* SignUpPageController.swift */; };
 		04F3B69E22450963008DF5CE /* L1LessonFour.sks in Resources */ = {isa = PBXBuildFile; fileRef = 04F3B69D22450963008DF5CE /* L1LessonFour.sks */; };
 		04F3B6A0224509B8008DF5CE /* L1LessonFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3B69F224509B8008DF5CE /* L1LessonFour.swift */; };
 		04F3B6A222450A37008DF5CE /* L1LessonFourTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3B6A122450A37008DF5CE /* L1LessonFourTalkView.swift */; };
@@ -209,6 +210,7 @@
 		026F430020A5C53A0098EC23 /* L1LessonTwoTalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonTwoTalkView.swift; sourceTree = "<group>"; };
 		042318D3225B77A400DFE4C1 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		04DF15F922577EEB00C3DFAB /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		04F3693C225B7A3500AA9753 /* SignUpPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPageController.swift; sourceTree = "<group>"; };
 		04F3B69D22450963008DF5CE /* L1LessonFour.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = L1LessonFour.sks; sourceTree = "<group>"; };
 		04F3B69F224509B8008DF5CE /* L1LessonFour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonFour.swift; sourceTree = "<group>"; };
 		04F3B6A122450A37008DF5CE /* L1LessonFourTalkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonFourTalkView.swift; sourceTree = "<group>"; };
@@ -293,6 +295,7 @@
 			children = (
 				04DF15F922577EEB00C3DFAB /* NavigationViewController.swift */,
 				042318D3225B77A400DFE4C1 /* LoginPage.swift */,
+				04F3693C225B7A3500AA9753 /* SignUpPageController.swift */,
 				025B469F20A0811C006849EE /* Actions.sks */,
 				025B45DD20A08008006849EE /* AppDelegate.swift */,
 				025B46C620A081F9006849EE /* Assets.xcassets */,
@@ -787,6 +790,7 @@
 				025B46A920A08190006849EE /* GameViewController.swift in Sources */,
 				0079CC3620A9B9A3002296D8 /* Minigame.swift in Sources */,
 				04F3B6A222450A37008DF5CE /* L1LessonFourTalkView.swift in Sources */,
+				04F3693D225B7A3500AA9753 /* SignUpPageController.swift in Sources */,
 				0079CC3220A9B50D002296D8 /* Play.swift in Sources */,
 				0228973320B500570098E0E3 /* LevelVCPlay2.swift in Sources */,
 				025B46C120A081C0006849EE /* LessonStartBox.swift in Sources */,

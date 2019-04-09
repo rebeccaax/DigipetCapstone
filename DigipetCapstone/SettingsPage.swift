@@ -5,7 +5,7 @@
 //  Created by Timothy Obiso on 5/14/18.
 //  Copyright © 2018 Katie Katz. All rights reserved.
 //
-
+import Foundation
 import UIKit
 
 class SettingsPage : UIViewController {
@@ -15,6 +15,12 @@ class SettingsPage : UIViewController {
     @IBOutlet weak var spanishButton: UIButton!
     @IBOutlet weak var frenchButton: UIButton!
     @IBOutlet weak var currentLanguage: UILabel!
+    @IBOutlet weak var test: UIButton!
+    
+    @IBOutlet weak var username: UITextField!
+    
+    
+    
     let languages = ["中文", "Français","Español"]
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,10 +47,10 @@ class SettingsPage : UIViewController {
         currentLanguage.text = "Français"
     }
     // stan loona
-    
-    @IBAction func pressLogin(_ sender: Any) {
+   
+    @IBAction func pressTest(_ sender: Any) {
         self.transitioningDelegate = RZTransitionsManager.shared()
-        let nextViewController = storyboard?.instantiateViewController(withIdentifier: "NavigationView")
+        let nextViewController = storyboard?.instantiateViewController(withIdentifier: "navigationView")
         nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
@@ -58,6 +64,27 @@ class SettingsPage : UIViewController {
             mainScreen?.pet.image = UIImage(named: "france")
         }
         self.dismiss(animated: true, completion: nil)
+    }
+    
+
+    @IBAction func logoutTapped(_ sender: Any) {
+        print("logouttapped")
+    }
+    override var shouldAutorotate: Bool {
+        return true
+    }
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        if UIDevice.current.userInterfaceIdiom == .phone {
+            return .allButUpsideDown
+        } else {
+            return .all
+        }
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Release any cached data, images, etc that aren't in use.
     }
     
     override var prefersStatusBarHidden: Bool {

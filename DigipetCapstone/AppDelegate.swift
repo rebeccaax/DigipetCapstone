@@ -6,8 +6,6 @@
 //  Copyright © 2018 Katie Katz. All rights reserved.
 //
 import UIKit
-import FirebaseCore
-import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
