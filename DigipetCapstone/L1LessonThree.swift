@@ -227,20 +227,24 @@ class L1LessonThree: SKScene {
     // fade in transition for open fridge
     
     func sayHello() {
-        self.Pet1.run(self.walkIn)
-        
-        Timer.scheduledTimer(withTimeInterval: 4, repeats: false) {
+        Timer.scheduledTimer(withTimeInterval: 1, repeats: false) {
             timer in
+            
+            self.Pet1.run(self.walkIn)
+        }
+        
+        Timer.scheduledTimer(withTimeInterval: 6, repeats: false) {
+            timer in
+            
             self.sBubble1.isHidden = false
             self.pet1Text.text = (self.prompts)[self.lang][0]
         }
         
-        
-        Timer.scheduledTimer(withTimeInterval: 3, repeats: false) {
-            timer in
+      //  Timer.scheduledTimer(withTimeInterval: 3, repeats: false) {
+      //      timer in
             self.pet1Text.text = ""
             
-        }
+      //  }
     }
     
     func whatFood() {
@@ -248,19 +252,26 @@ class L1LessonThree: SKScene {
         openFridge.isHidden = false
     
         foodArr[0].isHidden = false
-        self.pet1Text.text = prompts[lang][1] + foodTextArr[lang][0]
+        
+        Timer.scheduledTimer(withTimeInterval: 1, repeats: false) {
+            timer in
+            self.pet1Text.text = self.prompts[self.lang][1] + self.foodTextArr[self.lang][0]
+        }
             
         Timer.scheduledTimer(withTimeInterval: 3, repeats: false) {
                 timer in
                 self.pet1Text.text = ""
         }
-            
-        self.pet1Text.text = prompts[lang][2] + foodTextArr[lang][0] + questionTextEnd[lang]
         
-        Timer.scheduledTimer(withTimeInterval: 3, repeats: false) {
+        Timer.scheduledTimer(withTimeInterval: 6, repeats: false) {
             timer in
-            self.pet1Text.text = ""
+            self.pet1Text.text = self.prompts[self.lang][2] + self.foodTextArr[self.lang][0] + self.questionTextEnd[self.lang]
         }
+        
+      //  Timer.scheduledTimer(withTimeInterval: 3, repeats: false) {
+      //      timer in
+            self.pet1Text.text = ""
+      //  }
         
     }
     
@@ -282,7 +293,7 @@ class L1LessonThree: SKScene {
     }
     
     func whatDrink() {
-        Pet1.run(walkIn)
+       // Pet1.run(walkIn)
         sBubble1.isHidden = false
         
         if (counter == 8) {
