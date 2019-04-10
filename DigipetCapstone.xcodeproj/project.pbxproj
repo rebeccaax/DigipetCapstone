@@ -209,6 +209,7 @@
 		026F42F820A5C2490098EC23 /* L1LessonOneTalkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1LessonOneTalkView.swift; sourceTree = "<group>"; };
 		026F430020A5C53A0098EC23 /* L1LessonTwoTalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonTwoTalkView.swift; sourceTree = "<group>"; };
 		042318D3225B77A400DFE4C1 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		046DFB1B225CCDE700DE9442 /* ProgressScreenTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressScreenTableViewController.swift; sourceTree = "<group>"; };
 		04DF15F922577EEB00C3DFAB /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		04F3693C225B7A3500AA9753 /* SignUpPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPageController.swift; sourceTree = "<group>"; };
 		04F3B69D22450963008DF5CE /* L1LessonFour.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = L1LessonFour.sks; sourceTree = "<group>"; };
@@ -343,6 +344,7 @@
 				025B46C820A0820D006849EE /* Main.storyboard */,
 				025B46AB20A0819A006849EE /* MainScreen.swift */,
 				025B46B320A081B1006849EE /* MatchGame.swift */,
+				046DFB1B225CCDE700DE9442 /* ProgressScreenTableViewController.swift */,
 				0079CC3520A9B9A3002296D8 /* Minigame.swift */,
 				11BBFE4721F01A1500708598 /* MinigameCongrats.swift */,
 				2EAE700021E70CC5009A9009 /* MinigameCongratsBox.swift */,
@@ -756,6 +758,7 @@
 				025B46B920A081B2006849EE /* Lesson.swift in Sources */,
 				025B465120A080E4006849EE /* RZShrinkZoomAnimationController.m in Sources */,
 				025B464C20A080E4006849EE /* RZZoomAlphaAnimationController.m in Sources */,
+				046DFB1C225CCDE800DE9442 /* ProgressScreenTableViewController.swift in Sources */,
 				113B3DB3222030FC00111AAD /* L1LessonThree.swift in Sources */,
 				2EAE700121E70CC5009A9009 /* MinigameCongratsBox.swift in Sources */,
 				025B46C220A081C0006849EE /* LessonTableViewController.swift in Sources */,
