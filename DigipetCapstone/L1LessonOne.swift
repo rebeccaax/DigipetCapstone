@@ -40,6 +40,8 @@ class L1LessonOne: SKScene {
     
     let petImgs = ["china", "spain", "france"]
     
+    
+    // pet's text to converse with user
     var prompts: [[String]] = [["你好", "你好吗？", "欢迎","早上好","我很好，你呢？","下午好","你会说中文吗？","请问，怎么说","谢谢","再见","晚安"],["Hola", "¿Cómo estás？", "¡Bienvenido!","Buenos días","Bien, ¿y tú?","Buenas tardes","¿Hablas español?","Por favor, como se dice","¡Gracias!","¡Adios!","Buenas noches", "Buenas noches"],["Bonjour", "Ça va?","Bienvenue!","Salut!","Ça va bien, et toi?","Bonsoir!","Parlez-vous français?","S’il vous plaît, comment dit-on","Merci!","Au revoir!","Bonne nuit!", "Bonne nuit!"]]
     
     override func didMove(to view: SKView) {
@@ -133,14 +135,9 @@ class L1LessonOne: SKScene {
         
         Pet2 = SKSpriteNode(imageNamed: "plainPet1")
         Pet2.size = CGSize(width: self.frame.size.width * 0.4, height: self.frame.size.height * 0.3)
-        //Pet2.color = UIColor.red
-        //Pet2.colorBlendFactor = 0.5
         Pet2.zPosition = 1
         Pet2.position = CGPoint(x: self.frame.size.width, y: self.frame.size.height * -0.388)
         addChild(Pet2)
-        
-//        talkButton = childNode(withName: "//talkButton") as! SKSpriteNode
-//        talkButton.isHidden = true
         
         headerText = SKLabelNode()
         headerText.zPosition = 1.0
@@ -164,18 +161,21 @@ class L1LessonOne: SKScene {
         addChild(pointer)
         pointer.isHidden = true
         
+        // runs through each function to bring up prompts
         array = [entranceAnimation, firstQuestion, sunrise, askQuestion, andYou, pet3, doYouSpeak, howDoYouSay, howDoYouSay2, thank, goodbye]
         correctAnswers = [[["你好","你好。"],["我很好","我很好。"],["早上好","早上好。"],["你好吗","你好吗？"],["我马马虎虎","我马马虎虎。"],["下午好","下午好。"],["我会说中文","我会说中文。"],["对不起","对不起。"],["没关系","没关系。"],["再见","再见。"],["晚安","晚安。"]],[["hola", "¡hola!"],["muy bien", "muy bien."],["buenos días", "¡buenos días!"],["¿cómo estás?","cómo estás"],["bien"],["buenas tardes", "buenas tardes.", "buenas tardes."],["hablo español", "hablo español.", "no hablo español", "no hablo español.", "sí","no"],["lo siento"],["está bien", "está bien."],["de nada", "¡de nada!"],["¡adiós!", "adiós"],["buenas noches", "¡buenas noches!"]],[["bonjour", "bonjour!", "salut", "salut!"],["ça va bien", "ça va bien."],["salut", "salut!","bonjour","bonjour!"],["ça va", "ça va?", "comment ça va", "comment ça va?"],["ça va", "ça va."],["bonsoir", "bonsoir!"],["je parle français", "je parle français.", "je ne parle pas français", "je ne parle pas français.", "oui", "oui.", "non", "non."],["désolé", "désolée"],["ça va", "ça va.", "ce n\'est pas grave", "ce n\'est pas grave."],["de rien", "de rien.", "de rien!", "je t\'en prie", "je t\'en prie.", "je t\'en prie!", "je vous en prie", "je vous en prie.","je vous en prie!"],["au revoir", "au revoir!", "au revoir."],["bonne nuit", "bonne nuit!", "bonne nuit."]]]
         
         runLesson()
     }
     
+    // transitions between scenes, doesn't need altering, is in each file
     func goToScene(scene: SKScene) {
         let sceneTransition = SKTransition.push(with: .left, duration: 0.5)
         scene.scaleMode = .aspectFill
         self.view?.presentScene(scene, transition: sceneTransition)
     }
     
+    // takes input from device
     func input() -> String {
         let keyboard = FileHandle.standardInput
         let inputData = keyboard.availableData
@@ -192,6 +192,7 @@ class L1LessonOne: SKScene {
         
         Pet1.run(walkIn)
         
+        // delays text
         Timer.scheduledTimer(withTimeInterval: 4.5, repeats: false) {
             timer in
             
@@ -209,7 +210,6 @@ class L1LessonOne: SKScene {
     }
     
     func firstQuestion() {
-        //talkButton.isHidden = true
         self.pet1Text.text = prompts[lang][1]
         Timer.scheduledTimer(withTimeInterval: 0.75, repeats: false) {
                 timer in
@@ -221,7 +221,6 @@ class L1LessonOne: SKScene {
     }
     
     func sunrise() {
-        //talkButton.isHidden = true
         self.pet1Text.text = prompts[lang][2]
         self.headerText.text = ""
         
@@ -272,7 +271,6 @@ class L1LessonOne: SKScene {
     }
     
     func askQuestion() {
-        //talkButton.isHidden = true
         headerText.text = "Ask it a question!"
         Timer.scheduledTimer(withTimeInterval: 0.75, repeats: false) {
                     timer in
@@ -283,7 +281,6 @@ class L1LessonOne: SKScene {
     }
     
     func andYou() {
-        //talkButton.isHidden = true
         pet2Text.text = prompts[self.lang][4]
         pet2Text2.text = ""
         pet2Text2.isHidden = false
@@ -300,7 +297,6 @@ class L1LessonOne: SKScene {
     }
     
     func pet3() {
-        //talkButton.isHidden = true
         Pet2.run(walkOut)
         pet2Text.text = ""
         pet2Text2.text = ""
@@ -335,7 +331,6 @@ class L1LessonOne: SKScene {
     }
     
     func doYouSpeak() {
-        //talkButton.isHidden = true
         pet2Text.text = prompts[self.lang][6]
         pet2Text2.text = ""
         Timer.scheduledTimer(withTimeInterval: 0.75, repeats: false) {
@@ -347,7 +342,6 @@ class L1LessonOne: SKScene {
     }
     
     func howDoYouSay() {
-        //talkButton.isHidden = true
         pet2Text.text = prompts[self.lang][7]
         pet2Text2.text =  "\"sorry\"?"
         Timer.scheduledTimer(withTimeInterval: 0.75, repeats: false) {
@@ -359,59 +353,44 @@ class L1LessonOne: SKScene {
     }
     
     func howDoYouSay2() {
-        //talkButton.isHidden = true
         pet2Text.text = prompts[self.lang][8]
         pet2Text2.text = "\"It's okay\"?"
         Timer.scheduledTimer(withTimeInterval: 0.75, repeats: false) {
                     timer in
             self.pointer.isHidden = false
             self.pointer.run(self.pointAction)
-                    //self.talkButton.isHidden = false
                 }
 
     }
     
     func thank() {
-        //talkButton.isHidden = true
         pet2Text.text = prompts[self.lang][9]
         pet2Text2.text = ""
         Timer.scheduledTimer(withTimeInterval: 0.75, repeats: false) {
                     timer in
             self.pointer.isHidden = false
             self.pointer.run(self.pointAction)
-                    //self.talkButton.isHidden = false
                 }
     }
     
     func goodbye() {
-        //talkButton.isHidden = true
         pet1Text.text = prompts[self.lang][10]
         Timer.scheduledTimer(withTimeInterval: 0.75, repeats: false) {
                     timer in
             self.pointer.isHidden = false
             self.pointer.run(self.pointAction)
             self.done = true
-                    //self.talkButton.isHidden = false
                 }
     }
     
-//    @IBAction func doSomething(sender: SKSpriteNode!) {
-//        let propertyToCheck = sender.
-//        switch propertyToCheck {
-//        case: "caseOne"
-//        // do something
-//        case: "caseTwo"
-//        // do something else
-//        default: break
-//        }
-//    }
-    
+    // transitions between scenes, doesn't need altering, is in each file
     func pushToScene(scene: SKScene, direction: SKTransitionDirection) {
         let sceneTransition = SKTransition.push(with: direction, duration: 0.5)
         scene.scaleMode = .aspectFill
         self.view?.presentScene(scene, transition: sceneTransition)
     }
     
+    // used in talkView and typeView to compare user input to correctAnswers
     func checkAnswer(answer: String) -> Bool {
         if correctAnswers[lang][counter].contains(answer.lowercased()) {
             nextPrompt()
@@ -436,20 +415,6 @@ class L1LessonOne: SKScene {
     func die() {
         wallNight.color = UIColor.red
     }
-    
-//    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-//        guard let touch = touches.first else { return }
-//
-//        let touchLocation = touch.location(in: self)
-//
-//        if talkButton.contains(touchLocation) {
-//            if counter < array.count {
-//                self.array[counter]()
-//                counter += 1
-//            }
-//        }
-//
-//    }
     
 }
 

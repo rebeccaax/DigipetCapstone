@@ -8,6 +8,8 @@ target 'DigipetCapstone' do
 
   # Pods for DigipetCapstone
   pod 'Firebase/Core'
+  pod 'Firebase/Analytics'
+  pod 'FirebaseInstanceID'
   target 'DigipetCapstoneTests' do
     inherit! :search_paths
     # Pods for testing

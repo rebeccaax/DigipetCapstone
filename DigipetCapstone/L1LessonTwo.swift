@@ -41,6 +41,7 @@ class L1LessonTwo: SKScene {
     
     let petImgs = ["china", "spain", "france"]
     
+    // pet's text to talk to user
     var prompts: [[String]] = [["你好", "我有","三个苹果","我有","几个苹果？" ,"我有","六只狗","我有","几只狗？","我有","四只猫","我有","几只猫？","我有","九辆车","我有","七本书","怎么说","谢谢！","再见！","你好","在这张照片里","有几个人？","几个人","跑步？","非常好！","再见！"],["¡Hola!", "Tengo", "tres manzanas","¿Cuántas manzanas","tengo?" ,"Tengo", "seis perros","¿Cuántos perros", "tengo?","Tengo", "cuatro gatos","¿Cuántos gatos", "tengo?","Tengo", "nueve autos", "Tengo", "siete libros","¿Cómo se dice","¡Gracias！","Adiós！","¡Hola!","¿Cuántas personas", "hay en esta foto?","¿Cuántas personas", "corren?","¡Asombroso!", "¡Adiós!"],["Bonjour!", "J'ai", "trois pommes", "J'ai", "combien de pommes?", "J'ai","six chiens","J'ai","combien de chiens?","J'ai","quatre chats","J'ai","combien de chats","J'ai","neuf voitures", "J'ai","sept livres","Comment dit-on","Merci!","Au revoir!","Bonjour!","Il y a combien de gens","sur cette photo?","Combien de gens","courent?","Bon trvail!","Au revoir!"]]
 
     override func didMove(to view: SKView) {
@@ -128,7 +129,6 @@ class L1LessonTwo: SKScene {
         frameText1.fontSize = 50
         frameText1.text = "🐶"
         addChild(frameText1)
-        //frameText1.isHidden = true
         
         frameText2 = SKLabelNode()
         frameText2.zPosition = 2
@@ -138,7 +138,6 @@ class L1LessonTwo: SKScene {
         frameText2.fontSize = 50
         frameText2.text = "🐶"
         addChild(frameText2)
-        //frameText2.isHidden = true
         
         frameText3 = SKLabelNode()
         frameText3.zPosition = 2
@@ -148,7 +147,6 @@ class L1LessonTwo: SKScene {
         frameText3.fontSize = 50
         frameText3.text = "🐶"
         addChild(frameText3)
-        //frameText3.isHidden = true
         
         frameText4 = SKLabelNode()
         frameText4.zPosition = 2
@@ -158,7 +156,6 @@ class L1LessonTwo: SKScene {
         frameText4.fontSize = 50
         frameText4.text = "🐶"
         addChild(frameText4)
-        //frameText4.isHidden = true
         
         frameText5 = SKLabelNode()
         frameText5.zPosition = 2
@@ -168,7 +165,6 @@ class L1LessonTwo: SKScene {
         frameText5.fontSize = 50
         frameText5.text = "🐶"
         addChild(frameText5)
-        //frameText5.isHidden = true
         
         frameText6 = SKLabelNode()
         frameText6.zPosition = 2
@@ -178,7 +174,6 @@ class L1LessonTwo: SKScene {
         frameText6.fontSize = 50
         frameText6.text = "🐶"
         addChild(frameText6)
-        //frameText6.isHidden = true
         
         frameText7 = SKLabelNode()
         frameText7.zPosition = 2
@@ -188,7 +183,6 @@ class L1LessonTwo: SKScene {
         frameText7.fontSize = 50
         frameText7.text = "🐶"
         addChild(frameText7)
-        //frameText7.isHidden = true
         
         frameText8 = SKLabelNode()
         frameText8.zPosition = 2
@@ -198,7 +192,6 @@ class L1LessonTwo: SKScene {
         frameText8.fontSize = 50
         frameText8.text = "🐶"
         addChild(frameText8)
-        //frameText8.isHidden = true
         
         frameText9 = SKLabelNode()
         frameText9.zPosition = 2
@@ -208,13 +201,11 @@ class L1LessonTwo: SKScene {
         frameText9.fontSize = 50
         frameText9.text = "🐶"
         addChild(frameText9)
-        //frameText9.isHidden = true
         
         frameText = [frameText1, frameText2, frameText3, frameText4, frameText5, frameText6, frameText7, frameText8, frameText9]
         
         headerText = SKLabelNode()
         headerText.zPosition = 1.0
-        // .16 .44
         headerText.position = CGPoint(x: 0, y: self.frame.size.height * 0.35)
         headerText.fontName = "Plumpfull"
         headerText.fontSize = 30
@@ -233,6 +224,7 @@ class L1LessonTwo: SKScene {
         addChild(pointer)
         pointer.isHidden = true
         
+        // goes through each prompt
         array = [entranceAnimation, math1, math2, math3, ask1, ask2, bigNumber, goodbye1, reentrance, people1, people2, goodbye2]
         correctAnswers = [[["你好。"], ["一个苹果"], ["两只狗。"], ["五只猫"], ["你有几辆车？"], ["你有几本书？"], ["一千。"], ["再见。"], ["你好。"], ["八个人。"], ["三个人。"], ["再见。"]],[["hola", "¡hola!"], ["una manzana", "una", "tienes una manzana"],["dos perros", "dos", "tienes dos perros"],["cinco gatos", "cinco", "tienes cinco gatos"],["cuántos autos tienes", "¿cuántos autos tienes?"],["¿cuántos libros tienes?", "cuántos libros tienes"],["mil"],["adiós", "¡adiós!"],["hola", "¡hola!"], ["ocho personas", "ocho"], ["tres personas", "tres"], ["adiós", "¡adiós!"]],[["bonjour", "bonjour!", "salut", "salut!"],["une pomme","une", "tu as une pomme"], ["deux chiens", "deux", "tu as deux chiens"], ["cinq chats", "cinq", "tu as cinq chats"],["combien de voitures as-tu?", "tu as combien de voitures?", "combien de voitures as-tu", "tu as combien de voitures"],["combien de livres as-tu?", "combien de livres as-tu", "tu as combien de livres?", "tu as combien de livres"],["mille", "une mille"],["au revoir", "au revoir!"],["bonjour", "bonjour!", "salut", "salut!"],["huit gens", "huit"], ["trois gens", "trois"], ["au revoir", "au revoir!"]]]
     
@@ -271,7 +263,6 @@ class L1LessonTwo: SKScene {
             Timer.scheduledTimer(withTimeInterval: 2, repeats: false) {
                 timer in
                 
-                //self.talkButton.isHidden = false
                 
             }
         }
@@ -279,7 +270,8 @@ class L1LessonTwo: SKScene {
     }
     
     func math1() {
-        //talkButton.isHidden = true
+        
+        // displays emojis in frame
         for i in (0..<frameText.count) {
             if i % 4 == 0 {
                 frameText[i].text = "🍎"
@@ -310,7 +302,6 @@ class L1LessonTwo: SKScene {
                 Timer.scheduledTimer(withTimeInterval: 0.75, repeats: false) {
                     timer in
                     
-                    //self.talkButton.isHidden = false
                 }
             }
             
@@ -319,7 +310,6 @@ class L1LessonTwo: SKScene {
     }
     
     func math2() {
-        //talkButton.isHidden = true
         
         for i in (0..<frameText.count) {
             if i < 3 || i > 5 {
@@ -349,7 +339,6 @@ class L1LessonTwo: SKScene {
                 Timer.scheduledTimer(withTimeInterval: 0.75, repeats: false) {
                     timer in
                     
-                    //self.talkButton.isHidden = false
                 }
             }
             
@@ -358,7 +347,6 @@ class L1LessonTwo: SKScene {
     }
     
     func math3() {
-        //talkButton.isHidden = true
         for i in (0..<frameText.count) {
             if i % 2 == 1 {
                 frameText[i].text = "🐱"
@@ -384,7 +372,6 @@ class L1LessonTwo: SKScene {
                 Timer.scheduledTimer(withTimeInterval: 0.75, repeats: false) {
                     timer in
                     
-                    //self.talkButton.isHidden = false
                 }
             }
             
@@ -393,7 +380,6 @@ class L1LessonTwo: SKScene {
     }
     
     func ask1() {
-        //talkButton.isHidden = true
         
         pet1Text1.text = ""
         pet1Text2.text = ""
@@ -416,7 +402,6 @@ class L1LessonTwo: SKScene {
                 Timer.scheduledTimer(withTimeInterval: 0.75, repeats: false) {
                     timer in
                     
-                    //self.talkButton.isHidden = false
                 }
             }
         }
@@ -424,7 +409,6 @@ class L1LessonTwo: SKScene {
     }
     
     func ask2() {
-        //talkButton.isHidden = true
         
         pet1Text1.text = ""
         pet1Text2.text = ""
@@ -452,7 +436,6 @@ class L1LessonTwo: SKScene {
                 Timer.scheduledTimer(withTimeInterval: 0.75, repeats: false) {
                     timer in
                     
-                    //self.talkButton.isHidden = false
                 }
             }
         }
@@ -460,7 +443,6 @@ class L1LessonTwo: SKScene {
     }
     
     func bigNumber() {
-        //talkButton.isHidden = true
         
         pet1Text1.text = ""
         pet1Text2.text = ""
@@ -478,13 +460,11 @@ class L1LessonTwo: SKScene {
                 Timer.scheduledTimer(withTimeInterval: 0.75, repeats: false) {
                     timer in
                     
-                    //self.talkButton.isHidden = false
                 }
         }
     }
     
     func goodbye1() {
-        //talkButton.isHidden = true
         
         pet1Text1.text = ""
         pet1Text2.text = ""
@@ -498,13 +478,11 @@ class L1LessonTwo: SKScene {
             Timer.scheduledTimer(withTimeInterval: 0.75, repeats: false) {
                 timer in
                 
-                //self.talkButton.isHidden = false
             }
         }
     }
     
     func reentrance() {
-        //talkButton.isHidden = true
         
         Pet1.run(walkOut)
         pet1Text1.text = ""
@@ -529,14 +507,12 @@ class L1LessonTwo: SKScene {
                 Timer.scheduledTimer(withTimeInterval: 0.75, repeats: false) {
                     timer in
                     
-                    //self.talkButton.isHidden = false
                 }
             }
         }
     }
     
     func people1() {
-        //talkButton.isHidden = true
         
         pet1Text1.text = ""
         pet1Text2.text = ""
@@ -565,15 +541,12 @@ class L1LessonTwo: SKScene {
             Timer.scheduledTimer(withTimeInterval: 0.75, repeats: false) {
                 timer in
                 
-                //self.talkButton.isHidden = false
             }
         }
         
     }
     
     func people2() {
-        //talkButton.isHidden = true
-        
         pet1Text1.text = ""
         pet1Text2.text = ""
         
@@ -586,13 +559,11 @@ class L1LessonTwo: SKScene {
             Timer.scheduledTimer(withTimeInterval: 0.75, repeats: false) {
                 timer in
                 
-                //self.talkButton.isHidden = false
             }
         }
     }
     
     func goodbye2() {
-        //talkButton.isHidden = true
         
         pet1Text1.text = ""
         pet1Text2.text = ""
@@ -609,7 +580,6 @@ class L1LessonTwo: SKScene {
             Timer.scheduledTimer(withTimeInterval: 0.75, repeats: false) {
                 timer in
                 
-                //self.talkButton.isHidden = false
             }
         }
     }

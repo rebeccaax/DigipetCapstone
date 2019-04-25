@@ -11,6 +11,9 @@ import UIKit
 import SpriteKit
 import GameplayKit
 
+
+// every typeView was essentially copied and pasted, but the IBOutlets and actions will have to be connected to their respective screens
+
 class L1LessonOneTypeView : UIViewController {
     
     @IBOutlet weak var myView: SKView!
@@ -21,7 +24,6 @@ class L1LessonOneTypeView : UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //myView.presentScene(myScene)
     }
     
     @IBAction func backButtonTouched(_ sender: Any) {
@@ -33,7 +35,6 @@ class L1LessonOneTypeView : UIViewController {
     }
     
     @IBAction func answerDone(_ sender: UITextField) {
-        //myScene.checkAnswer(answer: textField.text!)
         let correct: Bool = (myView.scene as! L1LessonOne).checkAnswer(answer: textField.text!)
         let done: Bool! = (myView.scene as! L1LessonOne).isDone()
         
@@ -51,20 +52,11 @@ class L1LessonOneTypeView : UIViewController {
     
     @IBAction func buttonPressed(_ sender: UIButton) {
         textField.becomeFirstResponder()
-        //delegate?.die()
     }
     
     func revealButton() {
         talkButton.isHidden = false
     }
-    
-    
-    
-    
-    
-    
-    
-    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 

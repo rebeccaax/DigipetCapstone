@@ -17,7 +17,6 @@ class L1LessonThree: SKScene {
     var Pet1: SKSpriteNode!
     var sBubble1: SKSpriteNode!
     var pet1Text: SKLabelNode!
-    //var pet1Text2: SKLabelNode!
     var bread : SKSpriteNode!
     var rice : SKSpriteNode!
     var meat : SKSpriteNode!
@@ -44,15 +43,20 @@ class L1LessonThree: SKScene {
     var lang : Int = 0
     var foodIndex : Int = 0
     var counter : Int = 0
-    //var counter : Int = 9
     
     let petImgs = ["china", "spain", "france"]
     var foodArr : [SKNode] = []
     var foodTextArr : [[String]] = [[]]
     var drinkArr : [SKNode] = []
+    
+    // array of 3 drink spritenodes
     var showThisDrink : [Int] = [0, 0, 0]
+    
+    // based on language, 吗？vs ?
     var questionTextEnd : [String] = []
     var array : [() -> ()] = []
+    
+    // pet's text to talk to user
     var prompts : [[String]] = [["你好!", "我喜欢吃", "你喜欢吃"," 你在超市买什么？", "太好了，谢谢你", "你喜欢喝什么?", "你最喜欢水果，蔬菜，还是甜点?", "好极了! 拜拜"],[],[]]
     var correctAnswers : [[[String]]] = [[[]]]
     
@@ -209,7 +213,6 @@ class L1LessonThree: SKScene {
         pet1Text.fontName = "Plumpfull"
         pet1Text.fontSize = 30
         addChild(pet1Text)
-        //pet1Text.isHidden = true
         
         
         foodArr = [bread, rice, meat, egg]
@@ -220,11 +223,6 @@ class L1LessonThree: SKScene {
         
        sayHello()
     }
-    
-    
-    // random foodindex
-    // like body parts, counter and delete
-    // fade in transition for open fridge
     
     func sayHello() {
         Timer.scheduledTimer(withTimeInterval: 1, repeats: false) {
@@ -240,11 +238,7 @@ class L1LessonThree: SKScene {
             self.pet1Text.text = (self.prompts)[self.lang][0]
         }
         
-      //  Timer.scheduledTimer(withTimeInterval: 3, repeats: false) {
-      //      timer in
             self.pet1Text.text = ""
-            
-      //  }
     }
     
     func whatFood() {
@@ -268,10 +262,7 @@ class L1LessonThree: SKScene {
             self.pet1Text.text = self.prompts[self.lang][2] + self.foodTextArr[self.lang][0] + self.questionTextEnd[self.lang]
         }
         
-      //  Timer.scheduledTimer(withTimeInterval: 3, repeats: false) {
-      //      timer in
             self.pet1Text.text = ""
-      //  }
         
     }
     
@@ -293,7 +284,6 @@ class L1LessonThree: SKScene {
     }
     
     func whatDrink() {
-       // Pet1.run(walkIn)
         sBubble1.isHidden = false
         
         if (counter == 8) {
@@ -303,6 +293,7 @@ class L1LessonThree: SKScene {
             self.water.isHidden = false
         }
         
+        // the drink the user first said won't display
         else {
             var temp = 0
             
@@ -353,7 +344,6 @@ class L1LessonThree: SKScene {
             timer in
             self.pet1Text.text = ""
         }
-        //cryyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyskskskskskkkskskkssksksksksksksksksksskskshhhssjjjjjjjjhjjj
         
         done = true
     }
@@ -375,6 +365,7 @@ class L1LessonThree: SKScene {
         return false
     }
     
+    // since same question is asked more than once, will remove answer the user already gave
     func removeFromCorrectAnswers(str: String) {
         var temp = 0
         var length = correctAnswers[lang][counter].count
@@ -389,7 +380,6 @@ class L1LessonThree: SKScene {
             length = correctAnswers[lang][counter].count
         }
         
-        print("should have deleted")
         correctAnswers[lang][counter + 1] = correctAnswers[lang][counter]
     }
     
@@ -397,6 +387,7 @@ class L1LessonThree: SKScene {
         
         if correctAnswers[lang][counter].contains(answer.lowercased()) {
             
+            // removes answer that user already gave from possible correct answers
             if ((foodArr.count > 0) && (counter == 1 || counter == 2 || counter == 3 || counter == 4)) {
                 foodArr[0].isHidden = true
                 foodArr.removeFirst()
@@ -412,6 +403,7 @@ class L1LessonThree: SKScene {
                 }
             }
             
+            // removes answer that user already gave from possible correct answers
             if (counter == 8) {
                 let milkArr = ["牛奶","leche","le lait"]
                 let juiceArr = ["果汁","zumo","le jus"]
@@ -427,11 +419,10 @@ class L1LessonThree: SKScene {
                     removeFromCorrectAnswers(str: juiceArr[lang])
                     }
                 
-                    else { //if (hasElement(str: answer, arr: waterArr) {
+                    else {
                     showThisDrink[2] = 1
                     removeFromCorrectAnswers(str: waterArr[lang])
                     
-                    print("got rid of water")
                 }
             }
             
@@ -471,7 +462,6 @@ class L1LessonThree: SKScene {
         counter += 1
         if counter < array.count {
             self.array[counter]()
-            //self.pointer.isHidden = true
         }
     }
 }

@@ -56,7 +56,6 @@ class L1LessonThreeTalkView : UIViewController, SFSpeechRecognizerDelegate {
                 if let result = result {
                     let best = result.bestTranscription.formattedString.lowercased()
                     print(best, "\n")
-                    //self.detectedText = best
                     self.textField.text = best
                 }
             } else if let error = error {
@@ -96,7 +95,6 @@ class L1LessonThreeTalkView : UIViewController, SFSpeechRecognizerDelegate {
             speechRecognizer = SFSpeechRecognizer(locale: Locale.init(identifier: "zh_Hans"))
         }
         textField.isUserInteractionEnabled = false
-        //myView.presentScene(myScene)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -135,11 +133,10 @@ class L1LessonThreeTalkView : UIViewController, SFSpeechRecognizerDelegate {
             }
             
             if (correct && done) {
-                // MUST CHANGE THIS SOMEHOW
                 self.transitioningDelegate = RZTransitionsManager.shared()
                 let nextViewController = storyboard?.instantiateViewController(withIdentifier: "silhouetteGame")
                 
-                /*(nextViewController as! MinigameCongrats).minigameName = "L1LessonTwo"*/
+              
                 nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
                 self.present(nextViewController!, animated: true) {}
             }

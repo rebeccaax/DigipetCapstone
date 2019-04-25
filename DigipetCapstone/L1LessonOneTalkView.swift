@@ -6,6 +6,9 @@
 //  Copyright © 2018 Katie Katz. All rights reserved.
 //
 
+// every talkView was essentially copied and pasted, but the IBOutlets and actions will have to be connected to their respective screens
+// "buttonPressed" function might have to be modified
+
 import Speech
 import UIKit
 import SpriteKit
@@ -28,7 +31,6 @@ class L1LessonOneTalkView : UIViewController, SFSpeechRecognizerDelegate {
         self.dismiss(animated: true, completion: nil)
     }
     
-    //var detectedText : String = ""
     
     func recordAndRecognizeSpeech() {
         guard let node = audioEngine.inputNode as Optional else { return }
@@ -98,7 +100,6 @@ class L1LessonOneTalkView : UIViewController, SFSpeechRecognizerDelegate {
             speechRecognizer = SFSpeechRecognizer(locale: Locale.init(identifier: "zh_Hans"))
         }
         textField.isUserInteractionEnabled = false
-        //myView.presentScene(myScene)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -107,6 +108,7 @@ class L1LessonOneTalkView : UIViewController, SFSpeechRecognizerDelegate {
     
     
     @IBAction func buttonPressed(_ sender: UIButton) {
+        // if it was recording, stop recording and save input
         if isRecording == true {
             request.endAudio()
             request = SFSpeechAudioBufferRecognitionRequest()
@@ -122,6 +124,7 @@ class L1LessonOneTalkView : UIViewController, SFSpeechRecognizerDelegate {
                 textField.text = ""
             }
             
+            // if correct answer and have answered all prompts
             if (correct && done) {
                 self.transitioningDelegate = RZTransitionsManager.shared()
                 let nextViewController = storyboard?.instantiateViewController(withIdentifier: "mazeGame")

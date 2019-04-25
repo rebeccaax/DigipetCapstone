@@ -85,7 +85,9 @@
 		11B8064B2243BB7600D7524A /* L1LessonThreeTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8064A2243BB7600D7524A /* L1LessonThreeTypeView.swift */; };
 		11BB746022538D6000EDFC80 /* ProgressScreenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BB745F22538D6000EDFC80 /* ProgressScreenTableViewController.swift */; };
 		11BBFE4821F01A1500708598 /* MinigameCongrats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BBFE4721F01A1500708598 /* MinigameCongrats.swift */; };
-		123B6CF2EF64B7E87FA92A25 /* Pods_DigipetCapstone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBDF50D6260A8959E65B774 /* Pods_DigipetCapstone.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		11FBA2AF2260B95F00B90C5E /* Pods_DigipetCapstone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FBA2AE2260B95F00B90C5E /* Pods_DigipetCapstone.framework */; };
+		11FBA2B12260BCB000B90C5E /* Pods_DigipetCapstoneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FBA2B02260BCB000B90C5E /* Pods_DigipetCapstoneTests.framework */; };
+		11FBA2B32260BCB000B90C5E /* Pods_DigipetCapstoneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FBA2B22260BCB000B90C5E /* Pods_DigipetCapstoneUITests.framework */; };
 		2E31E0BB21E3D54F00CE52B7 /* L1GameOneTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E31E0BA21E3D54F00CE52B7 /* L1GameOneTypeView.swift */; };
 		2EAE700121E70CC5009A9009 /* MinigameCongratsBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE700021E70CC5009A9009 /* MinigameCongratsBox.swift */; };
 		2EC0EBAB21D3FFB500F5DDCE /* L1GameOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC0EBAA21D3FFB500F5DDCE /* L1GameOne.swift */; };
@@ -94,6 +96,8 @@
 		52FE787CCBD507C47A4579FD /* Pods_DigipetCapstoneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007EB7F874014545270C7E98 /* Pods_DigipetCapstoneUITests.framework */; };
 		55C216A9636DFE22AB242C0F /* Pods_DigipetCapstoneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F06FBC72B958D5A2B5D06776 /* Pods_DigipetCapstoneTests.framework */; };
 		6ABACA1120ADBDFB001794E4 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABACA1020ADBDFB001794E4 /* SettingsPage.swift */; };
+		6BE90806C1C8C459D35239CB /* Pods_DigipetCapstoneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FBA2B22260BCB000B90C5E /* Pods_DigipetCapstoneUITests.framework */; };
+		E07165A135952100481AC2BE /* Pods_DigipetCapstoneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FBA2B02260BCB000B90C5E /* Pods_DigipetCapstoneTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -226,6 +230,9 @@
 		11B8064A2243BB7600D7524A /* L1LessonThreeTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonThreeTypeView.swift; sourceTree = "<group>"; };
 		11BB745F22538D6000EDFC80 /* ProgressScreenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressScreenTableViewController.swift; sourceTree = "<group>"; };
 		11BBFE4721F01A1500708598 /* MinigameCongrats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigameCongrats.swift; sourceTree = "<group>"; };
+		11FBA2AE2260B95F00B90C5E /* Pods_DigipetCapstone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_DigipetCapstone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FBA2B02260BCB000B90C5E /* Pods_DigipetCapstoneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_DigipetCapstoneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FBA2B22260BCB000B90C5E /* Pods_DigipetCapstoneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_DigipetCapstoneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC670389A7D9B850E4ABA37 /* Pods-DigipetCapstoneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigipetCapstoneUITests.release.xcconfig"; path = "Target Support Files/Pods-DigipetCapstoneUITests/Pods-DigipetCapstoneUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2E31E0BA21E3D54F00CE52B7 /* L1GameOneTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1GameOneTypeView.swift; sourceTree = "<group>"; };
 		2EAE700021E70CC5009A9009 /* MinigameCongratsBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigameCongratsBox.swift; sourceTree = "<group>"; };
@@ -247,7 +254,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				123B6CF2EF64B7E87FA92A25 /* Pods_DigipetCapstone.framework in Frameworks */,
+				11FBA2B12260BCB000B90C5E /* Pods_DigipetCapstoneTests.framework in Frameworks */,
+				11FBA2B32260BCB000B90C5E /* Pods_DigipetCapstoneUITests.framework in Frameworks */,
+				11FBA2AF2260B95F00B90C5E /* Pods_DigipetCapstone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55C216A9636DFE22AB242C0F /* Pods_DigipetCapstoneTests.framework in Frameworks */,
+				E07165A135952100481AC2BE /* Pods_DigipetCapstoneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52FE787CCBD507C47A4579FD /* Pods_DigipetCapstoneUITests.framework in Frameworks */,
+				6BE90806C1C8C459D35239CB /* Pods_DigipetCapstoneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +505,9 @@
 		2BC1B4401BD50E3B58C06E69 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				11FBA2B02260BCB000B90C5E /* Pods_DigipetCapstoneTests.framework */,
+				11FBA2B22260BCB000B90C5E /* Pods_DigipetCapstoneUITests.framework */,
+				11FBA2AE2260B95F00B90C5E /* Pods_DigipetCapstone.framework */,
 				7CBDF50D6260A8959E65B774 /* Pods_DigipetCapstone.framework */,
 				F06FBC72B958D5A2B5D06776 /* Pods_DigipetCapstoneTests.framework */,
 				007EB7F874014545270C7E98 /* Pods_DigipetCapstoneUITests.framework */,
@@ -761,7 +775,6 @@
 				025B46B920A081B2006849EE /* Lesson.swift in Sources */,
 				025B465120A080E4006849EE /* RZShrinkZoomAnimationController.m in Sources */,
 				025B464C20A080E4006849EE /* RZZoomAlphaAnimationController.m in Sources */,
-				046DFB1C225CCDE800DE9442 /* ProgressScreenTableViewController.swift in Sources */,
 				113B3DB3222030FC00111AAD /* L1LessonThree.swift in Sources */,
 				2EAE700121E70CC5009A9009 /* MinigameCongratsBox.swift in Sources */,
 				025B46C220A081C0006849EE /* LessonTableViewController.swift in Sources */,
@@ -975,15 +988,26 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 404D7ABE947C64524C162327 /* Pods-DigipetCapstone.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A9JWVD6Z87;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstanceID\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+				);
 				INFOPLIST_FILE = DigipetCapstone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cassandramoe.DigipetCapstone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cassandramoe.DigipetCapstone1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DigipetCapstone/Digipet-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
@@ -995,15 +1019,26 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B6FEDCDCA85A369E5988429A /* Pods-DigipetCapstone.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A9JWVD6Z87;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstanceID\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+				);
 				INFOPLIST_FILE = DigipetCapstone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cassandramoe.DigipetCapstone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cassandramoe.DigipetCapstone1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DigipetCapstone/Digipet-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
@@ -1018,7 +1053,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4QL3776T85;
+				DEVELOPMENT_TEAM = A9JWVD6Z87;
 				INFOPLIST_FILE = DigipetCapstoneTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1040,7 +1075,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4QL3776T85;
+				DEVELOPMENT_TEAM = A9JWVD6Z87;
 				INFOPLIST_FILE = DigipetCapstoneTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1061,7 +1096,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4QL3776T85;
+				DEVELOPMENT_TEAM = A9JWVD6Z87;
 				INFOPLIST_FILE = DigipetCapstoneUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1082,7 +1117,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4QL3776T85;
+				DEVELOPMENT_TEAM = A9JWVD6Z87;
 				INFOPLIST_FILE = DigipetCapstoneUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
