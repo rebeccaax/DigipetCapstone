@@ -38,8 +38,6 @@ class MainScreen : UIViewController {
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "L1LessonThreeTalkView")
         nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
-            
-        
     }
     
     @IBAction func learnButtonTouched(_ sender: Any) {
