@@ -13,7 +13,6 @@ class Play2 : UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     
     
@@ -25,20 +24,20 @@ class Play2 : UIViewController {
     @IBAction func levelOneTouched(_ sender: Any) {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "mazeGame")
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
     
     @IBAction func levelTwoTouched(_ sender: Any) {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "bodypartsGame")
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}    }
     
     @IBAction func levelThreeTouched(_ sender: Any) {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "matchGame")
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
     
@@ -46,7 +45,7 @@ class Play2 : UIViewController {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "levelVCPlay")
         (nextViewController as! LevelVCPlay).text = "1"
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
     
@@ -54,7 +53,7 @@ class Play2 : UIViewController {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "levelVCPlay")
         (nextViewController as! LevelVCPlay).text = "1"
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
     
@@ -62,7 +61,7 @@ class Play2 : UIViewController {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "levelVCPlay")
         (nextViewController as! LevelVCPlay).text = "1"
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
     

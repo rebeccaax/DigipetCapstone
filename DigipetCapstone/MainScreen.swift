@@ -36,21 +36,21 @@ class MainScreen : UIViewController {
     @IBAction func testButtonTouched(_ sender: Any) {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "L1LessonThreeTalkView")
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
     
     @IBAction func learnButtonTouched(_ sender: Any) {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "learnScreen")
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
     
     @IBAction func playButtonTouched(_ sender: Any) {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "playScreen")
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
     
@@ -58,7 +58,7 @@ class MainScreen : UIViewController {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "settings")
         (nextViewController as! SettingsPage).mainScreen = self
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // `nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
     

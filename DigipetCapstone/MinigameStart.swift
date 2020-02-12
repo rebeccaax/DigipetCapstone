@@ -77,14 +77,14 @@ class MinigameStart : UIViewController {
     @IBAction func typeButtonTouched(_ sender: Any) {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: (minigame?.fileDest)! + "TypeView")
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
     
     @IBAction func talkButtonTouched(_ sender: Any) {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: (minigame?.fileDest)! + "TalkView")
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
     

@@ -143,7 +143,7 @@ class LevelVCPlay2 : UIViewController {
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "minigameStart")
         (nextViewController as! MinigameStart).level = text
         (nextViewController as! MinigameStart).minigame = minigameFocus
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
         RZTransitionsManager.shared().defaultPresentDismissAnimationController = RZCardSlideAnimationController()
         RZTransitionsManager.shared().defaultPushPopAnimationController = RZCardSlideAnimationController()
