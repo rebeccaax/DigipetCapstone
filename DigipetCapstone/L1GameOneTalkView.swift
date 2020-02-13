@@ -141,7 +141,7 @@ class L1GameOneTalkView : UIViewController, SFSpeechRecognizerDelegate {
                 let nextViewController = storyboard?.instantiateViewController(withIdentifier: "minigameCongrats")
                 
                     (nextViewController as! MinigameCongrats).minigameName = "L1GameOne"
-                nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+                // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
                 self.present(nextViewController!, animated: true) {}
             }
         } else {

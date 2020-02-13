@@ -25,13 +25,14 @@ class NavigationViewController : UIViewController {
     @IBAction func pressLogin(_ sender: Any) {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "LogInPage")
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
+    
     @IBAction func pressSignUp(_ sender: Any) {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "SignUpViewController")
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
     
