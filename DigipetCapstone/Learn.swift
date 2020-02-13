@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 class Learn : UIViewController {
-        
+    
     @IBOutlet weak var level1: UIButton!
     @IBOutlet weak var level2: UIButton!
     @IBOutlet weak var level3: UIButton!
@@ -20,7 +20,6 @@ class Learn : UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     
     @IBAction func backButtonTouched(_ sender: Any) {
@@ -31,7 +30,7 @@ class Learn : UIViewController {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "levelVC")
         (nextViewController as! LevelVC).text = "1"
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
     
@@ -39,7 +38,7 @@ class Learn : UIViewController {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "levelVC")
         (nextViewController as! LevelVC).text = "2"
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
     
@@ -47,7 +46,7 @@ class Learn : UIViewController {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "levelVC")
         (nextViewController as! LevelVC).text = "3"
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
     
@@ -55,7 +54,7 @@ class Learn : UIViewController {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "levelVC")
         (nextViewController as! LevelVC).text = "4"
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
     
@@ -63,7 +62,7 @@ class Learn : UIViewController {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "levelVC")
         (nextViewController as! LevelVC).text = "5"
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
     
@@ -71,7 +70,7 @@ class Learn : UIViewController {
         self.transitioningDelegate = RZTransitionsManager.shared()
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "levelVC")
         (nextViewController as! LevelVC).text = "6"
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
     }
     

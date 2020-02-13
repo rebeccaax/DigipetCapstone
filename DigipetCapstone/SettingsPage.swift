@@ -33,6 +33,7 @@ class SettingsPage : UIViewController {
             currentLanguage.text = "Français"
         }
     }
+    
     @IBAction func pressChinese(_ sender: Any) {
         UserDefaults.standard.set("zh_Hans", forKey: "language")
         currentLanguage.text = "中文"

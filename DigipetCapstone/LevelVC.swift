@@ -138,7 +138,7 @@ class LevelVC : UIViewController {
         let nextViewController = storyboard?.instantiateViewController(withIdentifier: "lessonStart")
         (nextViewController as! LessonStart).level = text
         (nextViewController as! LessonStart).lesson = lessonFocus
-        nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+        // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
         self.present(nextViewController!, animated:true) {}
         RZTransitionsManager.shared().defaultPresentDismissAnimationController = RZCardSlideAnimationController()
         RZTransitionsManager.shared().defaultPushPopAnimationController = RZCardSlideAnimationController()
