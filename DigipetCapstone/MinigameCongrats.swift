@@ -106,7 +106,7 @@ import UIKit
         @IBAction func homeButtonTouched(_ sender: GameButton) {
             self.transitioningDelegate = RZTransitionsManager.shared()
             let nextViewController = storyboard?.instantiateViewController(withIdentifier: "playScreen")
-            nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+            // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
             self.present(nextViewController!, animated:true) {}
         }
         
@@ -121,7 +121,7 @@ import UIKit
             
             let nextViewController = storyboard?.instantiateViewController(withIdentifier: (minigameName! + "TalkView"))
             
-            nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+            // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
             self.present(nextViewController!, animated:true) {}
         }
         

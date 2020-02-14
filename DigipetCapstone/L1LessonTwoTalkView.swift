@@ -158,7 +158,7 @@ class L1LessonTwoTalkView : UIViewController, SFSpeechRecognizerDelegate {
                 let nextViewController = storyboard?.instantiateViewController(withIdentifier: "matchGame")
                 
                 /*(nextViewController as! MinigameCongrats).minigameName = "L1LessonTwo"*/
-                nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+                // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
                 self.present(nextViewController!, animated: true) {}
                 self.buttonPressCounter = 0
                 self.hintCounter = 0

@@ -137,7 +137,7 @@ class L1LessonThreeTalkView : UIViewController, SFSpeechRecognizerDelegate {
                 let nextViewController = storyboard?.instantiateViewController(withIdentifier: "silhouetteGame")
                 
               
-                nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+                // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
                 self.present(nextViewController!, animated: true) {}
             }
         } else {
