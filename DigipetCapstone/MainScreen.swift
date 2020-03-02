@@ -24,9 +24,9 @@ class MainScreen : UIViewController {
         } else {
             pet.image = UIImage(named: "france")
         }
+        
         RZTransitionsManager.shared().defaultPresentDismissAnimationController = RZCardSlideAnimationController()
         RZTransitionsManager.shared().defaultPushPopAnimationController = RZCardSlideAnimationController()
-        
     }
     
     override var shouldAutorotate: Bool {

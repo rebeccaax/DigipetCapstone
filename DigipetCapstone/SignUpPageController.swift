@@ -23,6 +23,7 @@ class SignUpPageController : UIViewController {
         print("cancel pressed")
         self.dismiss(animated: true, completion: nil)
     }
+    
     @IBAction func signUpTapped(_ sender: Any) {
         print("signup tapped")
         //validate that required fields are not empty
