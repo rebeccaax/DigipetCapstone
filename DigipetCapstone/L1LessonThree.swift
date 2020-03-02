@@ -57,7 +57,7 @@ class L1LessonThree: SKScene {
     var array : [() -> ()] = []
     
     // pet's text to talk to user
-    var prompts : [[String]] = [["你好!", "我喜欢吃", "你喜欢吃"," 你在超市买什么？", "太好了，谢谢你", "你喜欢喝什么?", "你最喜欢水果，蔬菜，还是甜点?", "好极了! 拜拜"],[],[]]
+    var prompts : [[String]] = [["你好!", "我喜欢吃", "你喜欢吃"," 你在超市买什么？", "太好了，谢谢你", "你喜欢喝什么?", "你最喜欢水果，蔬菜，还是甜点?", "好极了! 拜拜"],["Hola!", "Me gusta comer", "¿Qué vas a comprar en el supermercado?", "Increíble!", "Gracias", "¿Qué te gusta beber?", "¿Te gustan las frutas, vegetales o postres?", "Genial! adiós"],["Bonjour!", "J'aime manger", "Qu'est-ce que tu vas acheter au supermarché?", "Incroyable!", "Merci", "Qu'est-ce que tu aimes boire?", "Tu aimes les fruits, les légumes, ou le dessert?", "Génial! Au revoir"]]
     var correctAnswers : [[[String]]] = [[[]]]
     
     override func didMove(to view: SKView) {
@@ -191,7 +191,10 @@ class L1LessonThree: SKScene {
         dessert.isHidden = true
         addChild(dessert)
         
+        
+        // the Pet1.size thing works for now but -- check setScale ?
         Pet1 = SKSpriteNode(imageNamed: petImgs[lang])
+        Pet1.size = CGSize(width: self.frame.size.width * 3, height: self.frame.size.height * 2.34)
         Pet1.zPosition = 1
         Pet1.anchorPoint = CGPoint(x: 0.5, y: 0.5)
         Pet1.position = CGPoint(x: self.frame.size.width * 0.25, y: self.frame.size.height * -0.25)
@@ -235,7 +238,7 @@ class L1LessonThree: SKScene {
             timer in
             
             self.sBubble1.isHidden = false
-            self.pet1Text.text = (self.prompts)[self.lang][0]
+            self.pet1Text.text = (self.prompts)[self.lang][0] // todo!! this is an issue because self.prompts doesn't have content for languages other than mandarin
         }
         
             self.pet1Text.text = ""
