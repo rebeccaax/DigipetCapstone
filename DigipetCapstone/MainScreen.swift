@@ -13,7 +13,6 @@ class MainScreen : UIViewController {
     
     @IBOutlet weak var pet: UIImageView!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
