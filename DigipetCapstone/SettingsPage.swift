@@ -21,7 +21,6 @@ class SettingsPage : UIViewController {
     @IBOutlet weak var username: UITextField!
     
     
-    
     let languages = ["中文", "Français","Español"]
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,6 +47,7 @@ class SettingsPage : UIViewController {
         UserDefaults.standard.set("fr_FR", forKey: "language")
         currentLanguage.text = "Français"
     }
+    
     // stan loona
    
     @IBAction func pressTest(_ sender: Any) {
@@ -72,6 +72,7 @@ class SettingsPage : UIViewController {
         } else {
             mainScreen?.pet.image = UIImage(named: "france")
         }
+        
         self.dismiss(animated: true, completion: nil)
     }
     
