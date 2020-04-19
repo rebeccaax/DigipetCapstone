@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -94,8 +94,9 @@
 		52FE787CCBD507C47A4579FD /* Pods_DigipetCapstoneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007EB7F874014545270C7E98 /* Pods_DigipetCapstoneUITests.framework */; };
 		55C216A9636DFE22AB242C0F /* Pods_DigipetCapstoneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F06FBC72B958D5A2B5D06776 /* Pods_DigipetCapstoneTests.framework */; };
 		6ABACA1120ADBDFB001794E4 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABACA1020ADBDFB001794E4 /* SettingsPage.swift */; };
-		6BE90806C1C8C459D35239CB /* Pods_DigipetCapstoneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FBA2B22260BCB000B90C5E /* Pods_DigipetCapstoneUITests.framework */; };
-		E07165A135952100481AC2BE /* Pods_DigipetCapstoneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FBA2B02260BCB000B90C5E /* Pods_DigipetCapstoneTests.framework */; };
+		6BE90806C1C8C459D35239CB /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		E07165A135952100481AC2BE /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		EA71664B244CB62300CCAA53 /* L1LessonFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71664A244CB62300CCAA53 /* L1LessonFive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -242,6 +243,7 @@
 		7CBDF50D6260A8959E65B774 /* Pods_DigipetCapstone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigipetCapstone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C033F632FBCACA461DCB1C /* Pods-DigipetCapstoneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigipetCapstoneTests.release.xcconfig"; path = "Target Support Files/Pods-DigipetCapstoneTests/Pods-DigipetCapstoneTests.release.xcconfig"; sourceTree = "<group>"; };
 		B6FEDCDCA85A369E5988429A /* Pods-DigipetCapstone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigipetCapstone.release.xcconfig"; path = "Target Support Files/Pods-DigipetCapstone/Pods-DigipetCapstone.release.xcconfig"; sourceTree = "<group>"; };
+		EA71664A244CB62300CCAA53 /* L1LessonFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonFive.swift; sourceTree = "<group>"; };
 		F06FBC72B958D5A2B5D06776 /* Pods_DigipetCapstoneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigipetCapstoneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -259,7 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55C216A9636DFE22AB242C0F /* Pods_DigipetCapstoneTests.framework in Frameworks */,
-				E07165A135952100481AC2BE /* Pods_DigipetCapstoneTests.framework in Frameworks */,
+				E07165A135952100481AC2BE /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52FE787CCBD507C47A4579FD /* Pods_DigipetCapstoneUITests.framework in Frameworks */,
-				6BE90806C1C8C459D35239CB /* Pods_DigipetCapstoneUITests.framework in Frameworks */,
+				6BE90806C1C8C459D35239CB /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,13 +323,14 @@
 				026F42F720A5C2490098EC23 /* L1LessonOne.swift */,
 				026F42F820A5C2490098EC23 /* L1LessonOneTalkView.swift */,
 				026F42F620A5C2480098EC23 /* L1LessonOneTypeView.swift */,
-				11689887222422A90059F58F /* L1LessonThree.sks */,
-				113B3DB2222030FB00111AAD /* L1LessonThree.swift */,
 				1190F2ED222DC839007631E5 /* L1LessonThreeTalkView.swift */,
 				026F42F320A5C2480098EC23 /* L1LessonTwo.sks */,
-				04F3B69D22450963008DF5CE /* L1LessonFour.sks */,
 				026F42F520A5C2480098EC23 /* L1LessonTwo.swift */,
+				113B3DB2222030FB00111AAD /* L1LessonThree.swift */,
+				11689887222422A90059F58F /* L1LessonThree.sks */,
+				04F3B69D22450963008DF5CE /* L1LessonFour.sks */,
 				04F3B69F224509B8008DF5CE /* L1LessonFour.swift */,
+				EA71664A244CB62300CCAA53 /* L1LessonFive.swift */,
 				026F430020A5C53A0098EC23 /* L1LessonTwoTalkView.swift */,
 				04F3B6A122450A37008DF5CE /* L1LessonFourTalkView.swift */,
 				026F42F420A5C2480098EC23 /* L1LessonTwoTypeView.swift */,
@@ -803,6 +806,7 @@
 				0079CC3820A9BBA1002296D8 /* MinigameStart.swift in Sources */,
 				04F3B6A422450A60008DF5CE /* L1LessonFourTypeView.swift in Sources */,
 				0079CC3420A9B8F6002296D8 /* LevelVCPlay.swift in Sources */,
+				EA71664B244CB62300CCAA53 /* L1LessonFive.swift in Sources */,
 				025B464A20A080E4006849EE /* RZTransitionsNavigationController.m in Sources */,
 				0228973520B639CD0098E0E3 /* GameTableViewController2.swift in Sources */,
 				113332012217CA96004C507B /* L2GameTwoTalkView.swift in Sources */,
