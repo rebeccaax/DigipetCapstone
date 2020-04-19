@@ -59,13 +59,6 @@ class L1GameOneTypeView : UIViewController {
     }
     
     
-    
-    
-    
-    
-    
-    
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
     }

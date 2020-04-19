@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sgx-Yj-ML6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sgx-Yj-ML6">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -85,7 +85,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clouds" translatesAutoresizingMaskIntoConstraints="NO" id="YwW-rS-RRZ">
-                                <rect key="frame" x="-244" y="0.0" width="743" height="471"/>
+                                <rect key="frame" x="-244" y="0.0" width="743.00000000000023" height="471"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0yp-H9-bxo">
                                 <rect key="frame" x="240" y="532" width="100" height="100"/>
@@ -100,13 +100,13 @@
                                 </connections>
                             </button>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="basicskyline" translatesAutoresizingMaskIntoConstraints="NO" id="jU8-6F-O88">
-                                <rect key="frame" x="-7" y="389" width="399" height="82"/>
+                                <rect key="frame" x="-7" y="389" width="399.00000000000023" height="82"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="82" id="B3H-ZS-3LN"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xOz-VK-gRk">
-                                <rect key="frame" x="35" y="532" width="100.5" height="100"/>
+                                <rect key="frame" x="35" y="532" width="100.50000000000006" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="BQK-Xi-BSJ"/>
                                     <constraint firstAttribute="width" constant="100.5" id="Fet-nq-ezp"/>
@@ -115,7 +115,7 @@
                                 <state key="normal" backgroundImage="learnbutton"/>
                                 <connections>
                                     <action selector="learnButtonTouched:" destination="sgx-Yj-ML6" eventType="touchUpInside" id="XMF-PF-zXN"/>
-                                    <segue destination="3eF-DO-C7J" kind="showDetail" id="q1m-wi-07l"/>
+                                    <segue destination="3eF-DO-C7J" kind="show" id="Ntz-tI-p02"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvh-gh-qKk">
@@ -126,7 +126,6 @@
                                 <state key="normal" backgroundImage="settings"/>
                                 <connections>
                                     <action selector="settingsButtonTouched:" destination="sgx-Yj-ML6" eventType="touchUpInside" id="Cgp-98-xCO"/>
-                                    <segue destination="g42-Gh-Bt8" kind="show" id="5cw-cj-cCF"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="china" translatesAutoresizingMaskIntoConstraints="NO" id="cEk-cz-0DN">
@@ -181,7 +180,7 @@
                         <viewLayoutGuide key="safeArea" id="gBK-gl-mix"/>
                     </view>
                     <connections>
-                        <outlet property="pet" destination="cEk-cz-0DN" id="wO7-lR-IxN"/>
+                        <outlet property="pet" destination="cEk-cz-0DN" id="pfE-gy-Zdr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3tV-qe-Dkp" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2214,11 +2213,11 @@
             <objects>
                 <viewController storyboardIdentifier="settings" id="g42-Gh-Bt8" customClass="SettingsPage" customModule="DigipetCapstone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BjY-aL-XhH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huX-2t-55q">
-                                <rect key="frame" x="273.5" y="308.5" width="54" height="30"/>
+                                <rect key="frame" x="273.5" y="318.5" width="54" height="30"/>
                                 <state key="normal" title="Español">
                                     <color key="titleColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -2227,7 +2226,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rg9-tW-qj0">
-                                <rect key="frame" x="158.5" y="308.5" width="58" height="30"/>
+                                <rect key="frame" x="158.5" y="318.5" width="58" height="30"/>
                                 <state key="normal" title="Français">
                                     <color key="titleColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -2236,7 +2235,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LQh-KD-nrf">
-                                <rect key="frame" x="16" y="481" width="34" height="30"/>
+                                <rect key="frame" x="16" y="501" width="34" height="30"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -2245,7 +2244,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jwd-H1-lx7">
-                                <rect key="frame" x="56.5" y="308.5" width="31" height="30"/>
+                                <rect key="frame" x="56.5" y="318.5" width="31" height="30"/>
                                 <state key="normal" title="中文">
                                     <color key="titleColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -2991,7 +2990,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Z4u-O9-zQ7"/>
-        <segue reference="Ggj-6k-Ht4"/>
+        <segue reference="C4D-T5-Yq0"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
