@@ -153,7 +153,7 @@ class L1GameOne : SKScene {
         }
     
     func checkAnswer(answer: String) -> Bool {
-        print("\ncorrect answer: ", correctAnswers[pointArrIndex])
+        print("\ncorrect answer: ", correctAnswers[lang][pointArrIndex])
         print("answer lowercased: ", answer.lowercased())
         if correctAnswers[pointArrIndex].contains(answer.lowercased()) {
             moveToNextPoint()
