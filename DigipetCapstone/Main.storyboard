@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sgx-Yj-ML6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sgx-Yj-ML6">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -85,7 +85,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clouds" translatesAutoresizingMaskIntoConstraints="NO" id="YwW-rS-RRZ">
-                                <rect key="frame" x="-244" y="0.0" width="743.00000000000023" height="471"/>
+                                <rect key="frame" x="-244" y="0.0" width="743" height="471"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0yp-H9-bxo">
                                 <rect key="frame" x="240" y="532" width="100" height="100"/>
@@ -100,13 +100,13 @@
                                 </connections>
                             </button>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="basicskyline" translatesAutoresizingMaskIntoConstraints="NO" id="jU8-6F-O88">
-                                <rect key="frame" x="-7" y="389" width="399.00000000000023" height="82"/>
+                                <rect key="frame" x="-7" y="389" width="399" height="82"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="82" id="B3H-ZS-3LN"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xOz-VK-gRk">
-                                <rect key="frame" x="35" y="532" width="100.50000000000006" height="100"/>
+                                <rect key="frame" x="35" y="532" width="100.5" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="BQK-Xi-BSJ"/>
                                     <constraint firstAttribute="width" constant="100.5" id="Fet-nq-ezp"/>
@@ -2970,6 +2970,11 @@
             <point key="canvasLocation" x="2156" y="2700.8995502248877"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Z4u-O9-zQ7"/>
+        <segue reference="C4D-T5-Yq0"/>
+    </inferredMetricsTieBreakers>
+    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
         <image name="apple" width="600" height="600"/>
         <image name="arrowicon" width="74" height="51"/>
@@ -2988,9 +2993,4 @@
         <image name="talk" width="214" height="219"/>
         <image name="typeButton" width="214" height="218"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="Z4u-O9-zQ7"/>
-        <segue reference="C4D-T5-Yq0"/>
-    </inferredMetricsTieBreakers>
-    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
