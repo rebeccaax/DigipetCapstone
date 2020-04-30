@@ -97,7 +97,6 @@
 		6BE90806C1C8C459D35239CB /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		E07165A135952100481AC2BE /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		EA71664B244CB62300CCAA53 /* L1LessonFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71664A244CB62300CCAA53 /* L1LessonFive.swift */; };
-		EA71664D2451E18F00CCAA53 /* L1LessonFiveTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71664C2451E18F00CCAA53 /* L1LessonFiveTypeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -245,7 +244,6 @@
 		A1C033F632FBCACA461DCB1C /* Pods-DigipetCapstoneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigipetCapstoneTests.release.xcconfig"; path = "Target Support Files/Pods-DigipetCapstoneTests/Pods-DigipetCapstoneTests.release.xcconfig"; sourceTree = "<group>"; };
 		B6FEDCDCA85A369E5988429A /* Pods-DigipetCapstone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigipetCapstone.release.xcconfig"; path = "Target Support Files/Pods-DigipetCapstone/Pods-DigipetCapstone.release.xcconfig"; sourceTree = "<group>"; };
 		EA71664A244CB62300CCAA53 /* L1LessonFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonFive.swift; sourceTree = "<group>"; };
-		EA71664C2451E18F00CCAA53 /* L1LessonFiveTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1LessonFiveTypeView.swift; sourceTree = "<group>"; };
 		F06FBC72B958D5A2B5D06776 /* Pods_DigipetCapstoneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigipetCapstoneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -337,7 +335,6 @@
 				04F3B6A122450A37008DF5CE /* L1LessonFourTalkView.swift */,
 				026F42F420A5C2480098EC23 /* L1LessonTwoTypeView.swift */,
 				04F3B6A322450A60008DF5CE /* L1LessonFourTypeView.swift */,
-				EA71664C2451E18F00CCAA53 /* L1LessonFiveTypeView.swift */,
 				112940452213B44B00548879 /* L2GameTwo.sks */,
 				11294043221382CF00548879 /* L2GameTwo.swift */,
 				11B8064A2243BB7600D7524A /* L1LessonThreeTypeView.swift */,
@@ -825,7 +822,6 @@
 				025B464620A080E4006849EE /* RZTransitionsManager.m in Sources */,
 				025B46B820A081B2006849EE /* Learn.swift in Sources */,
 				025B464720A080E4006849EE /* NSObject+RZTransitionsViewHelpers.m in Sources */,
-				EA71664D2451E18F00CCAA53 /* L1LessonFiveTypeView.swift in Sources */,
 				025B46B620A081B2006849EE /* LessonStart.swift in Sources */,
 				025B464D20A080E4006849EE /* RZSegmentControlMoveFadeAnimationController.m in Sources */,
 			);

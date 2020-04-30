@@ -1120,21 +1120,6 @@
             </objects>
             <point key="canvasLocation" x="4342" y="-81"/>
         </scene>
-        <!--Lesson Five Type View-->
-        <scene sceneID="K7A-wC-hqS">
-            <objects>
-                <viewController storyboardIdentifier="L1LessonFiveTypeView" id="JtD-wt-wWE" customClass="L1LessonFiveTypeView" customModule="DigipetCapstone" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="PFt-dN-CnT">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="7nq-fE-Ffi"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="01b-Bi-9XV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5601" y="-73"/>
-        </scene>
         <!--Lesson One Talk View-->
         <scene sceneID="sq7-yJ-zOB">
             <objects>
