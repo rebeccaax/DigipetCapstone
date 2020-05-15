@@ -57,7 +57,7 @@ class L1LessonThree: SKScene {
     var array : [() -> ()] = []
     
     // pet's text to talk to user
-    var prompts : [[String]] = [["你好!", "我喜欢吃", "你喜欢吃"," 你在超市买什么？", "太好了，谢谢你", "你喜欢喝什么?", "你最喜欢水果，蔬菜，还是甜点?", "好极了! 拜拜"],["Hola!", "Me gusta comer", "¿Qué vas a comprar en el supermercado?", "Increíble!", "Gracias", "¿Qué te gusta beber?", "¿Te gustan las frutas, vegetales o postres?", "Genial! adiós"],["Bonjour!", "J'aime manger", "Qu'est-ce que tu vas acheter au supermarché?", "Incroyable!", "Merci", "Qu'est-ce que tu aimes boire?", "Tu aimes les fruits, les légumes, ou le dessert?", "Génial! Au revoir"]]
+    var prompts : [[String]] = [["你好!", "我喜欢吃", "你喜欢吃"," 你在超市买什么？", "太好了，谢谢你", "你喜欢喝什么?", "你最喜欢水果，蔬菜，还是甜点?", "好极了! 拜拜"],["Hola!", "Me gusta comer ", "¿Qué vas a comprar en el supermercado?", "Increíble!", "Gracias", "¿Qué te gusta beber?", "¿Te gustan las frutas, vegetales o postres?", "Genial! adiós"],["Bonjour!", "J'aime manger ", "Qu'est-ce que tu vas acheter au supermarché?", "Incroyable!", "Merci", "Qu'est-ce que tu aimes boire?", "Tu aimes les fruits, les légumes, ou le dessert?", "Génial! Au revoir"]]
     var correctAnswers : [[[String]]] = [[[]]]
     
     override func didMove(to view: SKView) {
@@ -219,10 +219,10 @@ class L1LessonThree: SKScene {
         
         
         foodArr = [bread, rice, meat, egg]
-        foodTextArr = [["面包", "米饭", "肉", "鸡蛋"], [], []]
+        foodTextArr = [["面包", "米饭", "肉", "鸡蛋"], ["pan", "arroz", "carne", "huevo"], ["pain", "riz", "viande", "oeuf"]]
         drinkArr = [milk, juice, water]
         questionTextEnd = ["吗?", "?", "?"]
-        correctAnswers = [[["你好!", "你好", "你好。"], ["我喜欢吃面包", "我喜欢吃面包。", "我不喜欢吃面包", "我不喜欢吃面包。"], ["我喜欢吃米饭", "我喜欢吃米饭。", "我不喜欢吃米饭", "我不喜欢吃米饭。"], ["我喜欢吃肉", "我喜欢吃肉。", "我不喜欢吃肉", "我不喜欢吃肉。"], ["我喜欢吃鸡蛋", "我喜欢吃鸡蛋。", "我不喜欢吃鸡蛋", "我不喜欢吃鸡蛋。"], ["我在超市买食物。", "我在超市买食物"], ["再见！", "再见"], ["你好!", "你好", "你好。"], ["我喜欢喝牛奶", "我喜欢喝水", "我喜欢喝果汁", "我喜欢喝牛奶。", "我喜欢喝水。", "我喜欢喝果汁。"], [""], ["我最喜欢水果", "我最喜欢蔬菜", "我最喜欢甜点", "我最喜欢水果。", "我最喜欢蔬菜。", "我最喜欢甜点。"], ["拜拜", "再见"]],[[]],[[]]]
+        correctAnswers = [[["你好!", "你好", "你好。"], ["我喜欢吃面包", "我喜欢吃面包。", "我不喜欢吃面包", "我不喜欢吃面包。"], ["我喜欢吃米饭", "我喜欢吃米饭。", "我不喜欢吃米饭", "我不喜欢吃米饭。"], ["我喜欢吃肉", "我喜欢吃肉。", "我不喜欢吃肉", "我不喜欢吃肉。"], ["我喜欢吃鸡蛋", "我喜欢吃鸡蛋。", "我不喜欢吃鸡蛋", "我不喜欢吃鸡蛋。"], ["我在超市买食物。", "我在超市买食物"], ["再见！", "再见"], ["你好!", "你好", "你好。"], ["我喜欢喝牛奶", "我喜欢喝水", "我喜欢喝果汁", "我喜欢喝牛奶。", "我喜欢喝水。", "我喜欢喝果汁。"], [""], ["我最喜欢水果", "我最喜欢蔬菜", "我最喜欢甜点", "我最喜欢水果。", "我最喜欢蔬菜。", "我最喜欢甜点。"], ["拜拜", "再见"]],[["hola!", "hola", "hola."], ["me gusta comer pan", "me gusta comer pan.", "no me gusta comer pan", "no me gusta comer pan."], ["me gusta comer arroz","me gusta comer arroz.", "no me gusta comer arroz", "no me gusta comer arroz."], ["me gusta comer carne", "me gusta comer carne.", "no me gusta comer carne", "no me gusta comer."], ["me gusta comer huevos", "me gusta comer huevos.", "no me gusta comer huevos", "no me gusta comer huevos."], ["compro comida en el supermercado.", "compro comida en el supermercado"], ["adiós!", "adiós"], ["¡hola!", "hola", "hola."], ["me gusta beber leche", "me gusta beber agua", "me gusta beber zumo","me gusta beber leche.", "me gusta beber agua.","me gusta beber zumo."], [""], ["me gustan las frutas", "me gustan las verduras", "me gustan las postre más", "me gustan las frutas.", "me gustan las verduras.","me gustan las postre más."], ["adiós!", "adiós"]], [["bonjour!", "bonjour", "bonjour."], ["oui, j’aime manger le pain", "oui, j’aime manger le pain.", "non, je n’aime pas manger le pain", "non, je n’aime pas manger le pain."], ["oui, j’aime mange le riz", "oui, j’aime mange le riz.", "non, je n’aime pas manger le riz", "non, je n’aime pas manger le riz."], ["oui, j'aime manger la viande", "oui, j'aime manger la viande.", "non, je n’aime pas manger la viande", "non, je n’aime pas manger la viande."], ["oui, j’aime manger les oeufs", "oui, j’aime manger les oeufs.", "non, je n’aime pas manger les oeufs", "non, je n’aime pas manger les oeufs."], ["j’achète de la nourriture au supermarché", "j’achète de la nourriture au supermarché."], ["au revoir!", "au revoir"], ["bonjour!", "bonjour", "bonjour."], ["j’aime boire le lait", "j’aime boire l’eau", "j’aime boire le jus","j’aime boire le lait.", "j’aime boire l’eau.","j’aime boire le jus."], [""], ["j’aime plus les fruits", "j’aime plus les légumes", "j’aime plus la dessert","j’aime plus les fruits.","j’aime plus les légumes.", "j’aime plus la dessert."], ["au revoir!", "au revoir"]]]
         
        sayHello()
     }
@@ -238,7 +238,7 @@ class L1LessonThree: SKScene {
             timer in
             
             self.sBubble1.isHidden = false
-            self.pet1Text.text = (self.prompts)[self.lang][0] // todo!! this is an issue because self.prompts doesn't have content for languages other than mandarin
+            self.pet1Text.text = (self.prompts)[self.lang][0]
         }
         
             self.pet1Text.text = ""
@@ -387,6 +387,9 @@ class L1LessonThree: SKScene {
     }
     
     func checkAnswer(answer: String) -> Bool {
+        
+        print("checking answer!", answer)
+        print("correct answers: ", correctAnswers[lang][counter])
         
         if correctAnswers[lang][counter].contains(answer.lowercased()) {
             

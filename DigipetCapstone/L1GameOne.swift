@@ -29,7 +29,7 @@ class L1GameOne : SKScene {
     var pointArr: [CGPoint] = []
     var pointArrIndex: Int = 0
     
-    var correctAnswers: [[String]] = [[]]
+    var correctAnswers: [[[String]]] = [[[]]]
     
     
     var rotateAction: SKAction!
@@ -103,7 +103,7 @@ class L1GameOne : SKScene {
         // define rotateAction
         rotateAction = SKAction.sequence([SKAction.rotate(byAngle: 0.2, duration: 1), SKAction.rotate(byAngle: -0.2, duration: 1)])
         
-        correctAnswers = [["往右边走两步。", "往右面走两步。"], ["往前边走两步。", "往前面走两步。"], ["往左边走两步。", "往左面走两步。"], ["往前边走三步。", "往前面走三步。"], ["往右边走两步。", "往右面走两步。"], ["往前边走一步。", "往前面走一步。"], ["Ve dos pasos a la derecha.", "Ve dos pasos a la derecha."], ["Ve dos pasos adelante", "Ve dos pasos adelante."], ["Ve dos pasos a la izquierda", "Ve dos pasos a la izquierda."], ["Ir tres pasos adelante", "Ir tres pasos adelante."], ["Ve dos pasos a la derecha", "Ve dos pasos a la derecha."], ["Da un paso adelante", "Da un paso adelante."], ["Faire deux pas à droite", "Faire deux pas à droite."], ["Faire deux pas en avant", "Faire deux pas en avant."], ["Faire deux pas à gauche", "Faire deux pas à gauche."], ["Faire trois pas en avant", "Faire trois pas en avant."], ["Faire deux pas à droite", "Faire deux pas à droite."], ["Faire un pas en avant", "Faire un pas en avant."]]
+        correctAnswers = [[["往右边走两步。", "往右面走两步。"], ["往前边走两步。", "往前面走两步。"], ["往左边走两步。", "往左面走两步。"], ["往前边走三步。", "往前面走三步。"], ["往右边走两步。", "往右面走两步。"], ["往前边走一步。", "往前面走一步。"]], [["ve dos pasos a la derecha", "ve dos pasos a la derecha."], ["ve dos pasos adelante", "ve dos pasos adelante."], ["ve dos pasos a la izquierda", "ve dos pasos a la izquierda."], ["ve tres pasos adelante", "ve tres pasos adelante."], ["ve dos pasos a la derecha", "ve dos pasos a la derecha."], ["ve un paso adelante", "ve un paso adelante."]], [["faire deux pas à droite", "faire deux pas à droite."], ["faire deux pas en avant", "faire deux pas en avant."], ["faire deux pas à gauche", "faire deux pas à gauche."], ["faire trois pas en avant", "faire trois pas en avant."], ["faire deux pas à droite", "faire deux pas à droite."], ["faire un pas en avant", "faire un pas en avant."]]]
         // print("fileDest: " + self.fileDest)
         
     }
@@ -153,9 +153,9 @@ class L1GameOne : SKScene {
         }
     
     func checkAnswer(answer: String) -> Bool {
-        print("\ncorrect answer: ", correctAnswers[pointArrIndex])
+        print("\ncorrect answer: ", correctAnswers[lang][pointArrIndex])
         print("answer lowercased: ", answer.lowercased())
-        if correctAnswers[pointArrIndex].contains(answer.lowercased()) {
+        if correctAnswers[lang][pointArrIndex].contains(answer.lowercased()) {
             moveToNextPoint()
             return true
         }

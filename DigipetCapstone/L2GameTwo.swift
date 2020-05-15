@@ -32,8 +32,11 @@ class L2GameTwo : SKScene {
     
     var numAnswered = 0
     
-   // var correctAnswers: [String] = []
-    var correctAnswers = [["我胳膊疼。", "我胳膊疼"], ["我脚疼。", "我脚疼"], ["我头疼。", "我头疼"], ["我腿疼。", "我腿疼"], ["我嗓子疼。", "我嗓子疼"], ["我鼻子疼。", "我鼻子疼"], ["我肩膀疼。", "我肩膀疼"], ["我肚子疼。", "我肚子疼"]]
+   var correctAnswers: [[String]] = [[]]
+    //var correctAnswers = [["我胳膊疼。", "我胳膊疼"], ["我脚疼。", "我脚疼"], ["我头疼。", "我头疼"], ["我腿疼。", "我腿疼"], ["我嗓子疼。", "我嗓子疼"], ["我鼻子疼。", "我鼻子疼"], ["我肩膀疼。", "我肩膀疼"], ["我肚子疼。", "我肚子疼"]]
+    
+    var allLangsCorrectAnswers = [[["我胳膊疼。", "我胳膊疼"], ["我脚疼。", "我脚疼"], ["我头疼。", "我头疼"], ["我腿疼。", "我腿疼"], ["我嗓子疼。", "我嗓子疼"], ["我鼻子疼。", "我鼻子疼"], ["我肩膀疼。", "我肩膀疼"], ["我肚子疼。", "我肚子疼"]], [["me duele el brazo.", "me duele el brazo"], ["me duele el pie.", "me duele el pie"], ["me duele la cabeza.", "me duele la cabeza"], ["me duele la pierna.", "me duele la pierna"],["me duele la garganta.", "me duele la garganta"], ["me duele la nariz.", "me duele la nariz"], ["me duele el hombro.", "me duele el hombro"], ["me duele el estómago.", "me duele el estómago"]], [["mon bras fait mal.", "mon bras fait mal"], ["j'ai mal au pied.", "j'ai mal au pied"], ["j'ai mal à la tête.", "j'ai mal à la tête"], ["ma jambe me fait mal.", "ma jambe me fait mal"], ["ma gorge me fait mal.", "ma gorge me fait mal"],["mon nez me fait mal.", "mon nez me fait mal"], ["j'ai mal à l'épaule.", "j'ai mal à l'épaule"], ["j'ai mal à l'estomac.", "j'ai mal à l'estomac"]]]
+     
     
     let petImgs = ["china", "spain", "france"]
     
@@ -61,6 +64,8 @@ class L2GameTwo : SKScene {
             } else {
                 lang = 0
             }
+        
+        correctAnswers = allLangsCorrectAnswers[lang]
         
         // switch correct answers array based on lang
         
@@ -158,6 +163,8 @@ class L2GameTwo : SKScene {
     }
     
     func checkAnswer(answer: String) -> Bool {
+        print("Input: ", answer)
+        print("correct answers: ", correctAnswers[index])
         if correctAnswers[index].contains(answer.lowercased()) {
             bodyParts[index].isHidden = true
             bodyParts.remove(at: index)
