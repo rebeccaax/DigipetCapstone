@@ -35,6 +35,7 @@ class L1LessonThreeTypeView : UIViewController {
     
     @IBAction func answerDone(_ sender: UITextField) {
         //myScene.checkAnswer(answer: textField.text!)
+        print("answerdone!")
         let correct: Bool = (myView.scene as! L1LessonThree).checkAnswer(answer: textField.text!)
         let done: Bool! = (myView.scene as! L1LessonThree).isDone()
         
