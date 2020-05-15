@@ -31,7 +31,7 @@ class Guesser {
 }
 
 class SilhouetteGame : UIViewController, SFSpeechRecognizerDelegate {
-    var lang = String()
+    var lang:Int = 0
     var langArray = Int()
     let audioEngine = AVAudioEngine()
     var speechRecognizer = SFSpeechRecognizer()
@@ -183,17 +183,17 @@ class SilhouetteGame : UIViewController, SFSpeechRecognizerDelegate {
         var option = [String]()
         var looper = false
         switch lang {
-        case "ch":
+        case 0:
             explainText.text = "That is \"" + (guess?.ch[0])! + "\""
             imageView.image = guess?.image
             option = (guess?.ch)!
             break
-        case "sp":
+        case 1:
             explainText.text = "That is \"" + (guess?.sp[0])! + "\""
             imageView.image = guess?.image
             option = (guess?.sp)!
             break
-        case "fr":
+        case 2:
             explainText.text = "That is \"" + (guess?.fr[0])! + "\""
             imageView.image = guess?.image
             option = (guess?.fr)!
@@ -236,21 +236,21 @@ class SilhouetteGame : UIViewController, SFSpeechRecognizerDelegate {
             speechRecognizer = SFSpeechRecognizer(locale: Locale.init(identifier: langStr))
             switch langStr {
             case "zh_Hans":
-                lang = "ch"
+                lang = 0
                 break
             case "fr_FR":
-                lang = "fr"
+                lang = 2
                 break
             case "es_ES":
-                lang = "es"
+                lang = 1
                 break
             default:
-                lang = "ch"
+                lang = 0
                 
             }
         } else {
             speechRecognizer = SFSpeechRecognizer(locale: Locale.init(identifier: "zh_Hans"))
-            lang = "ch"
+            lang = 0
         }
         
         textView.layer.borderColor = UIColor.black.cgColor
