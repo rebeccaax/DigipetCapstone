@@ -46,7 +46,7 @@ class L1LessonThreeTypeView : UIViewController {
         if (correct && done) {
             self.transitioningDelegate = RZTransitionsManager.shared()
             let nextViewController = storyboard?.instantiateViewController(withIdentifier: "silhouetteGame")
-            nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
+            // nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
             self.present(nextViewController!, animated: true) {}
         }
     }
@@ -59,13 +59,6 @@ class L1LessonThreeTypeView : UIViewController {
     func revealButton() {
         talkButton.isHidden = false
     }
-    
-    
-    
-    
-    
-    
-    
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
