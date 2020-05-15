@@ -45,7 +45,7 @@ class L1LessonThreeTypeView : UIViewController {
         
         if (correct && done) {
             self.transitioningDelegate = RZTransitionsManager.shared()
-            let nextViewController = storyboard?.instantiateViewController(withIdentifier: "mazeGame")
+            let nextViewController = storyboard?.instantiateViewController(withIdentifier: "silhouetteGame")
             nextViewController?.transitioningDelegate = RZTransitionsManager.shared()
             self.present(nextViewController!, animated: true) {}
         }

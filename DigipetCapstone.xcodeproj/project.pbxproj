@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -94,8 +94,8 @@
 		52FE787CCBD507C47A4579FD /* Pods_DigipetCapstoneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007EB7F874014545270C7E98 /* Pods_DigipetCapstoneUITests.framework */; };
 		55C216A9636DFE22AB242C0F /* Pods_DigipetCapstoneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F06FBC72B958D5A2B5D06776 /* Pods_DigipetCapstoneTests.framework */; };
 		6ABACA1120ADBDFB001794E4 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABACA1020ADBDFB001794E4 /* SettingsPage.swift */; };
-		6BE90806C1C8C459D35239CB /* Pods_DigipetCapstoneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FBA2B22260BCB000B90C5E /* Pods_DigipetCapstoneUITests.framework */; };
-		E07165A135952100481AC2BE /* Pods_DigipetCapstoneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FBA2B02260BCB000B90C5E /* Pods_DigipetCapstoneTests.framework */; };
+		6BE90806C1C8C459D35239CB /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		E07165A135952100481AC2BE /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -259,7 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55C216A9636DFE22AB242C0F /* Pods_DigipetCapstoneTests.framework in Frameworks */,
-				E07165A135952100481AC2BE /* Pods_DigipetCapstoneTests.framework in Frameworks */,
+				E07165A135952100481AC2BE /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52FE787CCBD507C47A4579FD /* Pods_DigipetCapstoneUITests.framework in Frameworks */,
-				6BE90806C1C8C459D35239CB /* Pods_DigipetCapstoneUITests.framework in Frameworks */,
+				6BE90806C1C8C459D35239CB /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +323,7 @@
 				026F42F620A5C2480098EC23 /* L1LessonOneTypeView.swift */,
 				11689887222422A90059F58F /* L1LessonThree.sks */,
 				113B3DB2222030FB00111AAD /* L1LessonThree.swift */,
+				11B8064A2243BB7600D7524A /* L1LessonThreeTypeView.swift */,
 				1190F2ED222DC839007631E5 /* L1LessonThreeTalkView.swift */,
 				026F42F320A5C2480098EC23 /* L1LessonTwo.sks */,
 				04F3B69D22450963008DF5CE /* L1LessonFour.sks */,
@@ -334,7 +335,6 @@
 				04F3B6A322450A60008DF5CE /* L1LessonFourTypeView.swift */,
 				112940452213B44B00548879 /* L2GameTwo.sks */,
 				11294043221382CF00548879 /* L2GameTwo.swift */,
-				11B8064A2243BB7600D7524A /* L1LessonThreeTypeView.swift */,
 				113332002217CA96004C507B /* L2GameTwoTalkView.swift */,
 				025B46C420A081D6006849EE /* LaunchScreen.storyboard */,
 				025B46B420A081B1006849EE /* Learn.swift */,
