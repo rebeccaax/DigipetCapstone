@@ -138,14 +138,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="XtO-qb-K8c">
                                 <rect key="frame" x="53" y="36" width="269" height="251"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DpQ-b3-B6S">
-                                <rect key="frame" x="-100" y="10" width="300" height="300"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="apple"/>
-                                <connections>
-                                    <action selector="testButtonTouched:" destination="sgx-Yj-ML6" eventType="touchUpInside" id="prH-6U-g8f"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -3042,7 +3034,6 @@
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
-        <image name="apple" width="600" height="600"/>
         <image name="arrowicon" width="74" height="51"/>
         <image name="backofcard" width="111" height="160"/>
         <image name="basicskyline" width="789" height="150"/>
