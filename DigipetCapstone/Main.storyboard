@@ -951,18 +951,12 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="desc" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMG-xf-cBu">
-                                        <rect key="frame" x="21" y="127" width="259" height="59"/>
+                                        <rect key="frame" x="21" y="108" width="259" height="59"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="259" id="fCU-8s-Wdl"/>
                                             <constraint firstAttribute="height" constant="59" id="vpw-ul-WQz"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="16"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you want to talk or type?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6WP-Ws-EfO">
-                                        <rect key="frame" x="37" y="206" width="227" height="21"/>
-                                        <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -994,15 +988,21 @@
                                             <action selector="talkButtonTouched:" destination="bP0-oN-pva" eventType="touchUpInside" id="78b-IL-R0z"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Do you want to talk or type?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6WP-Ws-EfO">
+                                        <rect key="frame" x="37" y="203" width="227" height="21"/>
+                                        <fontDescription key="fontDescription" name="Plumpfull" family="Plumpfull" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="WMG-xf-cBu" firstAttribute="leading" secondItem="rWm-mc-yYa" secondAttribute="leading" id="9kS-MO-YCT"/>
-                                    <constraint firstItem="WMG-xf-cBu" firstAttribute="top" secondItem="rWm-mc-yYa" secondAttribute="bottom" constant="8" symbolic="YES" id="Npo-3o-Irf"/>
+                                    <constraint firstItem="WMG-xf-cBu" firstAttribute="top" secondItem="rWm-mc-yYa" secondAttribute="bottom" constant="5" id="Npo-3o-Irf"/>
                                     <constraint firstItem="6WP-Ws-EfO" firstAttribute="centerX" secondItem="WMG-xf-cBu" secondAttribute="centerX" id="dNu-ni-oy3"/>
                                     <constraint firstAttribute="bottom" secondItem="dAa-zM-koe" secondAttribute="bottom" constant="15" id="gfd-vX-pWY"/>
                                     <constraint firstAttribute="bottom" secondItem="a32-7w-oEr" secondAttribute="bottom" constant="15" id="mM5-2c-Z6h"/>
-                                    <constraint firstItem="rWm-mc-yYa" firstAttribute="top" secondItem="Tkm-ZH-nhQ" secondAttribute="top" constant="102" id="nnq-VN-xlo"/>
+                                    <constraint firstItem="rWm-mc-yYa" firstAttribute="top" secondItem="Tkm-ZH-nhQ" secondAttribute="top" priority="250" constant="20" symbolic="YES" id="nnq-VN-xlo"/>
                                     <constraint firstItem="rWm-mc-yYa" firstAttribute="centerX" secondItem="Tkm-ZH-nhQ" secondAttribute="centerX" id="tGD-6e-B7w"/>
                                     <constraint firstItem="dAa-zM-koe" firstAttribute="top" secondItem="6WP-Ws-EfO" secondAttribute="bottom" constant="5" id="tJn-9D-z7S"/>
                                     <constraint firstAttribute="trailing" secondItem="a32-7w-oEr" secondAttribute="trailing" constant="40" id="wDw-K1-XBt"/>
@@ -1023,6 +1023,7 @@
                             <constraint firstItem="e46-te-SNC" firstAttribute="bottom" secondItem="vab-W4-n1Y" secondAttribute="bottom" constant="293" id="V0I-jP-5Hw"/>
                             <constraint firstItem="vab-W4-n1Y" firstAttribute="leading" secondItem="e46-te-SNC" secondAttribute="leading" constant="103" id="Yrv-Yj-bPn"/>
                             <constraint firstItem="vab-W4-n1Y" firstAttribute="centerX" secondItem="Tkm-ZH-nhQ" secondAttribute="centerX" id="ZF6-h0-nup"/>
+                            <constraint firstItem="rWm-mc-yYa" firstAttribute="top" secondItem="vab-W4-n1Y" secondAttribute="bottom" constant="5" id="iPQ-I5-reP"/>
                             <constraint firstItem="vab-W4-n1Y" firstAttribute="top" secondItem="e46-te-SNC" secondAttribute="top" constant="141" id="nHn-ii-Td0"/>
                             <constraint firstItem="Np6-jK-O9T" firstAttribute="leading" secondItem="e46-te-SNC" secondAttribute="leading" constant="15" id="tEw-cD-OCR"/>
                         </constraints>
@@ -1178,7 +1179,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O7a-C3-BJz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3617" y="-81"/>
+            <point key="canvasLocation" x="3616.8000000000002" y="-81.409295352323838"/>
         </scene>
         <!--Lesson Two Talk View-->
         <scene sceneID="jdX-wi-Jcd">
