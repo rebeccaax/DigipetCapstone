@@ -1057,6 +1057,7 @@
                                 <rect key="frame" x="15" y="20" width="35" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="35" id="Q6s-Lf-8vh"/>
+                                    <constraint firstAttribute="height" constant="45" id="f8W-FJ-DTA"/>
                                 </constraints>
                                 <state key="normal" image="arrowicon"/>
                                 <connections>
@@ -1099,7 +1100,7 @@
                             <constraint firstItem="dje-yO-buB" firstAttribute="bottom" secondItem="2zK-4E-RYa" secondAttribute="bottom" id="jd9-OY-csa"/>
                             <constraint firstItem="dje-yO-buB" firstAttribute="leading" secondItem="A0r-yV-zYI" secondAttribute="leading" id="oWS-9y-Cy1"/>
                             <constraint firstItem="ZXn-UH-8I8" firstAttribute="top" secondItem="2zK-4E-RYa" secondAttribute="top" constant="20" id="p01-08-ONu"/>
-                            <constraint firstItem="2zK-4E-RYa" firstAttribute="bottom" secondItem="ZXn-UH-8I8" secondAttribute="bottom" constant="602" id="rnn-wD-pPB"/>
+                            <constraint firstItem="2zK-4E-RYa" firstAttribute="bottom" secondItem="ZXn-UH-8I8" secondAttribute="bottom" priority="750" constant="602" id="rnn-wD-pPB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2zK-4E-RYa"/>
                     </view>
