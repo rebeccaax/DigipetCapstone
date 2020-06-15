@@ -18,3 +18,10 @@ pod install
 open xcode
 
 Once you've done this, you should be able to run the project.
+
+Some things you might want to work on:
+- Updating the app to fit different screen sizes
+- Adding lesson/game content
+- Creating a login function
+- Creating a way for teachers to customize content
+- Debugging (always fun)
