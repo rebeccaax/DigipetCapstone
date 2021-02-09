@@ -260,10 +260,9 @@ class L1LessonThree: SKScene {
                 self.pet1Text.text = ""
         }
         
-        Timer.scheduledTimer(withTimeInterval: 6, repeats: false) {
-            timer in
-            self.pet1Text.text = self.prompts[self.lang][2] + self.foodTextArr[self.lang][0] + self.questionTextEnd[self.lang]
-        }
+        /*Timer.scheduledTimer(withTimeInterval: 6, repeats: false) {
+            timer in            self.pet1Text.text = self.prompts[self.lang][2] + self.foodTextArr[self.lang][0] + self.questionTextEnd[self.lang]
+        }*/
         
             self.pet1Text.text = ""
         
